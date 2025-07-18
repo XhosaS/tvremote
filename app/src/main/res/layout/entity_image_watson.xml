@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.apps.tvsearch.widget.imagedownload.ImageDownloadView
+        android:id="@+id/foreground_image"
+        android:visibility="invisible"
+        android:layout_width="@dimen/details_fg_2_3_compact_width"
+        android:layout_height="@dimen/details_fg_2_3_compact_height"
+        android:scaleType="centerCrop"
+        android:elevation="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/foreground_image_attribution_container"
+        android:visibility="invisible"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:elevation="1dp"
+        app:layout_constraintBottom_toBottomOf="@+id/foreground_image"
+        app:layout_constraintEnd_toEndOf="@+id/foreground_image"
+        app:layout_constraintStart_toStartOf="@+id/foreground_image">
+        <View
+            android:background="@drawable/attribution_description_shadow"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+        <FrameLayout
+            android:id="@+id/foreground_image_attribution_button"
+            android:background="@drawable/entity_image_attribution_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textAppearance="@style/b4G50TextAppearance"
+                android:ellipsize="end"
+                android:id="@+id/attribution_text"
+                android:paddingTop="@dimen/space_light_yellow"
+                android:paddingBottom="@dimen/space_light_yellow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:paddingStart="@dimen/space_salmon"
+                android:paddingEnd="@dimen/space_salmon"
+                android:elevation="1dp"/>
+        </FrameLayout>
+    </LinearLayout>
+</merge>

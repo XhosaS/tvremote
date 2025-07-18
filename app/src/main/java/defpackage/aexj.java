@@ -1,0 +1,14 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes2.dex */
+public final class aexj implements yrp {
+    public static final aexj a = new aexj();
+    private final yrp b = new yrt(new aexm());
+
+    @Override // defpackage.yrp
+    /* renamed from: b, reason: merged with bridge method [inline-methods] */
+    public final aexk eV() {
+        return (aexk) ((yrt) this.b).a;
+    }
+}

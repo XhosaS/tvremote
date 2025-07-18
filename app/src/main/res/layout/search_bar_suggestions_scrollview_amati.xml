@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <view
+        android:id="@+id/keyboard_icon"
+        android:background="@drawable/keyboard_background"
+        android:padding="10dp"
+        android:focusable="true"
+        android:visibility="gone"
+        android:nextFocusRight="@+id/suggestions_scrollview"
+        android:clickable="true"
+        android:layout_width="@dimen/suggestion_chip_unfocused_height"
+        android:layout_height="@dimen/suggestion_chip_unfocused_height"
+        android:src="@drawable/quantum_ic_keyboard_white_24"
+        android:tint="@color/G200p20"
+        android:contentDescription="@string/search_bar_amati_keyboard_icon_content_description"
+        android:layout_marginStart="@dimen/amati_suggestions_offset_from_logo"
+        android:tintMode="multiply"
+        android:stateListAnimator="@animator/suggestion_icon_state_list"
+        android:backgroundTint="@color/suggestion_chip_bg_color"
+        android:backgroundTintMode="multiply"
+        app:layout_constraintBottom_toBottomOf="@+id/suggestions_scrollview"
+        app:layout_constraintStart_toEndOf="@+id/logo_view"
+        app:layout_constraintTop_toTopOf="@+id/suggestions_scrollview"
+        class="com.google.android.libraries.tv.widgets.color.ViewTinter$TintedImageView"/>
+    <com.google.android.apps.tvsearch.searchbar.suggestions.SuggestionsScrollView
+        android:id="@+id/suggestions_scrollview"
+        android:visibility="gone"
+        android:scrollbars="none"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/search_bar_height_amati"
+        android:layout_marginStart="@dimen/suggestion_chip_margin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/keyboard_icon"
+        app:layout_constraintTop_toBottomOf="@+id/logo_view"
+        app:layout_goneMarginStart="@dimen/amati_suggestions_offset_from_logo"/>
+</merge>

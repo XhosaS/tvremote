@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_pressed="true"
+        android:color="@color/filter_background_outer_stroke_default_color"/>
+    <item
+        android:color="@color/filter_background_outer_stroke_activated_color"
+        android:state_activated="true"/>
+    <item
+        android:state_focused="true"
+        android:color="@color/filter_background_outer_stroke_focused_color"/>
+    <item android:color="@color/filter_background_outer_stroke_default_color"/>
+</selector>

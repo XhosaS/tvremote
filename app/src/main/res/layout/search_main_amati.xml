@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.tv.widgets.layout.FocusListenerConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/search_content_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>

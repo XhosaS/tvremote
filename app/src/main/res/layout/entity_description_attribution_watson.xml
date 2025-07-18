@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="start"
+    android:visibility="gone"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/space_light_yellow">
+    <TextView
+        android:textAppearance="@style/s1G400TextAppearance"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:id="@+id/attribution_text"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/s1_text_height"
+        android:maxWidth="@dimen/entity_detail_content_width"
+        android:maxLines="1"/>
+</FrameLayout>

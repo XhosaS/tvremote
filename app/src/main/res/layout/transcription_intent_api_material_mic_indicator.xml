@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:thegoogle="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@+id/transcription_mic_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/transcription_app_tap_to_stop_listening"
+        android:importantForAccessibility="yes">
+        <com.google.android.libraries.speech.transcription.ui.DrawSoundLevelsView
+            android:layout_gravity="center"
+            android:id="@+id/transcription_sound_levels"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.16"
+            android:importantForAccessibility="no"
+            thegoogle:transcription_levelBaseDimen="@dimen/transcription_intent_api_material_mic_image_size"
+            thegoogle:transcription_levelColors="@color/agsa_color_primary_variant"/>
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/transcription_mic_image_indicator_background"
+            android:background="@drawable/transcription_intent_api_initializing_mic_ring"
+            android:layout_width="@dimen/transcription_intent_api_material_mic_image_size"
+            android:layout_height="@dimen/transcription_intent_api_material_mic_image_size"
+            android:importantForAccessibility="no"/>
+        <ProgressBar
+            android:layout_gravity="center"
+            android:id="@+id/transcription_waiting_for_results"
+            android:visibility="invisible"
+            android:layout_width="@dimen/transcription_intent_api_material_mic_image_size"
+            android:layout_height="@dimen/transcription_intent_api_material_mic_image_size"
+            android:indeterminate="true"
+            android:importantForAccessibility="no"/>
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/transcription_mic_image_indicator"
+            android:background="@android:color/transparent"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/quantum_ic_keyboard_voice_googblue_36"
+            android:scaleType="fitCenter"
+            android:importantForAccessibility="no"/>
+    </FrameLayout>
+</merge>

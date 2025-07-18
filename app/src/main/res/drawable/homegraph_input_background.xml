@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <corners android:radius="@dimen/setup_background_radius_amati"/>
+    <size
+        android:height="@dimen/setup_homegraph_input_title_height"
+        android:width="@dimen/setup_homegraph_action_width"/>
+    <solid android:color="@color/G200"/>
+</shape>

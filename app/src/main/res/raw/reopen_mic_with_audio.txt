@@ -1,0 +1,8 @@
+60
+000000
+IN
+ffffff ffffff ffffff ffffff
+LOOP
+ffffff ffffff ffffff ffffff
+OUT
+ffffff ffffff ffffff ffffff

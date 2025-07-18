@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textAppearance="@style/s3v3G200TextAppearance"
+    android:textSize="13.2sp"
+    android:gravity="center"
+    android:layout_gravity="center_vertical"
+    android:background="@drawable/chip_background"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/suggestion_chip_height"
+    android:paddingStart="@dimen/suggestion_chip_side_padding"
+    android:paddingEnd="@dimen/suggestion_chip_side_padding"
+    android:layout_marginStart="@dimen/suggestion_chip_margin_start"
+    android:layout_marginEnd="@dimen/suggestion_chip_margin_end"
+    android:elevation="1dp"/>

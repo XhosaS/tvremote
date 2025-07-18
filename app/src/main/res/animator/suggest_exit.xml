@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:interpolator="@anim/alpha_curve"
+        android:duration="@integer/search_bar_text_fade_out_duration_ms"
+        android:valueFrom="1"
+        android:valueTo="0"
+        android:propertyName="alpha"/>
+    <objectAnimator
+        android:interpolator="@anim/slide_up"
+        android:duration="@integer/search_bar_text_slide_out_duration_ms"
+        android:valueFrom="0"
+        android:valueTo="@dimen/search_bar_text_slide_out"
+        android:propertyName="translationY"/>
+</set>

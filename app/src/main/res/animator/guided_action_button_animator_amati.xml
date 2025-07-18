@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true">
+        <set>
+            <objectAnimator
+                android:duration="@integer/item_selector_animation_duration_amati"
+                android:valueFrom="@dimen/guided_action_button_scale_ratio_unfocused_amati"
+                android:valueTo="@dimen/guided_action_button_scale_ratio_focused_amati"
+                android:valueType="floatType"
+                android:propertyName="scaleX"/>
+            <objectAnimator
+                android:duration="@integer/item_selector_animation_duration_amati"
+                android:valueFrom="@dimen/guided_action_button_scale_ratio_unfocused_amati"
+                android:valueTo="@dimen/guided_action_button_scale_ratio_focused_amati"
+                android:valueType="floatType"
+                android:propertyName="scaleY"/>
+        </set>
+    </item>
+    <item android:state_focused="false">
+        <set>
+            <objectAnimator
+                android:duration="@integer/item_selector_animation_duration_amati"
+                android:valueFrom="@dimen/guided_action_button_scale_ratio_focused_amati"
+                android:valueTo="@dimen/guided_action_button_scale_ratio_unfocused_amati"
+                android:valueType="floatType"
+                android:propertyName="scaleX"/>
+            <objectAnimator
+                android:duration="@integer/item_selector_animation_duration_amati"
+                android:valueFrom="@dimen/guided_action_button_scale_ratio_focused_amati"
+                android:valueTo="@dimen/guided_action_button_scale_ratio_unfocused_amati"
+                android:valueType="floatType"
+                android:propertyName="scaleY"/>
+        </set>
+    </item>
+</selector>

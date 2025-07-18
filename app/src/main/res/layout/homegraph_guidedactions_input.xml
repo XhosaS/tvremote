@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/guidedactions_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:transitionName="guidedactions_root"
+    android:transitionGroup="false">
+    <View
+        android:id="@+id/error_border"
+        android:background="@drawable/homegraph_input_error_background"
+        android:visibility="gone"
+        android:layout_width="@dimen/setup_homegraph_action_width"
+        android:layout_height="@dimen/setup_homegraph_input_title_height"
+        android:translationZ="2dp"
+        app:layout_constraintEnd_toEndOf="@+id/guidedactions_list"
+        app:layout_constraintStart_toStartOf="@+id/guidedactions_list"
+        app:layout_constraintTop_toTopOf="@+id/guidedactions_list"/>
+    <EditText
+        android:id="@+id/guidedactions_hidden_view"
+        android:hint="@null"
+        android:autofillHints="@null"
+        app:layout_constraintStart_toStartOf="@+id/guidedactions_list"
+        app:layout_constraintTop_toTopOf="@+id/guidedactions_list"
+        style="?attr/guidedActionItemTitleStyle"/>
+    <androidx.leanback.widget.VerticalGridView
+        android:id="@+id/guidedactions_list"
+        android:layout_width="@dimen/setup_homegraph_action_width"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/setup_homegraph_actionslist_input_margin_top"
+        android:importantForAccessibility="no"
+        android:translationZ="1dp"
+        android:transitionGroup="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

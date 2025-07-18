@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:interpolator="@anim/motion_alpha_curve"
+        android:duration="@integer/launch_content_alpha_duration_ms"
+        android:delay="@integer/launch_content_alpha_delay_ms"
+        android:valueFrom="0"
+        android:valueTo="1"
+        android:propertyName="alpha"/>
+</set>

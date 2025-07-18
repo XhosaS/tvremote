@@ -1,0 +1,87 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes2.dex */
+public enum xtv implements abxf {
+    UNKNOWNN(0),
+    MAIN_APP(1),
+    WIDGET(2),
+    DOCK(3),
+    OPA_TV(4),
+    GELLER(5),
+    DREAMLINER_AOD(6),
+    GSA(7),
+    OPA(8),
+    MINUS_ONE(9),
+    ASSISTANT_GO(10),
+    MORRIS(11),
+    MORRIS_DRIVING_SCREEN(36),
+    OPA_KAIOS(12),
+    AMBIENT(13),
+    OPA_GO2PHONE(14),
+    OPA_TV_AMBIENT(37),
+    OPA_TV_ASSISTANT_ROW(15),
+    OPA_TV_VOICEPLATE_SUGGESTIONS(16),
+    OPA_TV_LAUNCHER_SUGGESTIONS(17),
+    OPA_TV_SUGGESTED_QUERIES(32),
+    AUTO_EMBEDDED(18),
+    AUTO_PROJECTED(34),
+    OPA_TV_SEARCH_TAB(19),
+    OPA_TV_PERSON_ENTITY_SUGGESTIONS(20),
+    AMBIENT_ASSISTANT(21),
+    ALL_PCP_CLIENTS(22),
+    OPA_SMARTSPACE(23),
+    OPA_TV_TV_SHOWS_PIVOTS(24),
+    OPA_TV_MOVIES_PIVOTS(25),
+    TAPAS(26),
+    ROSHI(27),
+    WEAR(28),
+    CHALKBOARD(29),
+    INPUT_PLATE(30),
+    OPA_LITE(31),
+    OPA_TV_FALLBACK_SUGGESTIONS(33),
+    ASSISTANT_WEARABLES(35),
+    WEARABLES_VOICE_PLATE_TIME_OUT_SUGGESTIONS(53),
+    WEATHER_WIDGET(38),
+    MUSIC_WIDGET(46),
+    BLUECHIP_SMARTSPACE_TNG(39),
+    STOCK_WIDGET(40),
+    AR_GLASSES(41),
+    OPA_HUB_UI(42),
+    OPA_TV_LAUNCHER_X_SEARCH_TAB(43),
+    OPA_TV_RECENT_SEARCHES(44),
+    ASSISTANT_NOTIFICATIONS(45),
+    MOBILE_ASSISTANT_NOTIFICATIONS(47),
+    SMARTSPACE_LEGACY_SYNC(48),
+    ASSISTANT_DAILY_BRIEF(49),
+    AUTO_NEWS_MBS(50),
+    SMARTSPACE_LANDING_PAGE(51),
+    WEARABLE_MOBILE_SYNC(52),
+    LOCKSCREEN_CLOCK(54),
+    WALLPAPER_EFFECT(55),
+    SMARTWATCH_PENGUIN(56),
+    GOOGLE_HOME_PANEL_DREAM(57),
+    UNIT_TEST_1(8001),
+    UNIT_TEST_2(8002),
+    UNIT_TEST_3(8003),
+    UNIT_TEST_4(8004),
+    UNIT_TEST_5(8005),
+    UNIT_TEST_6(8006),
+    UNIT_TEST_7(8007);
+
+    public final int an;
+
+    xtv(int i) {
+        this.an = i;
+    }
+
+    @Override // defpackage.abxf
+    public final int a() {
+        return this.an;
+    }
+
+    @Override // java.lang.Enum
+    public final String toString() {
+        return Integer.toString(this.an);
+    }
+}

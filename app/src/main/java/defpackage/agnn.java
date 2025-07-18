@@ -1,0 +1,76 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes2.dex */
+public abstract class agnn implements agho, aghr {
+    protected final agho b;
+    protected aidf c;
+    protected aghr d;
+    protected boolean e;
+    protected int f;
+
+    public agnn(agho aghoVar) {
+        this.b = aghoVar;
+    }
+
+    @Override // defpackage.agfm, defpackage.aide
+    public final void a(aidf aidfVar) {
+        if (agns.d(this.c, aidfVar)) {
+            this.c = aidfVar;
+            if (aidfVar instanceof aghr) {
+                this.d = (aghr) aidfVar;
+            }
+            this.b.a(this);
+        }
+    }
+
+    @Override // defpackage.aghs
+    public final void b() {
+        this.d.b();
+    }
+
+    @Override // defpackage.aide
+    public final void d() {
+        if (this.e) {
+            return;
+        }
+        this.e = true;
+        this.b.d();
+    }
+
+    @Override // defpackage.aide
+    public final void e(Throwable th) {
+        if (this.e) {
+            agoh.e(th);
+        } else {
+            this.e = true;
+            this.b.e(th);
+        }
+    }
+
+    protected final void f(Throwable th) {
+        aggq.a(th);
+        this.c.fh();
+        e(th);
+    }
+
+    @Override // defpackage.aidf
+    public final void fh() {
+        this.c.fh();
+    }
+
+    @Override // defpackage.aidf
+    public final void fi(long j) {
+        this.c.fi(j);
+    }
+
+    @Override // defpackage.aghs
+    public final boolean fj() {
+        return this.d.fj();
+    }
+
+    @Override // defpackage.aghs
+    public final boolean h(Object obj) {
+        throw new UnsupportedOperationException("Should not be called!");
+    }
+}

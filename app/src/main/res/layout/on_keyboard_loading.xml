@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ProgressBar
+        android:layout_gravity="center"
+        android:id="@+id/on_device_loading"
+        android:focusable="true"
+        android:layout_width="@dimen/on_keyboard_loading_progress_size"
+        android:layout_height="@dimen/on_keyboard_loading_progress_size"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/G800"
+        android:indeterminateTintMode="src_in"
+        style="@android:style/Widget.Material.Light.ProgressBar.Large"/>
+</FrameLayout>

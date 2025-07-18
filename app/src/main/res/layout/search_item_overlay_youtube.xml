@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:layout_gravity="end"
+    android:orientation="vertical"
+    android:id="@+id/image_overlay"
+    android:background="@color/G950p60"
+    android:layout_width="80dp"
+    android:layout_height="match_parent"
+    app:layout_constraintEnd_toEndOf="parent">
+    <TextView
+        android:textSize="18sp"
+        android:textColor="@color/lb_basic_card_title_text_color"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/overlay_text_1"
+        android:visibility="gone"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:fontFamily="sans-serif-condensed"/>
+    <TextView
+        android:textSize="12sp"
+        android:textColor="@color/lb_basic_card_title_text_color"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/overlay_text_2"
+        android:visibility="gone"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:fontFamily="sans-serif-condensed"/>
+    <com.google.android.apps.tvsearch.widget.imagedownload.ImageDownloadView
+        android:gravity="center"
+        android:id="@+id/overlay_image"
+        android:visibility="gone"
+        android:layout_width="18dp"
+        android:layout_height="18dp"/>
+</LinearLayout>

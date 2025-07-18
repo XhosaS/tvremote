@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@anim/alpha_curve"
+    android:duration="@integer/expansion_fade_out_duration_ms"
+    android:valueFrom="1"
+    android:valueTo="0"
+    android:propertyName="alpha"/>

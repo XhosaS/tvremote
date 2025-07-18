@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/suggestions_bar"
+    android:background="@color/search_bar_opaque_bg_color"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/search_bar_height"
+    android:paddingStart="@dimen/search_bar_text_margin_from_parent_start"
+    android:paddingEnd="0dp">
+    <TextView
+        android:textAppearance="@style/h6G300TextAppearance"
+        android:gravity="center_vertical"
+        android:id="@+id/prompt_text"
+        android:background="@android:color/transparent"
+        android:focusable="false"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/assistant_try_saying_prompt"
+        android:maxLines="1"
+        android:paddingStart="0dp"
+        android:paddingEnd="@dimen/search_bar_suggestions_margin_start"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <View
+        android:id="@+id/suggestion_scroll_fade"
+        android:background="@drawable/suggestion_scroll_fade"
+        android:visibility="gone"
+        android:layout_width="24dp"
+        android:layout_height="@dimen/suggestion_chip_unfocused_height"
+        android:elevation="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/prompt_text"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <com.google.android.apps.tvsearch.searchbar.suggestions.SuggestionsScrollView
+        android:id="@+id/suggestions_scrollview"
+        android:visibility="gone"
+        android:scrollbars="none"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/prompt_text"
+        app:layout_constraintTop_toTopOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

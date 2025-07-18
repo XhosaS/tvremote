@@ -1,0 +1,1277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="15013721"
+    android:versionName="7.32.0+772673494.01"
+    android:compileSdkVersion="36"
+    android:compileSdkVersionCodename="Baklava"
+    android:requiredSplitTypes="base__abi"
+    android:splitTypes=""
+    package="com.google.android.katniss"
+    platformBuildVersionCode="36"
+    platformBuildVersionName="Baklava">
+    <uses-sdk
+        android:minSdkVersion="28"
+        android:targetSdkVersion="34"/>
+    <permission
+        android:name="com.google.android.assistant.CONVERSATION_ENDED_BROADCAST"
+        android:protectionLevel="signature"/>
+    <permission android:name="com.google.android.assistant.READ_HOTWORD_STATE"/>
+    <permission
+        android:name="com.google.android.assistant.WRITE_HOTWORD_STATE"
+        android:protectionLevel="signatureOrSystem"/>
+    <permission
+        android:name="com.google.android.katniss.permission.ENABLE_ASSISTANT"
+        android:protectionLevel="signatureOrSystem"/>
+    <permission
+        android:name="com.google.android.katniss.TIKTOK_ACCOUNTS_MULTIPROCESS_BROADCAST"
+        android:protectionLevel="signature"/>
+    <uses-feature android:glEsVersion="0x20000"/>
+    <uses-feature
+        android:name="android.hardware.bluetooth"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.location"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.location.network"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.software.leanback"
+        android:required="true"/>
+    <uses-feature
+        android:name="com.google.android.feature.GLOBAL_ASSIST_TRIGGERING"
+        android:required="true"/>
+    <uses-feature
+        android:name="com.google.android.feature.HOTWORD"
+        android:required="false"/>
+    <uses-feature
+        android:name="com.google.android.feature.hotword"
+        android:required="false"/>
+    <uses-permission android:name="com.google.android.katniss.TIKTOK_ACCOUNTS_MULTIPROCESS_BROADCAST"/>
+    <uses-permission
+        android:name="com.google.android.googleapps.permission.GOOGLE_AUTH"
+        android:maxSdkVersion="34"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.BIND_APPWIDGET"/>
+    <uses-permission android:name="android.permission.BIND_TV_REMOTE_SERVICE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.CAPTURE_AUDIO_HOTWORD"/>
+    <uses-permission android:name="android.permission.CAPTURE_AUDIO_OUTPUT"/>
+    <uses-permission android:name="android.permission.CONTROL_DEVICE_LIGHTS"/>
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS_PRIVILEGED"/>
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.GLOBAL_SEARCH"/>
+    <uses-permission android:name="android.permission.HDMI_CEC"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.MANAGE_LOW_POWER_STANDBY"/>
+    <uses-permission android:name="android.permission.MANAGE_VOICE_KEYPHRASES"/>
+    <uses-permission android:name="android.permission.MASTER_CLEAR"/>
+    <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_ROUTING"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.REAL_GET_TASKS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.SET_UNRESTRICTED_KEEP_CLEAR_AREAS"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS"/>
+    <uses-permission android:name="android.permission.STATUS_BAR"/>
+    <uses-permission android:name="android.permission.STOP_APP_SWITCHES"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.TURN_SCREEN_ON"/>
+    <uses-permission android:name="android.permission.UPDATE_APP_OPS_STATS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
+    <uses-permission android:name="com.android.browser.permission.PRELOAD"/>
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS"/>
+    <uses-permission android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS"/>
+    <uses-permission android:name="com.android.chrome.PRERENDER_URL"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="com.android.providers.tv.permission.ACCESS_ALL_EPG_DATA"/>
+    <uses-permission android:name="com.android.providers.tv.permission.READ_EPG_DATA"/>
+    <uses-permission android:name="com.android.providers.tv.permission.WRITE_EPG_DATA"/>
+    <uses-permission android:name="com.google.android.apps.googlevoice.permission.AUTO_SEND"/>
+    <uses-permission android:name="com.google.android.apps.maps.permission.PREFETCH"/>
+    <uses-permission android:name="com.google.android.apps.now.CURRENT_ACCOUNT_ACCESS"/>
+    <uses-permission android:name="com.google.android.apps.now.REMOTE_ACCESS"/>
+    <uses-permission android:name="com.google.android.assistant.CONVERSATION_ENDED_BROADCAST"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="com.google.android.ears.permission.WRITE"/>
+    <uses-permission android:name="com.google.android.gm.permission.AUTO_SEND"/>
+    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION"/>
+    <uses-permission android:name="com.google.android.googlequicksearchbox.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.google.android.googlequicksearchbox.permission.FINISH_GEL_ACTIVITY"/>
+    <uses-permission android:name="com.google.android.googlequicksearchbox.permission.PAUSE_HOTWORD"/>
+    <uses-permission android:name="com.google.android.hangouts.START_HANGOUT"/>
+    <uses-permission android:name="com.google.android.launcher.permission.CONTENT_REDIRECT"/>
+    <uses-permission android:name="com.google.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.google.android.launcher.permission.RECEIVE_FIRST_LOAD_BROADCAST"/>
+    <uses-permission android:name="com.google.android.launcher.permission.RECEIVE_LAUNCH_BROADCASTS"/>
+    <uses-permission android:name="com.google.android.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="com.google.android.remotesearch.REMOTE_SEARCH_ACCESS"/>
+    <uses-permission android:name="com.google.android.tv.permission.FIND_MY_REMOTE"/>
+    <uses-permission android:name="com.google.android.voicesearch.ACCESS_SETTINGS"/>
+    <uses-permission android:name="com.google.android.voicesearch.AUDIO_FILE_ACCESS"/>
+    <uses-permission android:name="com.google.android.voicesearch.SHORTCUTS_ACCESS"/>
+    <uses-permission android:name="com.google.googlenav.friend.permission.OPT_IN"/>
+    <queries>
+        <package android:name="com.google.android.tv.remote.service"/>
+    </queries>
+    <permission
+        android:name="com.google.android.katniss.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature"/>
+    <application
+        android:theme="@style/Theme.Canvas"
+        android:label="@string/app_name"
+        android:icon="@drawable/search_app_icon"
+        android:name="com.google.android.apps.tvsearch.app.TvSearchRoot_Application"
+        android:process=":search"
+        android:taskAffinity=""
+        android:hardwareAccelerated="true"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:restrictedAccountType="com.google"
+        android:banner="@drawable/banner"
+        android:extractNativeLibs="false"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:forceQueryable="true">
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:exported="false"
+            android:authorities="com.google.android.apps.tvsearch.fileprovider"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"/>
+        </provider>
+        <receiver
+            android:name="com.google.android.libraries.phenotype.client.stable.AccountRemovedBroadcastReceiver"
+            android:exported="true"
+            android:process=":interactor">
+            <intent-filter>
+                <action android:name="android.accounts.action.ACCOUNT_REMOVED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.libraries.phenotype.client.stable.PhenotypeUpdateBackgroundBroadcastReceiver"
+            android:permission="com.google.android.gms.permission.PHENOTYPE_UPDATE_BROADCAST"
+            android:exported="true"
+            android:process=":interactor">
+            <intent-filter>
+                <action android:name="com.google.android.gms.phenotype.UPDATE"/>
+            </intent-filter>
+        </receiver>
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false"/>
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:exported="false"
+            android:authorities="com.google.android.apps.tvsearch.fcm.firebaseinitprovider"
+            android:initOrder="100"
+            android:directBootAware="true"/>
+        <receiver
+            android:name="com.google.android.apps.tvsearch.fcm.FcmRegistrationReceiver_Receiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_FIRST_LAUNCH"/>
+                <action android:name="com.google.android.apps.tvsearch.fcm.REGISTRATION_NEEDED"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+                <action android:name="com.google.android.apps.tvsearch.setup.share.ASSISTANT_ENABLED"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.google.android.apps.tvsearch.fcm.KatnissFcmService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.google.android.apps.tvsearch.fcm.FcmRegistrationJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="false"/>
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:exported="false"
+            android:directBootAware="true">
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <service
+            android:name="com.google.android.libraries.phenotype.registration.PhenotypeMetadataHolderService"
+            android:enabled="false"
+            android:exported="false"
+            android:process="">
+            <intent-filter>
+                <action android:name="com.google.android.libraries.phenotype.registration.PhenotypeMetadataHolderService"/>
+            </intent-filter>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.heterodyne_info.binarypb:com.google.android.katniss.device"
+                android:resource="@raw/com_google_android_katniss_device_heterodyne_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.registration.binarypb:com.google.android.katniss.device"
+                android:resource="@raw/com_google_android_katniss_device_registration_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.heterodyne_info.binarypb:com.google.android.katniss.oobe"
+                android:resource="@raw/com_google_android_katniss_oobe_heterodyne_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.registration.binarypb:com.google.android.katniss.oobe"
+                android:resource="@raw/com_google_android_katniss_oobe_registration_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.heterodyne_info.binarypb:com.google.android.libraries.search.audio.device"
+                android:resource="@raw/com_google_android_libraries_search_audio_device_heterodyne_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.heterodyne_info.binarypb:com.google.android.apps.chromecast.app"
+                android:resource="@raw/com_google_android_apps_chromecast_app_heterodyne_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.heterodyne_info.binarypb:com.google.android.apps.chromecast.shared"
+                android:resource="@raw/com_google_android_apps_chromecast_shared_heterodyne_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.registration.binarypb:com.google.android.apps.chromecast.shared"
+                android:resource="@raw/com_google_android_apps_chromecast_shared_registration_info_other_release"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.heterodyne_info.binarypb:com.google.android.gms.auth_account_client"
+                android:resource="@raw/com_google_android_gms_auth_account_client_heterodyne_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.registration.binarypb:com.google.android.gms.auth_account_client"
+                android:resource="@raw/com_google_android_gms_auth_account_client_registration_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.heterodyne_info.binarypb:com.google.android.gms.clearcut_client"
+                android:resource="@raw/com_google_android_gms_clearcut_client_heterodyne_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.registration.binarypb:com.google.android.gms.clearcut_client"
+                android:resource="@raw/com_google_android_gms_clearcut_client_registration_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.heterodyne_info.binarypb:com.google.android.libraries.consentverifier"
+                android:resource="@raw/com_google_android_libraries_consentverifier_heterodyne_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.registration.binarypb:com.google.android.libraries.consentverifier"
+                android:resource="@raw/com_google_android_libraries_consentverifier_registration_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.registration.binarypb:com.google.android.gms.icing.mdd"
+                android:resource="@raw/com_google_android_gms_icing_mdd_registration_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.heterodyne_info.binarypb:com.google.android.gms.measurement"
+                android:resource="@raw/com_google_android_gms_measurement_heterodyne_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.heterodyne_info.binarypb:com.google.android.gms.ulr"
+                android:resource="@raw/com_google_android_gms_ulr_heterodyne_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.heterodyne_info.binarypb:com.google.android.gms.usagereporting"
+                android:resource="@raw/com_google_android_gms_usagereporting_heterodyne_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.heterodyne_info.binarypb:com.google.android.libraries.mdi.sync"
+                android:resource="@raw/com_google_android_libraries_mdi_sync_heterodyne_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.registration.binarypb:com.google.android.libraries.mdi.sync"
+                android:resource="@raw/com_google_android_libraries_mdi_sync_registration_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.registration.binarypb:com.google.android.libraries.onegoogle"
+                android:resource="@raw/com_google_android_libraries_onegoogle_registration_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.heterodyne_info.binarypb:com.google.android.libraries.performance.primes"
+                android:resource="@raw/com_google_android_libraries_performance_primes_heterodyne_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.registration.binarypb:com.google.android.libraries.performance.primes"
+                android:resource="@raw/com_google_android_libraries_performance_primes_registration_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.heterodyne_info.binarypb:tiktok.device"
+                android:resource="@raw/tiktok_device_heterodyne_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.registration.binarypb:tiktok.device"
+                android:resource="@raw/tiktok_device_registration_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.heterodyne_info.binarypb:tiktok.directboot"
+                android:resource="@raw/tiktok_directboot_heterodyne_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.registration.binarypb:tiktok.directboot"
+                android:resource="@raw/tiktok_directboot_registration_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.heterodyne_info.binarypb:com.google.android.libraries.search.device"
+                android:resource="@raw/com_google_android_libraries_search_device_heterodyne_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.heterodyne_info.binarypb:com.google.android.apps.search.transcription.device"
+                android:resource="@raw/com_google_android_apps_search_transcription_device_heterodyne_info"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.registration.binarypb:com.google.android.apps.search.transcription.device"
+                android:resource="@raw/com_google_android_apps_search_transcription_device_registration_info_release"/>
+            <meta-data
+                android:name="com.google.android.gms.phenotype.registration.binarypb:com.google.android.libraries.search.rendering.xuikit.device"
+                android:resource="@raw/com_google_android_libraries_search_rendering_xuikit_device_registration_info"/>
+        </service>
+        <meta-data
+            android:name="com.google.android.gms.phenotype.registration.xml:com.google.android.katniss.device"
+            android:resource="@xml/com_google_android_katniss_device_phenotype"/>
+        <meta-data
+            android:name="com.google.android.gms.phenotype.registration.xml:com.google.android.katniss.oobe"
+            android:resource="@xml/com_google_android_katniss_oobe_phenotype"/>
+        <meta-data
+            android:name="com.google.android.gms.phenotype.registration.xml:com.google.android.apps.chromecast.shared"
+            android:resource="@xml/com_google_android_apps_chromecast_shared_phenotype_other_release"/>
+        <meta-data
+            android:name="com.google.android.gms.phenotype.registration.xml:com.google.android.gms.auth_account_client"
+            android:resource="@xml/com_google_android_gms_auth_account_client_phenotype"/>
+        <meta-data
+            android:name="com.google.android.gms.phenotype.registration.xml:com.google.android.gms.clearcut_client"
+            android:resource="@xml/com_google_android_gms_clearcut_client_phenotype"/>
+        <meta-data
+            android:name="com.google.android.gms.phenotype.registration.xml:com.google.android.libraries.consentverifier"
+            android:resource="@xml/com_google_android_libraries_consentverifier_phenotype"/>
+        <meta-data
+            android:name="com.google.android.gms.phenotype.registration.xml:com.google.android.gms.icing.mdd"
+            android:resource="@xml/com_google_android_gms_icing_mdd_phenotype"/>
+        <meta-data
+            android:name="com.google.android.gms.phenotype.registration.xml:com.google.android.libraries.mdi.sync"
+            android:resource="@xml/com_google_android_libraries_mdi_sync_phenotype"/>
+        <meta-data
+            android:name="com.google.android.gms.phenotype.registration.xml:com.google.android.libraries.onegoogle"
+            android:resource="@xml/com_google_android_libraries_onegoogle_phenotype"/>
+        <meta-data
+            android:name="com.google.android.gms.phenotype.registration.xml:com.google.android.libraries.performance.primes"
+            android:resource="@xml/com_google_android_libraries_performance_primes_phenotype"/>
+        <meta-data
+            android:name="com.google.android.gms.phenotype.registration.xml:tiktok.device"
+            android:resource="@xml/tiktok_device_phenotype"/>
+        <meta-data
+            android:name="com.google.android.gms.phenotype.registration.xml:tiktok.directboot"
+            android:resource="@xml/tiktok_directboot_phenotype"/>
+        <meta-data
+            android:name="com.google.android.gms.phenotype.registration.xml:com.google.android.apps.search.transcription.device"
+            android:resource="@xml/com_google_android_apps_search_transcription_device_phenotype_release"/>
+        <meta-data
+            android:name="com.google.android.gms.phenotype.registration.xml:com.google.android.libraries.search.rendering.xuikit.device"
+            android:resource="@xml/com_google_android_libraries_search_rendering_xuikit_device_phenotype"/>
+        <activity
+            android:theme="@style/Theme.PlayCore.Transparent"
+            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+            android:exported="false"
+            android:stateNotNeeded="true"/>
+        <activity
+            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+            android:enabled="false"
+            android:exported="false"
+            android:process=":playcore_missing_splits_activity"
+            android:stateNotNeeded="true"
+            android:launchMode="singleInstance"/>
+        <activity
+            android:theme="@style/Theme.AppCompat.NoActionBar.Translucent"
+            android:name="com.google.android.apps.tvsearch.app.launch.permission.RequestPermissionsProxyActivity"
+            android:exported="false"
+            android:process=":search"
+            android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="com.google.android.katniss.search.action.REQUEST_PERMISSIONS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/Theme.AppCompat.NoActionBar.Translucent"
+            android:name="com.google.android.apps.tvsearch.app.launch.tokenretrieval.TokenRetrievalActivity"
+            android:exported="false"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance">
+            <intent-filter>
+                <action android:name="com.google.android.katniss.action.TOKEN_RETRIEVAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/Theme.AppCompat.NoDisplay"
+            android:label="@string/header_google"
+            android:name="com.google.android.apps.tvsearch.app.launch.trampoline.SearchActivityTrampoline"
+            android:exported="true"
+            android:process=":interactor"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance">
+            <intent-filter>
+                <action android:name="android.intent.action.ASSIST"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.search.action.GLOBAL_SEARCH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH_LONG_PRESS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.speech.action.WEB_SEARCH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.googlequicksearchbox.GOOGLE_SEARCH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:scheme="https"
+                    android:host="assistant.google.com"
+                    android:pathPattern="/search"/>
+            </intent-filter>
+        </activity>
+        <receiver
+            android:name="com.google.android.apps.tvsearch.app.localechanged.LocaleChangedReceiver_Receiver"
+            android:exported="true"
+            android:process=":search">
+            <intent-filter>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.apps.tvsearch.app.modeutils.art.ArtBroadcastReceiver_Receiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.katniss.action.ENABLE_ART_MODE"/>
+                <action android:name="com.google.android.katniss.action.DISABLE_ART_MODE"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.apps.tvsearch.app.modeutils.tvts.TvtsBroadcastReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.katniss.action.ENABLE_TVTS_MODE"/>
+                <action android:name="com.google.android.katniss.action.DISABLE_TVTS_MODE"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.google.android.apps.tvsearch.assistant.appintegration.AppAssistantIntegrationService"
+            android:exported="true"
+            android:process=":interactor">
+            <intent-filter>
+                <action android:name="com.google.assistant.APP_INTEGRATE"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.google.android.apps.tvsearch.controller.libas.KatnissSearchProcessService"
+            android:exported="false"/>
+        <service
+            android:name="com.google.android.apps.tvsearch.controller.services.KatnissInteractorProcessService"
+            android:exported="false"
+            android:process=":interactor"/>
+        <service
+            android:name="com.google.android.apps.tvsearch.grpc.interactor.InteractorEndpointService"
+            android:exported="true"
+            android:process=":interactor"/>
+        <service
+            android:name="com.google.android.apps.tvsearch.grpc.search.SearchEndpointService"
+            android:exported="true"
+            android:process=":search"/>
+        <activity
+            android:theme="@style/Theme.Canvas.SearchActivity"
+            android:label="@string/header_google"
+            android:name="com.google.android.apps.tvsearch.launcher.assistant.redirect.AmbientRedirectActivity"
+            android:exported="true"
+            android:process=":search">
+            <intent-filter>
+                <action android:name="com.google.android.katniss.action.AMBIENT_REDIRECT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@android:style/Theme.NoDisplay"
+            android:name="com.google.android.apps.tvsearch.launcher.assistant.redirect.AssistantNotificationRedirectActivity"
+            android:exported="true"
+            android:process=":interactor"
+            android:launchMode="singleInstance">
+            <intent-filter>
+                <action android:name="com.google.android.apps.tvsearch.ASSISTANT_NOTIFICATION_REDIRECT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/Theme.Canvas.SearchActivity"
+            android:label="@string/header_google"
+            android:name="com.google.android.apps.tvsearch.launcher.assistant.redirect.TvOperatorDiagnosticRedirectActivity"
+            android:exported="true"
+            android:process=":search">
+            <intent-filter>
+                <action android:name="com.google.android.katniss.action.TV_OPERATOR_DIAGNOSTIC_REDIRECT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/Theme.LauncherUpdateActivity"
+            android:label="@string/header_google"
+            android:name="com.google.android.apps.tvsearch.launcher.searchtab.LauncherUpdateActivity"
+            android:exported="true"
+            android:process=":search"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:configChanges="navigation|keyboardHidden|keyboard"
+            android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="com.google.assistant.SEARCH_TAB"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.assistant.SEARCH_TAB_NAVIGATION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.assistant.SEARCH_TAB_NAVIGATION_R"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service
+            android:name="com.google.android.apps.tvsearch.led.player.LedHalService"
+            android:exported="false"
+            android:process=":interactor"/>
+        <service
+            android:name="com.google.android.apps.tvsearch.led.player.KatnissAssistantLedService"
+            android:exported="false"
+            android:process=":interactor"/>
+        <receiver
+            android:name="com.google.android.apps.tvsearch.locale.InteractorLocaleChangedReceiver_Receiver"
+            android:exported="true"
+            android:process=":interactor">
+            <intent-filter>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.apps.tvsearch.logging.intentlogger.IntentLoggerBroadcastReceiver_Receiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.katniss.action.ENABLE_INTENT_LOGGER"/>
+                <action android:name="com.google.android.katniss.action.DISABLE_INTENT_LOGGER"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.google.android.apps.tvsearch.logging.primes.libas.ipc.LatencyLoggerService"
+            android:exported="false"
+            android:process=":interactor"/>
+        <receiver
+            android:name="com.google.android.apps.tvsearch.observers.DeviceNameUpdateReceiver_Receiver"
+            android:exported="false"
+            android:process=":search">
+            <intent-filter>
+                <action android:name="com.google.android.apps.tvsearch.observers.DEVICE_NAME_UPDATED"/>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme="@style/Theme.AppCompat"
+            android:name="com.google.android.apps.tvsearch.performers.parentalauth.ParentalAuthorizationRedirectActivity"
+            android:exported="false"
+            android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="com.google.android.katniss.action.PARENTAL_AUTHORIZATION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@android:style/Theme.NoDisplay"
+            android:label="@string/header_google"
+            android:name="com.google.android.apps.tvsearch.performers.shownotification.NotificationActivity"
+            android:exported="false"
+            android:process=":search"
+            android:clearTaskOnLaunch="true"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"/>
+        <service
+            android:name="com.google.apps.tiktok.account.data.manager.AccountSyncService"
+            android:exported="false"
+            android:process=":search"/>
+        <activity
+            android:theme="@style/Theme.AppCompat"
+            android:label="@string/header_reauth_setting"
+            android:name="com.google.android.apps.tvsearch.platform.account.state.ReauthSettingsActivity"
+            android:exported="false"/>
+        <receiver
+            android:name="com.google.android.apps.tvsearch.platform.account.state.AccountChangedReceiver_Receiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.accounts.action.ACCOUNT_REMOVED"/>
+                <action android:name="android.accounts.LOGIN_ACCOUNTS_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.apps.tvsearch.platform.account.state.MasterClearReceiver_Receiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MASTER_CLEAR_NOTIFICATION"/>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme="@style/KatnissPreferencesTheme"
+            android:label="@string/header_google"
+            android:icon="@drawable/google_settings_icon"
+            android:name="com.google.android.apps.tvsearch.preferences.activity.GoogleSettingsActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.assistant.GOOGLE_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.search.action.SEARCH_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.katniss.setting.SPEECH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/Theme.AppCompat.DayNight"
+            android:label="@string/preferences_license_title"
+            android:name="com.google.android.libraries.social.licenses.LicenseMenuActivity"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.android.tv.settings.VIEW_LICENSES"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/KatnissPreferencesTheme"
+            android:label="@string/header_udc_setting"
+            android:name="com.google.android.apps.tvsearch.preferences.udcdisplay.UdcDisplayActivity"
+            android:exported="true"/>
+        <activity
+            android:theme="@style/Theme.AppCompat.NoDisplay"
+            android:label="@string/header_google"
+            android:name="com.google.android.apps.tvsearch.previewer.PreviewerControlActivity"
+            android:exported="true"
+            android:process=":interactor"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"/>
+        <provider
+            android:name="com.google.android.apps.tvsearch.providers.launcher.WidgetInfoProvider"
+            android:exported="true"
+            android:process=":interactor"
+            android:authorities="com.google.android.katniss.search.WidgetInfoProvider"/>
+        <receiver
+            android:name="com.google.android.apps.tvsearch.providers.launcher.WidgetInfoUpdateReceiver_Receiver"
+            android:exported="false"
+            android:process=":interactor">
+            <intent-filter>
+                <action android:name="com.google.android.katniss.action.START_SUGGESTION_STRINGS_UPDATES"/>
+                <action android:name="com.google.android.tvsearch.action.ASSISTANT_CAPABILITY_UPDATES"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.google.android.apps.tvsearch.providers.launcher.WidgetInfoUpdateJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="false"
+            android:process=":interactor"/>
+        <provider
+            android:name="com.google.android.apps.tvsearch.providers.slice.AssistantSettingsSliceProvider"
+            android:exported="true"
+            android:authorities="com.google.android.katniss.sliceprovider.AssistantSettingsSliceProvider"/>
+        <receiver
+            android:name="com.google.android.apps.tvsearch.providers.slice.AssistantSettingsBroadcastReceiver_Receiver"
+            android:exported="false"/>
+        <provider
+            android:name="com.google.android.apps.tvsearch.providers.suggestionchips.SuggestionChipProvider"
+            android:exported="true"
+            android:process=":interactor"
+            android:authorities="com.google.android.apps.tvsearch.providers.suggestionchips.SuggestionChipProvider"/>
+        <activity
+            android:theme="@style/Theme.Canvas.Search.Global"
+            android:label="@string/header_google"
+            android:name="com.google.android.apps.tvsearch.results.activity.keyboard.KeyboardSearchActivity"
+            android:exported="false"
+            android:process=":search"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:theme="@style/Theme.Canvas.SearchActivity"
+            android:label="@string/header_google"
+            android:name="com.google.android.apps.tvsearch.results.activity.SearchResultActivity"
+            android:exported="false"
+            android:process=":search"
+            android:clearTaskOnLaunch="true"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:configChanges="navigation|keyboardHidden"/>
+        <activity
+            android:theme="@style/Theme.DisclaimerNotification"
+            android:name="com.google.android.apps.tvsearch.results.disclaimer.DisclaimerActivity"
+            android:exported="false"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="com.google.android.apps.tvsearch.action.VIEW_DISCLAIMER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/Theme.AppCompat"
+            android:name="com.google.android.apps.tvsearch.results.imageattribution.ImageAttributionActivity"
+            android:exported="false"
+            android:configChanges="navigation|keyboardHidden|keyboard">
+            <intent-filter>
+                <action android:name="com.google.android.assistant.action.IMAGE_ATTRIBUTION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/Theme.AppCompat"
+            android:name="com.google.android.apps.tvsearch.results.web.webview.WebViewActivity"
+            android:exported="false"
+            android:configChanges="navigation|keyboardHidden|keyboard">
+            <intent-filter>
+                <action android:name="com.google.android.assistant.action.VIEW_ATTRIBUTION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service
+            android:name="com.google.android.apps.tvsearch.settings.SearchSettingsService"
+            android:exported="false"/>
+        <receiver
+            android:name="com.google.android.apps.tvsearch.setup.fix.FixAssistantSettingsReceiver_Receiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.apps.tvsearch.setup.fix.SCHEDULE_KATNISS_PERIODIC_FIX_SETTING_WORK"/>
+                <action android:name="com.google.android.apps.tvsearch.setup.fix.START_FIX_SETTING_RECEIVER_KATNISS_COLDSTART"/>
+                <action android:name="com.google.android.apps.tvsearch.setup.share.ASSISTANT_ENABLED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.apps.tvsearch.setup.fix.FixAssistantSettingsInteractorReceiver_Receiver"
+            android:exported="false"
+            android:process=":interactor">
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
+        <activity
+            android:theme="@style/Theme.KatnissSetupAmati.M3.HomeGraph"
+            android:name="com.google.android.apps.tvsearch.setup.fragment.homegraph.HomeGraphSetupActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.assistant.HOMEGRAPH_SETUP"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/Theme.AppCompat.NoActionBar.Translucent"
+            android:name="com.google.android.apps.tvsearch.setup.gemini.GeminiUpgradeActivity"
+            android:exported="false"
+            android:process=":interactor"/>
+        <activity
+            android:name="com.google.android.apps.tvsearch.setup.hotword.activity.HotwordSilentToggleActivity"
+            android:exported="true"
+            android:process=":search">
+            <intent-filter>
+                <action android:name="com.google.android.assistant.HOTWORD_ENABLE"/>
+                <action android:name="com.google.android.assistant.HOTWORD_DISABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <receiver
+            android:name="com.google.android.apps.tvsearch.setup.partnerliveexperiment.UpdateFeatureIdsReceiver_Receiver"
+            android:exported="false"
+            android:process=":interactor">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.google.android.apps.tvsearch.setup.partnerliveexperiment.UpdateFeatureIdsJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="false"
+            android:process=":interactor"/>
+        <activity
+            android:theme="@style/Theme.AppCompat.NoDisplay"
+            android:name="com.google.android.apps.tvsearch.setup.receiver.JiTUpdateReceiverActivity"
+            android:exported="true"
+            android:process=":search"
+            android:launchMode="singleInstance">
+            <intent-filter>
+                <action android:name="com.google.android.katniss.action.ACK_THIRD_PARTY_DISCLOSURE"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/Theme.KatnissSetup.Opaque"
+            android:name="com.google.android.apps.tvsearch.setup.AssistantDataSharingConsentActivity"
+            android:exported="true"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="com.google.assistant.DATA_SHARING_CONSENT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/Theme.KatnissSetup.Opaque"
+            android:name="com.google.android.apps.tvsearch.setup.AssistantHotwordSetupActivity"
+            android:exported="true"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="com.google.android.assistant.HOTWORD_SETUP"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/Theme.KatnissSetup.Opaque"
+            android:name="com.google.android.apps.tvsearch.setup.AssistantSetupActivity"
+            android:exported="true"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="com.google.assistant.GOOGLE_SETUP"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/Theme.KatnissSetup.Opaque.Black"
+            android:name="com.google.android.apps.tvsearch.setup.AssistantSetupForSetupWizardActivity"
+            android:exported="true"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="com.google.android.katniss.action.ATV_SETUP"/>
+                <action android:name="com.google.assistant.OOBE_FLOW_SELECTED"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.google.android.apps.tvsearch.setup.EnrollHotwordForATVSetupActivity"
+            android:exported="true"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance">
+            <intent-filter>
+                <action android:name="com.google.android.katniss.action.ATV_SETUP_ENROLL_HOTWORD"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/Theme.Canvas.SearchActivity"
+            android:name="com.google.android.apps.tvsearch.setup.JitHotwordSetupActivity"
+            android:launchMode="singleTask"/>
+        <activity
+            android:theme="@style/Theme.Canvas.SearchActivity"
+            android:name="com.google.android.apps.tvsearch.setup.NetworkChangeReauthActivity"
+            android:launchMode="singleTask"/>
+        <service
+            android:name="com.google.android.apps.tvsearch.setup.settings.EnableAssistantSettingsJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="false"/>
+        <service
+            android:label="com.google.android.tungsten.setupwraith"
+            android:name="com.google.android.katniss.setting.AssistantSettingsService"
+            android:permission="com.google.android.katniss.permission.ENABLE_ASSISTANT"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.katniss.setting.AssistantSettingsService"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.google.android.apps.tvsearch.statesync.service.StateSyncService"
+            android:exported="false"
+            android:process=":interactor"/>
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:exported="false"
+            android:process=":interactor"
+            android:directBootAware="true"/>
+        <service
+            android:name="com.google.android.apps.tvsearch.voice.audiostateholder.KatnissSsbService"
+            android:exported="true"
+            android:process=":interactor">
+            <intent-filter>
+                <action android:name="com.google.android.apps.tvsearch.voice.search.KVS_SERVICE"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.google.android.katniss.search.serviceapi.KatnissVoiceInteractionService"
+            android:permission="android.permission.BIND_VOICE_INTERACTION"
+            android:exported="true"
+            android:process=":interactor"
+            android:foregroundServiceType="microphone">
+            <intent-filter>
+                <action android:name="android.service.voice.VoiceInteractionService"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.voice_interaction"
+                android:resource="@xml/voice_interaction_service"/>
+        </service>
+        <service
+            android:name="com.google.android.katniss.search.serviceapi.KeyboardService"
+            android:exported="true"
+            android:process=":interactor">
+            <intent-filter>
+                <action android:name="com.google.android.katniss.action.SPEECH_RECOGNITION"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.katniss.action.SPEECH_RECOGNITION_ASTRO"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.katniss.action.SPEECH_RECOGNITION_DOORBELL"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.katniss.action.SPEECH_RECOGNITION_GEMINI"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.katniss.search.serviceapi.IKeyboardService"/>
+            </intent-filter>
+        </service>
+        <provider
+            android:name="com.google.android.apps.tvsearch.voice.controller.AudioFileDescriptorProvider"
+            android:exported="true"
+            android:process=":interactor"
+            android:authorities="com.google.android.apps.tvsearch.voice.controller.AudioFileDescriptorProvider"
+            android:grantUriPermissions="true"/>
+        <provider
+            android:name="com.google.android.apps.tvsearch.voice.hotword.contentprovider.KatnissHotwordStateContentProvider"
+            android:readPermission="com.google.android.assistant.READ_HOTWORD_STATE"
+            android:writePermission="com.google.android.assistant.WRITE_HOTWORD_STATE"
+            android:exported="true"
+            android:process=":interactor"
+            android:authorities="com.google.android.katniss.search.searchapi.VoiceInteractionProvider"/>
+        <service
+            android:name="com.google.android.testing.assistantreadinesstest.ArtModelService"
+            android:permission="android.permission.FOREGROUND_SERVICE"
+            android:exported="true"
+            android:process=":interactor"
+            android:foregroundServiceType="specialUse">
+            <property
+                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+                android:value="Used only during Assistant Readiness Test to serve speech library debug information over dumpsys."/>
+        </service>
+        <service
+            android:name="com.google.android.apps.tvsearch.voice.recognition.KatnissRecognitionService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.speech.RecognitionService"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.google.android.apps.tvsearch.voice.KatnissVoiceInteractionSessionService"
+            android:permission="android.permission.BIND_VOICE_INTERACTION"
+            android:exported="true"
+            android:process=":interactor"/>
+        <activity
+            android:theme="@style/Theme.AppCompat.Leanback.VoiceInput"
+            android:name="com.google.android.apps.tvsearch.voice.voiceinput.VoiceInputActivity"
+            android:exported="true"
+            android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.speech.action.RECOGNIZE_SPEECH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"/>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false"/>
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false"/>
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:enabled="true"
+            android:exported="false"/>
+        <service
+            android:name="com.google.android.libraries.directboot.DirectBootHelperService"
+            android:enabled="false"
+            android:exported="false"
+            android:process=""
+            android:directBootAware="false"/>
+        <activity
+            android:name="com.google.android.libraries.home.auth.AuthRecoveryActivity"
+            android:exported="false"/>
+        <receiver
+            android:name="com.google.android.libraries.performance.primes.transmitter.LifeboatReceiver"
+            android:exported="false"
+            android:process=":primes_lifeboat"/>
+        <activity
+            android:theme="@style/Theme.AppCompat.DayNight"
+            android:label="@string/preferences_license_title"
+            android:name="com.google.android.libraries.social.licenses.LicenseActivity"
+            android:exported="false"/>
+        <provider
+            android:name="com.google.android.libraries.speech.transcription.recording.AudioRecordingProvider$AudioRecordingFileProvider"
+            android:exported="false"
+            android:process=":search"
+            android:authorities="com.google.android.katniss.AudioRecordingProvider"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/transcription_audio_recording_file_path"/>
+        </provider>
+        <activity
+            android:theme="@style/IntentApiCustom"
+            android:label=" "
+            android:name="com.google.android.libraries.speech.transcription.ui.TranscriptionActivity"
+            android:exported="false"
+            android:process=":search"
+            android:taskAffinity="com.google.android.voicesearch.intentapi"
+            android:excludeFromRecents="true"
+            android:configChanges="screenSize|orientation|navigation|keyboardHidden|keyboard"/>
+        <uses-library
+            android:name="com.android.libraries.tv.tvsystem"
+            android:required="false"/>
+        <receiver
+            android:name="com.google.apps.tiktok.account.data.device.DeviceAccountsChangedReceiver_Receiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.accounts.LOGIN_ACCOUNTS_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.google.apps.tiktok.concurrent.AndroidFuturesService"
+            android:exported="false"/>
+        <service
+            android:name="com.google.apps.tiktok.concurrent.InternalForegroundService"
+            android:exported="false"
+            android:foregroundServiceType="shortService"/>
+        <receiver
+            android:name="com.google.apps.tiktok.experiments.phenotype.ConfigurationUpdatedReceiver_Receiver"
+            android:permission="com.google.android.gms.permission.PHENOTYPE_UPDATE_BROADCAST"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.gms.phenotype.UPDATE"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="false"
+            android:directBootAware="true">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="android.net.http.MetaDataHolder"
+            android:enabled="false"
+            android:exported="false">
+            <meta-data
+                android:name="android.net.http.EnableTelemetry"
+                android:value="true"/>
+        </service>
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:exported="false"
+            android:multiprocess="true"
+            android:authorities="com.google.android.katniss.lifecycle-process"/>
+        <uses-library
+            android:name="android.ext.adservices"
+            android:required="false"/>
+        <receiver
+            android:name="androidx.remotecallback.ProviderRelayReceiver"
+            android:exported="false"/>
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false"/>
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false"/>
+        <service
+            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+            android:enabled="@bool/enable_system_alarm_service_default"
+            android:exported="false"
+            android:directBootAware="false"/>
+        <service
+            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:enabled="@bool/enable_system_job_service_default"
+            android:exported="true"
+            android:directBootAware="false"/>
+        <service
+            android:name="androidx.work.impl.foreground.SystemForegroundService"
+            android:enabled="@bool/enable_system_foreground_service_default"
+            android:exported="false"
+            android:directBootAware="false"/>
+        <receiver
+            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+            android:enabled="true"
+            android:exported="false"
+            android:directBootAware="false"/>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+            android:enabled="false"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+            android:enabled="@bool/enable_system_alarm_service_default"
+            android:exported="false"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+            android:permission="android.permission.DUMP"
+            android:enabled="true"
+            android:exported="true"
+            android:directBootAware="false">
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.google.android.build.data.PropertiesServiceHolder"
+            android:enabled="false"
+            android:exported="false"
+            android:process="">
+            <intent-filter>
+                <action android:name="com.google.android.build.data.Properties"/>
+            </intent-filter>
+            <meta-data
+                android:name="com.google.android.build.data.properties"
+                android:resource="@raw/build_data"/>
+        </service>
+        <meta-data
+            android:name="com.android.vending.splits.required"
+            android:value="true"/>
+        <meta-data
+            android:name="com.android.stamp.source"
+            android:value="https://play.google.com/store"/>
+        <meta-data
+            android:name="com.android.stamp.type"
+            android:value="STAMP_TYPE_DISTRIBUTION_APK"/>
+        <meta-data
+            android:name="com.android.vending.splits"
+            android:resource="@xml/splits0"/>
+        <meta-data
+            android:name="com.android.vending.derived.apk.id"
+            android:value="2"/>
+    </application>
+</manifest>

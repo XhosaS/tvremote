@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.tvsearch.widget.bounded.FlexibleBottomPaddingFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="@dimen/space_light_green"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/katniss_browse_padding_start"
+    android:paddingEnd="0dp"
+    app:flexibleBottomPadding="@dimen/space_light_green">
+    <TextView
+        android:textAppearance="@style/h4MediumG200TextAppearance"
+        android:id="@+id/text_response_content"
+        android:layout_width="@dimen/long_response_fold"
+        android:layout_height="wrap_content"/>
+</com.google.android.apps.tvsearch.widget.bounded.FlexibleBottomPaddingFrameLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:focusable="false"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/space_light_purple"
+    android:paddingStart="@dimen/lb_browse_padding_start"
+    android:paddingEnd="0dp"
+    android:paddingVertical="10dp"
+    app:rowHeight="wrap_content"
+    app:shimmer_base_alpha="0.8"
+    app:shimmer_clip_to_children="true">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View style="@style/ShimmerRefinementFirstStyle"/>
+        <View style="@style/ShimmerRefinementStyle"/>
+        <View style="@style/ShimmerRefinementStyle"/>
+        <View style="@style/ShimmerRefinementStyle"/>
+        <View style="@style/ShimmerRefinementStyle"/>
+        <View style="@style/ShimmerRefinementStyle"/>
+        <View style="@style/ShimmerRefinementStyle"/>
+        <View style="@style/ShimmerRefinementStyle"/>
+        <View style="@style/ShimmerRefinementStyle"/>
+    </LinearLayout>
+</com.facebook.shimmer.ShimmerFrameLayout>

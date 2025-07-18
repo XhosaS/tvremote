@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="@drawable/all_results_bg"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/entity_details_action_button_height"
+    android:paddingStart="@dimen/space_salmon"
+    android:paddingEnd="@dimen/space_salmon"
+    android:elevation="1dp">
+    <ImageView
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/entity_detail_action_image"
+        android:layout_width="@dimen/entity_details_action_icon_size"
+        android:layout_height="@dimen/entity_details_action_icon_size"
+        android:contentDescription="@null"
+        android:layout_marginEnd="@dimen/space_light_yellow"/>
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:duplicateParentState="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/entity_detail_action_title"
+            style="@style/EntityDetailWatchActionText"/>
+        <TextView
+            android:id="@+id/entity_detail_action_subtitle"
+            style="@style/EntityDetailWatchActionText"/>
+    </LinearLayout>
+</LinearLayout>

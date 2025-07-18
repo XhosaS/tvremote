@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/preview_slim_entity_card"
+    android:focusable="true"
+    android:clipChildren="false"
+    android:descendantFocusability="afterDescendants"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/space_purple"
+    android:layout_marginEnd="@dimen/space_purple"
+    android:layoutMode="opticalBounds"
+    android:elevation="@dimen/entity_detail_card_elevation">
+    <TextView
+        android:textAppearance="@style/b1v3G200TextAppearance"
+        android:gravity="center_vertical"
+        android:id="@+id/entity_row_header_title"
+        android:visibility="visible"
+        android:layout_width="@dimen/preview_slim_entity_row_header_title_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/amati_prompt_text_margin_top"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <FrameLayout
+        android:id="@+id/action_list"
+        android:clipChildren="false"
+        android:descendantFocusability="afterDescendants"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_light_blue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/entity_row_header_title">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/entity_action_box"
+            android:clipChildren="false"
+            android:descendantFocusability="afterDescendants"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/entity_detail_action_divider"
+            android:showDividers="middle"/>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

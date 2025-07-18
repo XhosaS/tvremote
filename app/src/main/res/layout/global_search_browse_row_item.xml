@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.tvsearch.results.searchlist.SearchItemDetailCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:lb="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:orientation="horizontal"
+        android:id="@+id/image_container"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="@dimen/carousel_item_image_portrait_2_3_width"
+        android:layout_height="@dimen/carousel_item_image_constant_height"
+        lb:layout_viewType="main">
+        <com.google.android.apps.tvsearch.widget.imagedownload.ImageDownloadView
+            android:id="@+id/row_item_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.leanback.widget.NonOverlappingLinearLayout
+        android:orientation="vertical"
+        android:id="@+id/description_layout"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/carousel_item_description_content_height"
+        android:layout_below="@+id/image_container"
+        lb:layout_viewType="info">
+        <TextView
+            android:ellipsize="end"
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_white"
+            android:maxLines="2"
+            android:layout_marginEnd="@dimen/space_light_yellow"
+            style="@style/s2G400TextAppearance"/>
+        <TextView
+            android:ellipsize="end"
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:layout_marginEnd="@dimen/space_light_yellow"
+            style="@style/b4G600TextAppearance"/>
+    </androidx.leanback.widget.NonOverlappingLinearLayout>
+</com.google.android.apps.tvsearch.results.searchlist.SearchItemDetailCardView>

@@ -1,0 +1,22 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes.dex */
+public final class get implements aejg {
+    public static gmd b(agow agowVar, agow agowVar2, hag hagVar) {
+        agowVar.getClass();
+        agowVar2.getClass();
+        hagVar.getClass();
+        if (hagVar != hag.d) {
+            agowVar = agowVar2;
+        }
+        Object objA = agowVar.a();
+        objA.getClass();
+        return (gmd) objA;
+    }
+
+    @Override // defpackage.agow
+    public final /* bridge */ /* synthetic */ Object a() {
+        throw null;
+    }
+}

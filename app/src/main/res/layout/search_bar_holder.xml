@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/search_bar_holder"
+    android:background="@android:color/transparent"
+    android:focusable="false"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/search_bar_holder_vertical_height_watson"/>

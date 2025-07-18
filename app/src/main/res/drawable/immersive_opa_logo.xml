@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_pressed="true"
+        android:drawable="@drawable/quantum_ic_google_assistant_gm_grey600_24"/>
+    <item
+        android:state_focused="true"
+        android:drawable="@drawable/quantum_ic_google_assistant_white_24"
+        android:state_activated="true"/>
+    <item android:drawable="@drawable/quantum_ic_google_assistant_gm_grey600_24"/>
+</selector>

@@ -1,0 +1,21 @@
+package defpackage;
+
+import android.R;
+
+/* compiled from: PG */
+/* loaded from: classes.dex */
+public final class bji {
+    public static final int[] a = {R.attr.selectableItemBackground, com.google.android.katniss.R.attr.selectableItemBackground};
+    public static final int[] b = {R.attr.summaryOn, R.attr.summaryOff, R.attr.disableDependentsState, com.google.android.katniss.R.attr.disableDependentsState, com.google.android.katniss.R.attr.summaryOff, com.google.android.katniss.R.attr.summaryOn};
+    public static final int[] c = {R.attr.dialogTitle, R.attr.dialogMessage, R.attr.dialogIcon, R.attr.positiveButtonText, R.attr.negativeButtonText, R.attr.dialogLayout, com.google.android.katniss.R.attr.dialogIcon, com.google.android.katniss.R.attr.dialogLayout, com.google.android.katniss.R.attr.dialogMessage, com.google.android.katniss.R.attr.dialogTitle, com.google.android.katniss.R.attr.negativeButtonText, com.google.android.katniss.R.attr.positiveButtonText};
+    public static final int[] d = {com.google.android.katniss.R.attr.useSimpleSummaryProvider};
+    public static final int[] e = {R.attr.entries, R.attr.entryValues, com.google.android.katniss.R.attr.entries, com.google.android.katniss.R.attr.entryValues, com.google.android.katniss.R.attr.useSimpleSummaryProvider};
+    public static final int[] f = {R.attr.entries, R.attr.entryValues, com.google.android.katniss.R.attr.entries, com.google.android.katniss.R.attr.entryValues};
+    public static final int[] g = {R.attr.icon, R.attr.persistent, R.attr.enabled, R.attr.layout, R.attr.title, R.attr.selectable, R.attr.key, R.attr.summary, R.attr.order, R.attr.widgetLayout, R.attr.dependency, R.attr.defaultValue, R.attr.shouldDisableView, R.attr.fragment, R.attr.singleLineTitle, R.attr.iconSpaceReserved, com.google.android.katniss.R.attr.allowDividerAbove, com.google.android.katniss.R.attr.allowDividerBelow, com.google.android.katniss.R.attr.defaultValue, com.google.android.katniss.R.attr.dependency, com.google.android.katniss.R.attr.enableCopying, com.google.android.katniss.R.attr.enabled, com.google.android.katniss.R.attr.fragment, com.google.android.katniss.R.attr.icon, com.google.android.katniss.R.attr.iconSpaceReserved, com.google.android.katniss.R.attr.isPreferenceVisible, com.google.android.katniss.R.attr.key, com.google.android.katniss.R.attr.layout, com.google.android.katniss.R.attr.order, com.google.android.katniss.R.attr.persistent, com.google.android.katniss.R.attr.selectable, com.google.android.katniss.R.attr.shouldDisableView, com.google.android.katniss.R.attr.singleLineTitle, com.google.android.katniss.R.attr.summary, com.google.android.katniss.R.attr.title, com.google.android.katniss.R.attr.widgetLayout};
+    public static final int[] h = {R.attr.layout, R.attr.divider, R.attr.dividerHeight, com.google.android.katniss.R.attr.allowDividerAfterLastItem};
+    public static final int[] i = {R.attr.orderingFromXml, com.google.android.katniss.R.attr.initialExpandedChildrenCount, com.google.android.katniss.R.attr.orderingFromXml};
+    public static final int[] j = {R.attr.maxWidth, R.attr.maxHeight, com.google.android.katniss.R.attr.maxHeight, com.google.android.katniss.R.attr.maxWidth};
+    public static final int[] k = {R.attr.layout, R.attr.max, com.google.android.katniss.R.attr.adjustable, com.google.android.katniss.R.attr.min, com.google.android.katniss.R.attr.seekBarIncrement, com.google.android.katniss.R.attr.showSeekBarValue, com.google.android.katniss.R.attr.updatesContinuously};
+    public static final int[] l = {R.attr.summaryOn, R.attr.summaryOff, R.attr.disableDependentsState, R.attr.switchTextOn, R.attr.switchTextOff, com.google.android.katniss.R.attr.disableDependentsState, com.google.android.katniss.R.attr.summaryOff, com.google.android.katniss.R.attr.summaryOn, com.google.android.katniss.R.attr.switchTextOff, com.google.android.katniss.R.attr.switchTextOn};
+    public static final int[] m = {R.attr.summaryOn, R.attr.summaryOff, R.attr.disableDependentsState, R.attr.switchTextOn, R.attr.switchTextOff, com.google.android.katniss.R.attr.disableDependentsState, com.google.android.katniss.R.attr.summaryOff, com.google.android.katniss.R.attr.summaryOn, com.google.android.katniss.R.attr.switchTextOff, com.google.android.katniss.R.attr.switchTextOn};
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="@integer/focused_frame_animator_duration_ms"
+    android:startOffset="1000"
+    android:repeatCount="infinite"
+    android:repeatMode="reverse"
+    android:valueFrom="192"
+    android:valueTo="32"
+    android:valueType="intType"
+    android:propertyName="alpha"/>

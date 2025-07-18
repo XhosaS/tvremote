@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:focusable="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/space_38dp"
+    android:layout_marginBottom="@dimen/space_light_blue"
+    android:layout_marginStart="@dimen/katniss_browse_padding_start"
+    android:layout_marginEnd="@dimen/katniss_browse_padding_end">
+    <ImageView
+        android:id="@+id/opa_logo"
+        android:layout_width="26dp"
+        android:layout_height="23.21dp"
+        android:src="@drawable/quantum_ic_google_assistant_white_24"
+        android:contentDescription="@null"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:textAppearance="@style/b1v3G200TextAppearance"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:includeFontPadding="false"
+        android:layout_marginStart="@dimen/space_light_blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/opa_logo"
+        app:layout_constraintTop_toTopOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

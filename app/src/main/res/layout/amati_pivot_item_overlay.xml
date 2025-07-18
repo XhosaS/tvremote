@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/image_overlay"
+    android:layout_width="@dimen/amati_carousel_item_image_constant_width"
+    android:layout_height="@dimen/amati_pivot_item_image_constant_height">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/amati_pivot_item_overlay_height">
+        <TextView
+            android:textAppearance="@style/s2G200TextAppearance"
+            android:gravity="center"
+            android:id="@+id/overlay_text_1"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"/>
+        <TextView
+            android:textAppearance="@style/s2G200TextAppearance"
+            android:gravity="center"
+            android:id="@+id/overlay_text_2"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"/>
+    </LinearLayout>
+    <com.google.android.apps.tvsearch.widget.imagedownload.ImageDownloadView
+        android:gravity="center"
+        android:id="@+id/overlay_image"
+        android:visibility="gone"
+        android:layout_width="36dp"
+        android:layout_height="36dp"/>
+</LinearLayout>

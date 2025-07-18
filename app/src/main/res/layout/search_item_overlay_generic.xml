@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/image_overlay"
+    android:background="@color/G900p50"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:gravity="center"
+        android:id="@+id/overlay_text_1"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/search_result_item_overlay_height"
+        android:maxLines="1"
+        style="@style/overlay1TextAppearance"/>
+    <TextView
+        android:gravity="center"
+        android:id="@+id/overlay_text_2"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/search_result_item_overlay_height"
+        android:maxLines="1"
+        style="@style/overlay2TextAppearance"/>
+    <com.google.android.apps.tvsearch.widget.imagedownload.ImageDownloadView
+        android:gravity="center"
+        android:id="@+id/overlay_image"
+        android:visibility="gone"
+        android:layout_width="36dp"
+        android:layout_height="36dp"/>
+</LinearLayout>

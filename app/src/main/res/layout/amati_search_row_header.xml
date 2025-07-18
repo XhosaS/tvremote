@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@+id/row_header_container"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/channel_header_height">
+    <com.google.android.apps.tvsearch.widget.imagedownload.ImageFitDownloadView
+        android:id="@+id/row_header_provider_icon"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/channel_header_logo_height"
+        android:scaleType="fitStart"
+        android:importantForAccessibility="no"
+        android:layout_marginEnd="@dimen/channel_header_logo_margin_end"/>
+    <TextView
+        android:textAppearance="@style/TvChannelHeaderTextAppearance"
+        android:layout_gravity="bottom"
+        android:id="@+id/row_header_provider_name"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="false"
+        android:importantForAccessibility="no"
+        android:layout_marginEnd="@dimen/h4_text_blank"/>
+    <TextView
+        android:textAppearance="@style/TvChannelHeaderTextAppearance"
+        android:ellipsize="end"
+        android:layout_gravity="bottom"
+        android:id="@+id/row_header_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:includeFontPadding="false"
+        android:layout_weight="1"
+        android:importantForAccessibility="no"/>
+</LinearLayout>

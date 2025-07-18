@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/row_item_image_attribution_container"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content">
+    <View
+        android:background="@drawable/attribution_description_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_light_blue"/>
+    <FrameLayout style="@style/RowItemImageAttributionRoot">
+        <TextView
+            android:id="@+id/row_item_image_attribution_text"
+            style="@style/RowItemImageAttributionTextView"/>
+    </FrameLayout>
+</LinearLayout>

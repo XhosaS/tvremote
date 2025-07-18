@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/guidedactions_root"
+    android:paddingTop="178dp"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:paddingStart="0dp"
+    android:paddingEnd="112dp"
+    android:transitionName="guidedactions_root"
+    android:transitionGroup="false">
+    <androidx.leanback.widget.GuidedActionsRelativeLayout
+        android:id="@+id/guidedactions_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:transitionName="guidedactions_content"
+        android:transitionGroup="false">
+        <androidx.leanback.widget.VerticalGridView
+            android:id="@+id/guidedactions_list"
+            android:transitionGroup="true"
+            style="?attr/guidedActionsListStyle"/>
+        <androidx.leanback.widget.VerticalGridView
+            android:id="@+id/guidedactions_sub_list"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="-1dp"
+            android:transitionGroup="true"
+            style="?attr/guidedSubActionsListStyle"/>
+    </androidx.leanback.widget.GuidedActionsRelativeLayout>
+</FrameLayout>

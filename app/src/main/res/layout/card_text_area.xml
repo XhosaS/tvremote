@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.AppCompatTextView
+        android:textSize="@dimen/text_size_h5"
+        android:textColor="@color/card_title_color"
+        android:ellipsize="end"
+        android:id="@+id/card_text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:fontFamily="@font/google_sans_compat"
+        android:textDirection="locale"/>
+    <android.support.v7.widget.AppCompatTextView
+        android:textSize="@dimen/text_size_h5"
+        android:textColor="@color/card_subtitle_color"
+        android:ellipsize="end"
+        android:id="@+id/card_text_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:fontFamily="@font/google_sans_compat"
+        android:textDirection="locale"/>
+    <android.support.v7.widget.AppCompatTextView
+        android:textSize="@dimen/text_size_h5"
+        android:textColor="@color/card_description_color"
+        android:ellipsize="end"
+        android:id="@+id/card_text_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:fontFamily="@font/google_sans_compat"
+        android:textDirection="locale"/>
+</merge>

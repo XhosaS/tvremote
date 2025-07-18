@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="agsa_color_background">@color/agsa_color_dark_background</color>
+    <color name="agsa_color_error">@color/agsa_color_dark_error</color>
+    <color name="agsa_color_hairline">@color/agsa_color_dark_hairline</color>
+    <color name="agsa_color_on_primary">@color/agsa_color_dark_on_primary</color>
+    <color name="agsa_color_on_surface">@color/agsa_color_dark_on_surface</color>
+    <color name="agsa_color_on_surface_variant">@color/agsa_color_dark_on_surface_variant</color>
+    <color name="agsa_color_primary">@color/agsa_color_dark_primary</color>
+    <color name="agsa_color_primary_variant">@color/agsa_color_dark_primary_variant</color>
+    <color name="transcription_intent_api_google_logo_tint">@color/google_white</color>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="20dp"
+    android:width="20dp"
+    android:viewportWidth="800"
+    android:viewportHeight="800">
+    <path
+        android:fillColor="#ffd5dcfb"
+        android:pathData="M400,800 Q402,800 402,798 Q402,716 433,644 Q464,572 518,518 Q572,464 644,433 Q716,402 798,402 Q800,402 800,400 Q800,398 798,398 Q716,398 644,367 Q572,336 518,282 Q464,228 433,156 Q402,84 402,2 Q402,0 400,0 Q398,0 398,2 Q398,84 367,156 Q336,228 282,282 Q228,336 156,367 Q84,398 2,398 Q0,398 0,400 Q0,402 2,402 Q84,402 156,433 Q228,464 282,518 Q336,572 367,644 Q398,716 398,798 Q398,800 400,800 Z"/>
+    <path
+        android:fillColor="@drawable/_gemini_sparkle__0_res_0x7f080008"
+        android:pathData="M400,800 Q402,800 402,798 Q402,716 433,644 Q464,572 518,518 Q572,464 644,433 Q716,402 798,402 Q800,402 800,400 Q800,398 798,398 Q716,398 644,367 Q572,336 518,282 Q464,228 433,156 Q402,84 402,2 Q402,0 400,0 Q398,0 398,2 Q398,84 367,156 Q336,228 282,282 Q228,336 156,367 Q84,398 2,398 Q0,398 0,400 Q0,402 2,402 Q84,402 156,433 Q228,464 282,518 Q336,572 367,644 Q398,716 398,798 Q398,800 400,800 Z"/>
+</vector>

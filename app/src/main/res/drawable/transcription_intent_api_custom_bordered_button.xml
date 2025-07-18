@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/transcription_intent_api_custom_bordered_button_inset"
+    android:insetTop="@dimen/transcription_intent_api_material_small_margin"
+    android:insetBottom="@dimen/transcription_intent_api_material_small_margin"/>

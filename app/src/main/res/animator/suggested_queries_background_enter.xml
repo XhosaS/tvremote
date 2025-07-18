@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:ordering="together">
+    <objectAnimator
+        android:interpolator="@anim/standard_curve"
+        android:duration="@integer/suggested_query_background_downwards_duration_ms"
+        android:valueFrom="@dimen/suggested_query_background_translation"
+        android:valueTo="0dp"
+        android:valueType="floatType"
+        android:propertyName="translationY"/>
+    <objectAnimator
+        android:interpolator="@anim/linear"
+        android:duration="@integer/suggested_query_background_enter_duration_ms"
+        android:valueFrom="0"
+        android:valueTo="1"
+        android:propertyName="alpha"/>
+</set>

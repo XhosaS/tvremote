@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phenotype-registrations>
+    <phenotype-registration>
+        <configuration-package>com.google.android.katniss.device
+        </configuration-package>
+        <log-sources>
+            <log-source>OPA_TV
+            </log-source>
+            <log-source>OPA_TV_ANDROID_PRIMES
+            </log-source>
+            <log-source>STREAMZ_OPA_TV
+            </log-source>
+        </log-sources>
+        <auto-subpackage>true
+        </auto-subpackage>
+        <params>CAcQIA==
+        </params>
+    </phenotype-registration>
+</phenotype-registrations>

@@ -1,0 +1,24 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes.dex */
+public enum hzg {
+    CLOSE_MIC,
+    GOT_RESPONSE,
+    GOT_TALKING_ONLY_RESPONSE,
+    HTT_QUICK_RELEASE,
+    IN_APP_INTERACTION_EXECUTED,
+    IN_APP_UI,
+    OPEN_KEYBOARD,
+    OPEN_MIC,
+    SEARCHING,
+    SHOW_ERROR,
+    SHOW_TEXT,
+    SOUND_DETECTED,
+    SPEECH,
+    SPEECH_HESITATION_DETECTED,
+    START_INTERACTION,
+    SUGGESTIONS_UPDATED,
+    TALKING,
+    TALKING_DONE
+}

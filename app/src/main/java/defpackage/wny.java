@@ -1,0 +1,181 @@
+package defpackage;
+
+import android.content.Context;
+
+/* compiled from: PG */
+/* loaded from: classes2.dex */
+public final class wny {
+    static final yzq a = yzq.u("com.google.android.googlequicksearchbox", "com.google.android.apps.tv.launcherx", "com.google.android.apps.tycho", "com.google.android.apps.googlevoice", "com.google.android.apps.weather", "com.google.android.apps.messaging", new String[0]);
+    static final yyr b;
+    public final boolean c;
+    private final Context d;
+
+    static {
+        yyn yynVar = new yyn(4);
+        yynVar.c(new wnn(-1402884293, -1323989763), Double.valueOf(1.5d));
+        yynVar.c(new wnn(-120126428, 248665706), Double.valueOf(1.04d));
+        yynVar.c(new wnn(-402404565, -1320283053), Double.valueOf(1.008999328d));
+        yynVar.c(new wnn(-146900676, -1316662284), Double.valueOf(1.006841553d));
+        yynVar.c(new wnn(-146900676, 1040161135), Double.valueOf(1.012035345d));
+        yynVar.c(new wnn(-146900676, -1705456288), Double.valueOf(1.022603103d));
+        yynVar.c(new wnn(-402404565, 1562449153), Double.valueOf(1.004814608d));
+        yynVar.c(new wnn(-146900676, -1623293172), Double.valueOf(1.015104951d));
+        yynVar.c(new wnn(-146900676, -1894369707), Double.valueOf(1.001868045d));
+        yynVar.c(new wnn(1354605707, -1646692222), Double.valueOf(1.901098901d));
+        yynVar.c(new wnn(-120126428, 448355529), Double.valueOf(1.529904306d));
+        yynVar.c(new wnn(-120126428, 994771676), Double.valueOf(1.007393721d));
+        yynVar.c(new wnn(-1101564562, 700299605), Double.valueOf(1.00675857d));
+        yynVar.c(new wnn(-1101564562, 1196177042), Double.valueOf(1.002689899d));
+        yynVar.c(new wnn(-1101564562, -1046053503), Double.valueOf(1.004405286d));
+        yynVar.c(new wnn(-1101564562, -1608428365), Double.valueOf(1.00784618d));
+        yynVar.c(new wnn(-146900676, -164439132), Double.valueOf(1.017620752d));
+        yynVar.c(new wnn(-146900676, 961949262), Double.valueOf(1.000659477d));
+        yynVar.c(new wnn(198481203, -710004870), Double.valueOf(1.023781676d));
+        yynVar.c(new wnn(-146900676, -1767138822), Double.valueOf(1.013395575d));
+        yynVar.c(new wnn(-146900676, -1606220570), Double.valueOf(1.002599922d));
+        yynVar.c(new wnn(-506261871, -1008614903), Double.valueOf(1.258379428d));
+        yynVar.c(new wnn(-120126428, -218347482), Double.valueOf(1.015469873d));
+        yynVar.c(new wnn(-120126428, 1926586891), Double.valueOf(1.024633465d));
+        yynVar.c(new wnn(-1101564562, 1283777036), Double.valueOf(1.007004473d));
+        yynVar.c(new wnn(-1101564562, 1751829300), Double.valueOf(1.004136006d));
+        yynVar.c(new wnn(-1101564562, 319155211), Double.valueOf(1.007893663d));
+        yynVar.c(new wnn(-120126428, -437845770), Double.valueOf(1.006148295d));
+        yynVar.c(new wnn(-120126428, -1464309535), Double.valueOf(1.183673469d));
+        yynVar.c(new wnn(-120126428, -2006017237), Double.valueOf(1.06319011d));
+        yynVar.c(new wnn(-146900676, 1130137090), Double.valueOf(1.022969588d));
+        yynVar.c(new wnn(-146900676, -325800383), Double.valueOf(1.026141378d));
+        yynVar.c(new wnn(1251751484, 1865070805), Double.valueOf(1.035714286d));
+        yynVar.c(new wnn(-120126428, -2032957372), Double.valueOf(1.004832323d));
+        yynVar.c(new wnn(-1101564562, 1626575918), Double.valueOf(1.006011083d));
+        yynVar.c(new wnn(-120126428, 1669176699), Double.valueOf(1.00593563d));
+        yynVar.c(new wnn(-120126428, 1574744418), Double.valueOf(1.004982403d));
+        yynVar.c(new wnn(2050762809, 30904189), Double.valueOf(1.003595238d));
+        yynVar.c(new wnn(-1101564562, 1902234368), Double.valueOf(1.01369863d));
+        yynVar.c(new wnn(-146900676, -1089826933), Double.valueOf(1.010654947d));
+        yynVar.c(new wnn(198481203, -1950955251), Double.valueOf(1.297015156d));
+        yynVar.c(new wnn(812334026, -1950955251), Double.valueOf(1.009393374d));
+        yynVar.c(new wnn(91404363, -1950955251), Double.valueOf(1.005572755d));
+        yynVar.c(new wnn(1873170418, -1950955251), Double.valueOf(1.012012012d));
+        yynVar.c(new wnn(-1101564562, -1950955251), Double.valueOf(1.009457842d));
+        yynVar.c(new wnn(-402404565, -1950955251), Double.valueOf(1.007134312d));
+        yynVar.c(new wnn(-2103931100, -1950955251), Double.valueOf(1.008568204d));
+        yynVar.c(new wnn(-506261871, -1950955251), Double.valueOf(1.016011386d));
+        yynVar.c(new wnn(-1930745775, -1950955251), Double.valueOf(1.017582651d));
+        yynVar.c(new wnn(-543674259, -1950955251), Double.valueOf(1.022601326d));
+        yynVar.c(new wnn(198481203, -2115897617), Double.valueOf(1.114575734d));
+        yynVar.c(new wnn(812334026, -2115897617), Double.valueOf(1.005043599d));
+        yynVar.c(new wnn(91404363, -2115897617), Double.valueOf(1.001925237d));
+        yynVar.c(new wnn(-71769067, -2115897617), Double.valueOf(1.002360577d));
+        yynVar.c(new wnn(1873170418, -2115897617), Double.valueOf(1.015560166d));
+        yynVar.c(new wnn(-1653812578, -2115897617), Double.valueOf(1.008547009d));
+        yynVar.c(new wnn(-1101564562, -2115897617), Double.valueOf(1.006933271d));
+        yynVar.c(new wnn(-402404565, -2115897617), Double.valueOf(1.00271476d));
+        yynVar.c(new wnn(-2103931100, -2115897617), Double.valueOf(1.008293722d));
+        yynVar.c(new wnn(-506261871, -2115897617), Double.valueOf(1.011666731d));
+        yynVar.c(new wnn(-1930745775, -2115897617), Double.valueOf(1.050852098d));
+        yynVar.c(new wnn(-120126428, -2115897617), Double.valueOf(1.019728d));
+        yynVar.c(new wnn(-543674259, -2115897617), Double.valueOf(1.022049501d));
+        yynVar.c(new wnn(-1930745775, 1589496081), Double.valueOf(1.052724947d));
+        yynVar.c(new wnn(-1930745775, -1319924055), Double.valueOf(1.077916539d));
+        yynVar.c(new wnn(-146900676, 1703436502), Double.valueOf(1.116408361d));
+        yynVar.c(new wnn(-506261871, 167087040), Double.valueOf(1.228361485d));
+        yynVar.c(new wnn(-506261871, 1452907472), Double.valueOf(1.232656042d));
+        yynVar.c(new wnn(-1356408984, -623515738), Double.valueOf(1.004081633d));
+        yynVar.c(new wnn(1354605707, -78420418), Double.valueOf(1.277777778d));
+        yynVar.c(new wnn(-1930745775, 592242311), Double.valueOf(1.023911911d));
+        yynVar.c(new wnn(-1101564562, -125701645), Double.valueOf(1.007240569d));
+        yynVar.c(new wnn(-1101564562, -1525446976), Double.valueOf(1.00713145d));
+        yynVar.c(new wnn(-402404565, -443426200), Double.valueOf(1.000721129d));
+        yynVar.c(new wnn(-402404565, -1965960735), Double.valueOf(1.002258336d));
+        yynVar.c(new wnn(-1101564562, 743505418), Double.valueOf(1.001937946d));
+        yynVar.c(new wnn(-146900676, -459986650), Double.valueOf(1.00767653d));
+        yynVar.c(new wnn(-146900676, 769220587), Double.valueOf(1.000298789d));
+        yynVar.c(new wnn(-146900676, 1685123868), Double.valueOf(1.017513441d));
+        yynVar.c(new wnn(-506261871, 97124304), Double.valueOf(1.037920889d));
+        yynVar.c(new wnn(-543674259, 97124304), Double.valueOf(1.010185383d));
+        yynVar.c(new wnn(1177065635, 1639359660), Double.valueOf(1.000972355d));
+        yynVar.c(new wnn(-496065494, 1639359660), Double.valueOf(1.002906511d));
+        yynVar.c(new wnn(198481203, 1639359660), Double.valueOf(1.213617557d));
+        yynVar.c(new wnn(812334026, 1639359660), Double.valueOf(1.004967299d));
+        yynVar.c(new wnn(2025311224, 1639359660), Double.valueOf(1.006682807d));
+        yynVar.c(new wnn(91404363, 1639359660), Double.valueOf(1.011406253d));
+        yynVar.c(new wnn(-71769067, 1639359660), Double.valueOf(1.001588712d));
+        yynVar.c(new wnn(-351261198, 1639359660), Double.valueOf(1.119565217d));
+        yynVar.c(new wnn(1873170418, 1639359660), Double.valueOf(1.022432432d));
+        yynVar.c(new wnn(2050762809, 1639359660), Double.valueOf(1.001796423d));
+        yynVar.c(new wnn(-1653812578, 1639359660), Double.valueOf(1.00273224d));
+        yynVar.c(new wnn(1367246706, 1639359660), Double.valueOf(1.009615385d));
+        yynVar.c(new wnn(-1101564562, 1639359660), Double.valueOf(1.011501937d));
+        yynVar.c(new wnn(-402404565, 1639359660), Double.valueOf(1.006181272d));
+        yynVar.c(new wnn(-622930894, 1639359660), Double.valueOf(1.000166192d));
+        yynVar.c(new wnn(-2103931100, 1639359660), Double.valueOf(1.006962195d));
+        yynVar.c(new wnn(-506261871, 1639359660), Double.valueOf(1.015670102d));
+        yynVar.c(new wnn(-146900676, 1639359660), Double.valueOf(1.02222203d));
+        yynVar.c(new wnn(1252744364, 1639359660), Double.valueOf(1.001735644d));
+        yynVar.c(new wnn(-1930745775, 1639359660), Double.valueOf(1.165213161d));
+        yynVar.c(new wnn(-120126428, 1639359660), Double.valueOf(1.005532606d));
+        yynVar.c(new wnn(-543674259, 1639359660), Double.valueOf(1.021293074d));
+        yynVar.c(new wnn(1008680464, 1639359660), Double.valueOf(1.014814815d));
+        yynVar.c(new wnn(-146900676, -1792540640), Double.valueOf(1.004880366d));
+        yynVar.c(new wnn(1354605707, -751353193), Double.valueOf(1.764285714d));
+        yynVar.c(new wnn(-120126428, 958103757), Double.valueOf(1.001380476d));
+        yynVar.c(new wnn(-146900676, 1922253099), Double.valueOf(1.005171316d));
+        yynVar.c(new wnn(-146900676, -1595550986), Double.valueOf(1.012076805d));
+        yynVar.c(new wnn(-402404565, 138104709), Double.valueOf(1.028818587d));
+        yynVar.c(new wnn(-1930745775, 138104709), Double.valueOf(1.294809148d));
+        yynVar.c(new wnn(-146900676, -578528006), Double.valueOf(1.009704586d));
+        yynVar.c(new wnn(-146900676, -1738577843), Double.valueOf(1.010425592d));
+        yynVar.c(new wnn(-146900676, 791394223), Double.valueOf(1.008440227d));
+        yynVar.c(new wnn(-146900676, -1379995306), Double.valueOf(1.010318307d));
+        yynVar.c(new wnn(-1930745775, -1658003506), Double.valueOf(1.102536675d));
+        yynVar.c(new wnn(-146900676, 2100564339), Double.valueOf(1.009065104d));
+        yynVar.c(new wnn(-146900676, -459887055), Double.valueOf(1.007542239d));
+        yynVar.c(new wnn(1177065635, -672685361), Double.valueOf(1.000852619d));
+        yynVar.c(new wnn(198481203, 2114407887), Double.valueOf(1.576091933d));
+        yynVar.c(new wnn(198481203, 2038458269), Double.valueOf(1.4346522d));
+        yynVar.c(new wnn(198481203, 735145338), Double.valueOf(1.590807158d));
+        yynVar.c(new wnn(198481203, 853019416), Double.valueOf(1.585749349d));
+        yynVar.c(new wnn(198481203, -278148228), Double.valueOf(1.532167796d));
+        yynVar.c(new wnn(198481203, 102686578), Double.valueOf(1.436903369d));
+        yynVar.c(new wnn(198481203, 689212311), Double.valueOf(1.601856796d));
+        yynVar.c(new wnn(198481203, -2097122295), Double.valueOf(1.589694671d));
+        yynVar.c(new wnn(198481203, -87279483), Double.valueOf(1.670126544d));
+        yynVar.c(new wnn(198481203, -995096469), Double.valueOf(1.480783335d));
+        yynVar.c(new wnn(198481203, -640011212), Double.valueOf(1.654592303d));
+        yynVar.c(new wnn(198481203, 15430264), Double.valueOf(1.606535428d));
+        yynVar.c(new wnn(198481203, -2085565264), Double.valueOf(1.685204689d));
+        yynVar.c(new wnn(-351261198, 297970292), Double.valueOf(1.466666667d));
+        yynVar.c(new wnn(-351261198, 1435337875), Double.valueOf(1.517241379d));
+        yynVar.c(new wnn(-351261198, -393244722), Double.valueOf(1.419354839d));
+        yynVar.c(new wnn(-402404565, -1037605138), Double.valueOf(1.009002489d));
+        yynVar.c(new wnn(-402404565, -217451835), Double.valueOf(1.01267596d));
+        yynVar.c(new wnn(-402404565, 126787103), Double.valueOf(1.008668795d));
+        yynVar.c(new wnn(-402404565, -822776359), Double.valueOf(1.013232485d));
+        yynVar.c(new wnn(-506261871, 1554163503), Double.valueOf(1.052277178d));
+        yynVar.c(new wnn(-543674259, 1554163503), Double.valueOf(1.041351783d));
+        yynVar.c(new wnn(-506261871, 667862320), Double.valueOf(1.107256308d));
+        yynVar.c(new wnn(91404363, 1279043806), Double.valueOf(1.007233712d));
+        yynVar.c(new wnn(1008680464, 1929867438), Double.valueOf(1.008417508d));
+        yynVar.c(new wnn(-351261198, 1107222786), Double.valueOf(1.047029703d));
+        yynVar.c(new wnn(-351261198, -754082876), Double.valueOf(1.086651054d));
+        yynVar.c(new wnn(-1930745775, -503502317), Double.valueOf(1.232132565d));
+        yynVar.c(new wnn(-351261198, -343982532), Double.valueOf(1.904615385d));
+        yynVar.c(new wnn(-351261198, 472234449), Double.valueOf(1.55033557d));
+        yynVar.c(new wnn(-146900676, -1751113738), Double.valueOf(1.000880693d));
+        b = yynVar.a(true);
+    }
+
+    public wny(yqt yqtVar, Context context) {
+        this.c = ((Boolean) ((yqz) yqtVar).a).booleanValue();
+        this.d = context;
+    }
+
+    public final double a(String str) {
+        yzq yzqVar = a;
+        Context context = this.d;
+        if (yzqVar.contains(context.getPackageName())) {
+            return 1.0d;
+        }
+        return ((Double) b.getOrDefault(new wnn(context.getPackageName().hashCode(), str.hashCode()), Double.valueOf(1.04d))).doubleValue();
+    }
+}

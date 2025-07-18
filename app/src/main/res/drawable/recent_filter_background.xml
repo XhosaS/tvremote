@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <corners android:radius="@dimen/action_button_corner_radius"/>
+    <stroke
+        android:width="@dimen/filter_outer_stroke_width"
+        android:color="@color/recent_filter_background_outer_stroke_color_state_list"/>
+    <solid android:color="@color/recent_filter_background_color_state_list"/>
+</shape>

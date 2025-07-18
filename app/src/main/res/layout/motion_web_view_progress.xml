@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProgressBar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center"
+    android:id="@+id/progress"
+    android:visibility="gone"
+    android:layout_width="@dimen/web_view_progress_spinner_size"
+    android:layout_height="@dimen/web_view_progress_spinner_size"
+    android:indeterminate="true"
+    android:indeterminateTint="@color/web_view_progress_spinner_color"
+    android:indeterminateTintMode="src_in"
+    style="@android:style/Widget.Material.Light.ProgressBar.Large"/>

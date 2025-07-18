@@ -1,0 +1,9 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes2.dex */
+public final class acsp extends abwy implements abxa {
+    public acsp() {
+        super(acsq.a);
+    }
+}

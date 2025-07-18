@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="@dimen/disclaimer_notification_content_padding_start"
+    android:paddingEnd="@dimen/disclaimer_notification_content_padding_end">
+    <TextView
+        android:textAppearance="?attr/guidanceTitleStyle"
+        android:id="@+id/guidance_title"
+        android:layout_width="@dimen/disclaimer_notification_content_width"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/guideline"/>
+    <TextView
+        android:textAppearance="?attr/guidanceDescriptionStyle"
+        android:id="@+id/guidance_description"
+        android:layout_width="@dimen/disclaimer_notification_content_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/disclaimer_notification_content_description_margin_top"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/guidance_title"/>
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="horizontal"
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_begin="@dimen/disclaimer_notification_guideline_top"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

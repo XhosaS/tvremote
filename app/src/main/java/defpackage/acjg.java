@@ -1,0 +1,61 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes2.dex */
+public final class acjg extends abxd implements abyr {
+    public static final acjg a;
+    private static volatile abyy f;
+    public int b;
+    public long c;
+    public String d;
+    public abxs e;
+
+    static {
+        acjg acjgVar = new acjg();
+        a = acjgVar;
+        acjgVar.memoizedSerializedSize &= Integer.MAX_VALUE;
+        abxd.defaultInstanceMap.put(acjg.class, acjgVar);
+    }
+
+    private acjg() {
+        Object[] objArr = abzb.a;
+        this.d = "";
+        this.e = abzb.b;
+    }
+
+    @Override // defpackage.abxd
+    public final Object cM(int i, Object obj) {
+        abyy abwxVar;
+        int i2 = i - 1;
+        if (i2 == 0) {
+            return (byte) 1;
+        }
+        if (i2 == 2) {
+            return new abzc(a, "\u0001\u0003\u0000\u0001\u0007\t\u0003\u0000\u0001\u0000\u0007ဃ\u0004\bဈ\u0005\t\u001b", new Object[]{"b", "c", "d", "e", acjf.class});
+        }
+        if (i2 == 3) {
+            return new acjg();
+        }
+        if (i2 == 4) {
+            return new acjd();
+        }
+        if (i2 == 5) {
+            return a;
+        }
+        if (i2 != 6) {
+            throw null;
+        }
+        abyy abyyVar = f;
+        if (abyyVar != null) {
+            return abyyVar;
+        }
+        synchronized (acjg.class) {
+            abwxVar = f;
+            if (abwxVar == null) {
+                abwxVar = new abwx(a);
+                f = abwxVar;
+            }
+        }
+        return abwxVar;
+    }
+}

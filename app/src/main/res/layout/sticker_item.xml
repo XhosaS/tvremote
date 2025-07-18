@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.tv.widgets.card.textarea.ImageWithTextCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:focusable="false"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.google.android.libraries.tv.widgets.card.CardFocusableFrameLayout
+        android:id="@+id/card_focusable_parent"
+        android:focusable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/item_container"
+            android:background="@color/G900"
+            android:layout_width="@dimen/sticker_item_width"
+            android:layout_height="@dimen/sticker_item_height">
+            <TextView
+                android:textAppearance="@style/s4v3G200TextAppearance"
+                android:gravity="center_vertical"
+                android:id="@+id/text"
+                android:layout_width="@dimen/sticker_text_width"
+                android:layout_height="match_parent"
+                android:maxLines="5"
+                android:layout_marginStart="@dimen/sticker_padding"
+                app:layout_constraintStart_toStartOf="parent"/>
+            <com.google.android.apps.tvsearch.widget.imagedownload.ImageDownloadView
+                android:id="@+id/illustration"
+                android:layout_width="@dimen/sticker_illustration_width"
+                android:layout_height="match_parent"
+                android:contentDescription="@null"
+                app:layout_constraintEnd_toEndOf="parent"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.libraries.tv.widgets.card.CardFocusableFrameLayout>
+</com.google.android.libraries.tv.widgets.card.textarea.ImageWithTextCardView>

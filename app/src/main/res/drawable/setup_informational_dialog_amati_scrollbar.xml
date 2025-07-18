@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/info_dialog_scrollbar_width"
+    android:layout_height="@dimen/info_dialog_scrollbar_height"
+    android:shape="rectangle">
+    <solid android:color="@color/G700"/>
+    <corners android:radius="@dimen/info_dialog_scrollbar_radius"/>
+</shape>

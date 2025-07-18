@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:id="@+id/suggestion_scroll_fade"
+        android:background="@drawable/suggestion_scroll_fade"
+        android:visibility="gone"
+        android:layout_width="24dp"
+        android:layout_height="@dimen/suggestion_chip_unfocused_height"
+        android:layout_marginStart="@dimen/suggestion_chip_margin"
+        android:elevation="1dp"
+        app:layout_constraintBottom_toBottomOf="@+id/suggestions_scrollview"
+        app:layout_constraintStart_toEndOf="@+id/keyboard_icon"
+        app:layout_constraintTop_toTopOf="@+id/suggestions_scrollview"
+        app:layout_goneMarginStart="@dimen/amati_suggestions_offset_from_logo"/>
+</merge>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="@color/logo_header_immersive_row_background_color"/>
+    <corners android:radius="@dimen/immersive_search_srp_background_radius"/>
+    <stroke
+        android:state_focused="true"
+        android:width="2dp"
+        android:color="@color/logo_header_immersive_row_background_border_color"/>
+</shape>

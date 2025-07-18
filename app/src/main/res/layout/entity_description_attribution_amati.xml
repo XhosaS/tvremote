@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.tvsearch.results.motion.BorderedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textAppearance="@style/s3v3G700TextAppearance"
+    android:textColor="@color/G700"
+    android:ellipsize="end"
+    android:gravity="center_vertical"
+    android:background="@drawable/entity_description_attribution_background_amati"
+    android:visibility="gone"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/space_10dp"
+    android:maxWidth="@dimen/entity_detail_content_width"
+    android:maxLines="1"
+    android:translationX="@dimen/space_salmon_neg"
+    android:stateListAnimator="@animator/entity_description_attribution_state_list"/>

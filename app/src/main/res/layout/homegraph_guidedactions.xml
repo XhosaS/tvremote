@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/guidedactions_root"
+    android:clipChildren="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:transitionName="guidedactions_root"
+    android:transitionGroup="false">
+    <ImageView
+        android:id="@+id/info_icon"
+        android:layout_width="@dimen/setup_homegraph_actionslist_info_icon_length"
+        android:layout_height="@dimen/setup_homegraph_actionslist_info_icon_length"
+        android:layout_marginBottom="@dimen/setup_homegraph_actionslist_info_icon_margin_bottom"
+        android:src="@drawable/quantum_ic_info_outline_white_18"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guidedactions_list"/>
+    <TextView
+        android:id="@+id/add_or_remove_home_later"
+        android:layout_width="@dimen/setup_homegraph_action_width"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/setup_homegraph_actionslist_info_text_margin_bottom"
+        android:text="@string/homegraph_choose_home_add_or_remove_home_later"
+        android:layout_marginStart="@dimen/setup_homegraph_actionslist_info_text_margin_start"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/info_icon"
+        style="@style/KatnissSetup.HomeGraphGuidedActionInfo"/>
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/info_group"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="info_icon,add_or_remove_home_later"/>
+    <androidx.leanback.widget.VerticalGridView
+        android:id="@+id/guidedactions_list"
+        android:layout_width="@dimen/setup_homegraph_action_width"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/setup_homegraph_actionslist_margin_top"
+        android:importantForAccessibility="no"
+        android:paddingStart="@dimen/setup_homegraph_actionslist_padding_start"
+        android:paddingEnd="@dimen/setup_homegraph_actionslist_padding_end"
+        android:transitionGroup="true"
+        app:layout_constraintBottom_toTopOf="@+id/add_or_remove_home_later"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

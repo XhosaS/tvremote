@@ -1,0 +1,57 @@
+package defpackage;
+
+import java.util.List;
+
+/* compiled from: PG */
+/* loaded from: classes.dex */
+public final class bqd {
+    public final String a;
+    public final String b;
+    public final String c;
+    public final List d;
+    public final List e;
+
+    public bqd(String str, String str2, String str3, List list, List list2) {
+        this.a = str;
+        this.b = str2;
+        this.c = str3;
+        this.d = list;
+        this.e = list2;
+    }
+
+    public final boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (!(obj instanceof bqd)) {
+            return false;
+        }
+        bqd bqdVar = (bqd) obj;
+        if (agvy.c(this.a, bqdVar.a) && agvy.c(this.b, bqdVar.b) && agvy.c(this.c, bqdVar.c) && agvy.c(this.d, bqdVar.d)) {
+            return agvy.c(this.e, bqdVar.e);
+        }
+        return false;
+    }
+
+    public final int hashCode() {
+        return (((((((this.a.hashCode() * 31) + this.b.hashCode()) * 31) + this.c.hashCode()) * 31) + this.d.hashCode()) * 31) + this.e.hashCode();
+    }
+
+    public final String toString() {
+        StringBuilder sb = new StringBuilder("\n            |ForeignKey {\n            |   referenceTable = '");
+        sb.append(this.a);
+        sb.append("',\n            |   onDelete = '");
+        sb.append(this.b);
+        sb.append("',\n            |   onUpdate = '");
+        sb.append(this.c);
+        sb.append("',\n            |   columnNames = {");
+        bqi.d(agqq.v(this.d));
+        agpu agpuVar = agpu.a;
+        sb.append(agpuVar);
+        sb.append("\n            |   referenceColumnNames = {");
+        bqi.c(agqq.v(this.e));
+        sb.append(agpuVar);
+        sb.append("\n            |}\n        ");
+        return agyv.c(agyv.d(sb.toString()));
+    }
+}

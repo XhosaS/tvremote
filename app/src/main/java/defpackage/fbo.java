@@ -1,0 +1,206 @@
+package defpackage;
+
+/* JADX WARN: Failed to restore enum class, 'enum' modifier and super class removed */
+/* JADX WARN: Unknown enum class pattern. Please report as an issue! */
+/* compiled from: PG */
+/* loaded from: classes.dex */
+public final class fbo {
+    public static final fbo A;
+    public static final fbo B;
+    public static final fbo C;
+    public static final fbo D;
+    public static final fbo E;
+    public static final fbo F;
+    public static final fbo G;
+    public static final fbo H;
+    public static final fbo I;
+    public static final fbo J;
+    public static final fbo K;
+    public static final fbo L;
+    public static final fbo M;
+    public static final fbo N;
+    public static final fbo O;
+    public static final fbo P;
+    public static final fbo Q;
+    public static final fbo R;
+    public static final fbo S;
+    public static final fbo T;
+    public static final fbo U;
+    public static final fbo V;
+    public static final fbo W;
+    public static final fbo X;
+    public static final fbo Y;
+    public static final fbo Z;
+    public static final fbo a;
+    public static final fbo aa;
+    public static final fbo ab;
+    public static final fbo ac;
+    public static final fbo ad;
+    public static final fbo ae;
+    public static final fbo af;
+    private static final /* synthetic */ fbo[] ai;
+    public static final fbo b;
+    public static final fbo c;
+    public static final fbo d;
+    public static final fbo e;
+    public static final fbo f;
+    public static final fbo g;
+    public static final fbo h;
+    public static final fbo i;
+    public static final fbo j;
+    public static final fbo k;
+    public static final fbo l;
+    public static final fbo m;
+    public static final fbo n;
+    public static final fbo o;
+    public static final fbo p;
+    public static final fbo q;
+    public static final fbo r;
+    public static final fbo s;
+    public static final fbo t;
+    public static final fbo u;
+    public static final fbo v;
+    public static final fbo w;
+    public static final fbo x;
+    public static final fbo y;
+    public static final fbo z;
+    public final int ag;
+    public final qpi ah;
+
+    static {
+        fbo fboVar = new fbo("ACCOUNT_SWITCH", 0, "account.SWITCH", 1);
+        a = fboVar;
+        fbo fboVar2 = new fbo("ALARM_CREATE_ALARM", 1, "alarm.CREATE_ALARM", 1);
+        b = fboVar2;
+        fbo fboVar3 = new fbo("ALARM_REMOVE_ALARM", 2, "alarm.REMOVE_ALARM", 1);
+        c = fboVar3;
+        fbo fboVar4 = new fbo("ALARM_UPDATE_ALARM", 3, "alarm.UPDATE_ALARM", 1);
+        d = fboVar4;
+        fbo fboVar5 = new fbo("CHIRP_ACTION_SCRIPT_EXECUTE", 4, "chirp_action_script.EXECUTE", 1);
+        e = fboVar5;
+        fbo fboVar6 = new fbo("CLIENT_RECONNECT", 5, "client.RECONNECT", 1);
+        f = fboVar6;
+        fbo fboVar7 = new fbo("CORE_EXECUTE_RPC", 6, "core.EXECUTE_RPC", 1);
+        g = fboVar7;
+        fbo fboVar8 = new fbo("CREDENTIAL_UPDATE", 7, "credential.UPDATE", 1);
+        h = fboVar8;
+        fbo fboVar9 = new fbo("DEVICE_LINK_TOKEN", 8, "device.LINK_TOKEN", 1);
+        i = fboVar9;
+        fbo fboVar10 = new fbo("DEVICE_MODIFY_SETTING", 9, "device.MODIFY_SETTING", 2);
+        j = fboVar10;
+        fbo fboVar11 = new fbo("DEVICE_POWER", 10, "device.POWER", 1);
+        k = fboVar11;
+        fbo fboVar12 = new fbo("DEVICE_SCREEN_NAVIGATION", 11, "device.SCREEN_NAVIGATION", 1);
+        l = fboVar12;
+        fbo fboVar13 = new fbo("DEVICE_STOP", 12, "device.STOP", 1);
+        m = fboVar13;
+        fbo fboVar14 = new fbo("DEVICE_SWITCH_INPUT", 13, "device.SWITCH_INPUT", 0);
+        n = fboVar14;
+        fbo fboVar15 = new fbo("DEVICE_TOGGLE", 14, "device.TOGGLE", 0);
+        o = fboVar15;
+        fbo fboVar16 = new fbo("DEVICE_UPDATE_VOLUME", 15, "device.UPDATE_VOLUME", 2);
+        p = fboVar16;
+        fbo fboVar17 = new fbo("EXECUTION_WAIT", 16, "execution.WAIT", 1);
+        q = fboVar17;
+        fbo fboVar18 = new fbo("FEEDBACK_RECORD_FEEDBACK", 17, "feedback.RECORD_FEEDBACK", 0);
+        r = fboVar18;
+        fbo fboVar19 = new fbo("FEEDBACK_SHOW_ASSISTANT_SURVEY", 18, "feedback.SHOW_ASSISTANT_SURVEY", 2);
+        s = fboVar19;
+        fbo fboVar20 = new fbo("FEEDBACK_UPLOAD_CRASH_REPORT", 19, "feedback.UPLOAD_CRASH_REPORT", 1);
+        t = fboVar20;
+        fbo fboVar21 = new fbo("KIDS_SUPERVISION_PARENTAL_AUTHORIZATION", 20, "kids_supervision.PARENTAL_AUTHORIZATION", 1);
+        u = fboVar21;
+        fbo fboVar22 = new fbo("MEDIA_CAPTION_CONTROL", 21, "media.CAPTION_CONTROL", 1);
+        v = fboVar22;
+        fbo fboVar23 = new fbo("MEDIA_NEXT", 22, "media.NEXT", 1);
+        w = fboVar23;
+        fbo fboVar24 = new fbo("MEDIA_ON_DEVICE_LOOKUP", 23, "media.ON_DEVICE_LOOKUP", 13);
+        x = fboVar24;
+        fbo fboVar25 = new fbo("MEDIA_PAUSE", 24, "media.PAUSE", 1);
+        y = fboVar25;
+        fbo fboVar26 = new fbo("MEDIA_PLAY", 25, "media.PLAY", 1);
+        z = fboVar26;
+        fbo fboVar27 = new fbo("MEDIA_PLAY_MEDIA", 26, "media.PLAY_MEDIA", 2);
+        A = fboVar27;
+        fbo fboVar28 = new fbo("MEDIA_PREVIOUS", 27, "media.PREVIOUS", 1);
+        B = fboVar28;
+        fbo fboVar29 = new fbo("MEDIA_RESUME", 28, "media.RESUME", 1);
+        C = fboVar29;
+        fbo fboVar30 = new fbo("MEDIA_SEEK_RELATIVE", 29, "media.SEEK_RELATIVE", 1);
+        D = fboVar30;
+        fbo fboVar31 = new fbo("MEDIA_SEEK_TO_POSITION", 30, "media.SEEK_TO_POSITION", 1);
+        E = fboVar31;
+        fbo fboVar32 = new fbo("MEDIA_SET_STICKY_APP", 31, "media.SET_STICKY_APP", 1);
+        F = fboVar32;
+        fbo fboVar33 = new fbo("MEDIA_STOP", 32, "media.STOP", 1);
+        G = fboVar33;
+        fbo fboVar34 = new fbo("MIC_UPDATE", 33, "mic.UPDATE", 1);
+        H = fboVar34;
+        fbo fboVar35 = new fbo("PROVIDER_LOOKUP", 34, "provider.LOOKUP", 1);
+        I = fboVar35;
+        fbo fboVar36 = new fbo("PROVIDER_OPEN", 35, "provider.OPEN", 1);
+        J = fboVar36;
+        fbo fboVar37 = new fbo("PROVIDER_VERIFY", 36, "provider.VERIFY", 1);
+        K = fboVar37;
+        fbo fboVar38 = new fbo("SDK_ACTIONS_EXECUTE", 37, "sdk_actions.EXECUTE", 1);
+        L = fboVar38;
+        fbo fboVar39 = new fbo("SDK_ACTIONS_REQUEST_JSON", 38, "requestJson", 0);
+        M = fboVar39;
+        fbo fboVar40 = new fbo("TIMER_CREATE_TIMER", 39, "timer.CREATE_TIMER", 1);
+        N = fboVar40;
+        fbo fboVar41 = new fbo("TIMER_REMOVE_TIMER", 40, "timer.REMOVE_TIMER", 1);
+        O = fboVar41;
+        fbo fboVar42 = new fbo("TIMER_UPDATE_TIMER", 41, "timer.UPDATE_TIMER", 1);
+        P = fboVar42;
+        fbo fboVar43 = new fbo("TTS_OUTPUT", 42, "tts.OUTPUT", 1);
+        Q = fboVar43;
+        fbo fboVar44 = new fbo("TTS_STOP", 43, "tts.STOP", 1);
+        R = fboVar44;
+        fbo fboVar45 = new fbo("UI_CLIENT_RENDERING", 44, "ui.CLIENT_RENDERING", 1);
+        S = fboVar45;
+        fbo fboVar46 = new fbo("UI_SHOW_DISCLAIMERS", 45, "ui.SHOW_DISCLAIMERS", 1);
+        T = fboVar46;
+        fbo fboVar47 = new fbo("UI_SHOW_FILTERS", 46, "ui.SHOW_FILTERS", 1);
+        U = fboVar47;
+        fbo fboVar48 = new fbo("UI_SHOW_IMAGES", 47, "ui.SHOW_IMAGES", 1);
+        V = fboVar48;
+        fbo fboVar49 = new fbo("UI_SHOW_MEDIA_BROWSE", 48, "ui.SHOW_MEDIA_BROWSE", 3);
+        W = fboVar49;
+        fbo fboVar50 = new fbo("UI_SHOW_NOTIFICATION", 49, "ui.SHOW_NOTIFICATION", 2);
+        X = fboVar50;
+        fbo fboVar51 = new fbo("UI_SHOW_RENDERED_CARD", 50, "ui.SHOW_RENDERED_CARD", 1);
+        Y = fboVar51;
+        fbo fboVar52 = new fbo("UI_SHOW_SHELVES", 51, "ui.SHOW_SHELVES", 1);
+        Z = fboVar52;
+        fbo fboVar53 = new fbo("UI_SHOW_STATUS", 52, "ui.SHOW_STATUS", 1);
+        aa = fboVar53;
+        fbo fboVar54 = new fbo("UI_SHOW_SUGGESTION", 53, "ui.SHOW_SUGGESTIONS", 2);
+        ab = fboVar54;
+        fbo fboVar55 = new fbo("UI_SHOW_TEXT", 54, "ui.SHOW_TEXT", 1);
+        ac = fboVar55;
+        fbo fboVar56 = new fbo("UI_SHOW_TOAST", 55, "ui.SHOW_TOAST", 1);
+        ad = fboVar56;
+        fbo fboVar57 = new fbo("UI_THIRD_PARTY_EXIT", 56, "ui.THIRD_PARTY_EXIT_INDICATOR", 1);
+        ae = fboVar57;
+        fbo fboVar58 = new fbo("UI_THIRD_PARTY_START", 57, "ui.THIRD_PARTY_START_INDICATOR", 1);
+        af = fboVar58;
+        fbo[] fboVarArr = {fboVar, fboVar2, fboVar3, fboVar4, fboVar5, fboVar6, fboVar7, fboVar8, fboVar9, fboVar10, fboVar11, fboVar12, fboVar13, fboVar14, fboVar15, fboVar16, fboVar17, fboVar18, fboVar19, fboVar20, fboVar21, fboVar22, fboVar23, fboVar24, fboVar25, fboVar26, fboVar27, fboVar28, fboVar29, fboVar30, fboVar31, fboVar32, fboVar33, fboVar34, fboVar35, fboVar36, fboVar37, fboVar38, fboVar39, fboVar40, fboVar41, fboVar42, fboVar43, fboVar44, fboVar45, fboVar46, fboVar47, fboVar48, fboVar49, fboVar50, fboVar51, fboVar52, fboVar53, fboVar54, fboVar55, fboVar56, fboVar57, fboVar58};
+        ai = fboVarArr;
+        agtw.a(fboVarArr);
+    }
+
+    private fbo(String str, int i2, String str2, int i3) {
+        this.ag = i3;
+        this.ah = new qpi(str2);
+    }
+
+    public static fbo[] values() {
+        return (fbo[]) ai.clone();
+    }
+
+    public final String a() {
+        String str = this.ah.a;
+        str.getClass();
+        return str;
+    }
+}

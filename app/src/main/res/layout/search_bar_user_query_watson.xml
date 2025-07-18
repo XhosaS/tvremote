@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <HorizontalScrollView
+        android:id="@+id/user_query_container"
+        android:visibility="gone"
+        android:scrollbars="none"
+        android:fadingEdgeLength="@dimen/long_transcription_fading_edge_length"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:requiresFadingEdge="horizontal"
+        android:layout_marginStart="@dimen/search_bar_text_margin_from_parent_start"
+        android:layout_marginEnd="@dimen/search_bar_user_query_margin_end"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <com.google.android.apps.tvsearch.searchbar.widget.StreamingTextView
+            android:id="@+id/user_query"
+            android:visibility="visible"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="0dp"
+            style="@style/SearchBarTranscribingTextStyle"/>
+    </HorizontalScrollView>
+</merge>

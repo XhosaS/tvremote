@@ -1,0 +1,56 @@
+package defpackage;
+
+import com.google.android.gms.dynamite.descriptors.com.google.android.gms.measurement.dynamite.ModuleDescriptor;
+
+/* compiled from: PG */
+/* loaded from: classes2.dex */
+public enum rpo implements rqp {
+    FLOW_TYPE_UNKNOWN(0),
+    NONE(1),
+    VOICE_SEARCH(101),
+    TEXT_SEARCH(102),
+    CLICKED_SUGGESTION_SEARCH(103),
+    SEARCH_BAR_STATE_UPDATE(104),
+    PERFORMER_DEVICE_LINK_TOKEN(116),
+    PERFORMER_DEVICE_POWER(118),
+    PERFORMER_DEVICE_VOLUME(120),
+    PERFORMER_MEDIA(121),
+    PERFORMER_OPEN(122),
+    PERFORMER_PLAY_MEDIA(123),
+    PERFORMER_UPLOAD_CRASH_REPORT(126),
+    VIEW_ADD_CARD(127),
+    VIEW_ADD_SPOCK(128),
+    VIEW_ADD_TEXT(131),
+    SEARCH_TAB_OPEN(132),
+    WEBVIEW_CONTENT_LOADING(133),
+    HOMEGRAPH_SETUP(134),
+    SUGGESTED_QUERIES(136),
+    FETCH_ZEROSTATE_SUGGESTIONS_FROM_SERVER(137),
+    DRAW_XUIKIT_CARD(138),
+    IN_APP_INTERACTION_EXECUTION(139),
+    OPERATOR_API(140),
+    APP_COLD_START(141),
+    APP_WARM_START(142),
+    VOICE_PLATE_COLD_START(143),
+    VOICE_PLATE_WARM_START(144),
+    PROCESS_SHELVES_RESPONSE(145),
+    SMART_HOME_REQUEST(146),
+    OPA_TV_CLIENT_INTERACTION(147),
+    ASSISTANT_TV_MEDIA_SESSION(148),
+    INIT_SYSTEM(149),
+    STATE_INIT(150),
+    ASSISTANT_TV_INTERACTION_FLOW(ModuleDescriptor.MODULE_VERSION),
+    ASSISTANT_TV_INTERACTION_EXECUTION_FLOW(152),
+    ASSISTANT_TV_SHOW_TEXT_EXECUTION_FLOW(153);
+
+    private final int M;
+
+    rpo(int i) {
+        this.M = i;
+    }
+
+    @Override // defpackage.rqp
+    public final int a() {
+        return this.M;
+    }
+}

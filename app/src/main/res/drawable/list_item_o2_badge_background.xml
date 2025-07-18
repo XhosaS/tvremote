@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <corners android:radius="@dimen/badge_o2_bubble_corner_radius"/>
+    <padding
+        android:left="@dimen/badge_o2_bubble_width_padding"
+        android:top="@dimen/badge_o2_bubble_height_padding"
+        android:right="@dimen/badge_o2_bubble_width_padding"
+        android:bottom="@dimen/badge_o2_bubble_height_padding"/>
+    <solid android:color="@color/G950p80"/>
+</shape>

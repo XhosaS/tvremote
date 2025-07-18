@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.leanback.widget.NonOverlappingLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:lb="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/channel_header_height"
+        android:layout_marginBottom="@dimen/channel_header_margin_bottom"
+        android:layout_marginStart="@dimen/katniss_browse_padding_start"
+        android:layout_marginEnd="@dimen/katniss_browse_padding_end"
+        layout="@layout/amati_search_row_header"/>
+    <androidx.leanback.widget.HorizontalGridView
+        android:id="@+id/row_content"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        lb:numberOfRows="1"
+        style="@style/ChannelHorizontalGridViewStyle"/>
+</androidx.leanback.widget.NonOverlappingLinearLayout>

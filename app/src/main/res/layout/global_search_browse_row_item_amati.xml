@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.tv.widgets.card.textarea.ImageWithTextCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:focusable="false"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.google.android.libraries.tv.widgets.card.CardFocusableFrameLayout
+        android:id="@+id/card_focusable_parent"
+        android:focusable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/image_container"
+            android:layout_width="@dimen/amati_carousel_item_image_constant_width"
+            android:layout_height="@dimen/amati_carousel_item_image_constant_height">
+            <com.google.android.apps.tvsearch.widget.imagedownload.ImageDownloadView
+                android:id="@+id/row_item_image"
+                android:layout_width="@dimen/amati_carousel_item_image_constant_width"
+                android:layout_height="@dimen/amati_carousel_item_image_constant_height"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.libraries.tv.widgets.card.CardFocusableFrameLayout>
+</com.google.android.libraries.tv.widgets.card.textarea.ImageWithTextCardView>

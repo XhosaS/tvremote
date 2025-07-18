@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phenotype-registrations>
+    <phenotype-registration>
+        <configuration-package>com.google.android.apps.chromecast.shared
+        </configuration-package>
+        <log-sources>
+            <log-source>CHROMECAST_ANDROID_APP_PRIMES
+            </log-source>
+            <log-source>CHROMECAST_APP_LOG
+            </log-source>
+            <log-source>GHA_WEAR_ANDROID_LOG
+            </log-source>
+            <log-source>GNA_WEAR_ANDROID_PRIMES
+            </log-source>
+            <log-source>TV_SMART_HOME
+            </log-source>
+            <log-source>TV_SMART_HOME_ANDROID_PRIMES
+            </log-source>
+            <log-source>TV_SMART_HOME_GOOGLE_LIBRARY
+            </log-source>
+        </log-sources>
+        <auto-subpackage>true
+        </auto-subpackage>
+        <params>CAQQAg==
+        </params>
+    </phenotype-registration>
+</phenotype-registrations>

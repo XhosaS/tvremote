@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.AppCompatButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textAppearance="@style/b3TextAppearance"
+    android:textColor="@color/disclaimer_text_color"
+    android:gravity="center_vertical"
+    android:id="@+id/disclaimer_item"
+    android:background="@drawable/disclaimer_bg"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/disclaimer_chip_height"
+    android:includeFontPadding="false"
+    android:drawablePadding="@dimen/disclaimer_chip_spacing_after_drawable"
+    android:drawableStart="@drawable/ic_info"
+    android:paddingStart="@dimen/disclaimer_chip_spacing_at_start"
+    android:paddingEnd="@dimen/disclaimer_chip_spacing_at_end"
+    android:drawableTint="@color/disclaimer_icon_color"/>

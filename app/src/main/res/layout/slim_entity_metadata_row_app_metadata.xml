@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.flexbox.FlexboxLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:alignContent="flex_start"
+    app:alignItems="flex_start"
+    app:flexWrap="wrap"
+    app:justifyContent="flex_start"
+    app:showDividerVertical="middle">
+    <TextView
+        android:id="@+id/app_subname"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/EntityDetailMetaDataTextStyle"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/gp_required_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:id="@+id/gp_required_icon"
+            android:layout_width="@dimen/s2_text_size"
+            android:layout_height="@dimen/s2_text_size"
+            android:src="@drawable/ic_gamepad_required"
+            android:layout_marginEnd="@dimen/s2_text_blank"/>
+        <TextView
+            android:id="@+id/gp_required_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_metadata_gamepad_required"
+            style="@style/EntityDetailMetaDataTextStyle"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/in_app_purchase_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_metadata_in_app_purchases"
+        style="@style/EntityDetailMetaDataTextStyle"/>
+</com.google.android.flexbox.FlexboxLayout>

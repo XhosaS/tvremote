@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="above_selected_channel_dimming_factor">20%</fraction>
+    <fraction name="below_selected_channel_dimming_factor">60%</fraction>
+    <fraction name="channel_header_select_scale">100%</fraction>
+    <fraction name="channel_header_unselect_scale">57%</fraction>
+    <fraction name="entity_image_amati_focused_scale">1.1</fraction>
+    <fraction name="entity_image_amati_pressed_scale">1.05</fraction>
+    <fraction name="entity_image_border_amati_focused_scale">1.132</fraction>
+    <fraction name="lb_browse_header_unselect_alpha">50%</fraction>
+    <fraction name="lb_focus_zoom_factor_medium">113.9984%</fraction>
+    <fraction name="lb_search_bar_speech_orb_max_level_zoom">143.9972%</fraction>
+    <fraction name="lb_search_orb_focused_zoom">119.9982%</fraction>
+    <fraction name="lb_view_active_level">0%</fraction>
+    <fraction name="lb_view_dimmed_level">60%</fraction>
+    <fraction name="selected_channel_dimming_factor">100%</fraction>
+    <fraction name="spotlight_shadow_alpha_at_max_area">5%</fraction>
+    <fraction name="spotlight_shadow_alpha_at_min_area">15%</fraction>
+    <fraction name="spotlight_shadow_alpha_max">35%</fraction>
+    <fraction name="spotlight_shadow_alpha_min">15%</fraction>
+</resources>

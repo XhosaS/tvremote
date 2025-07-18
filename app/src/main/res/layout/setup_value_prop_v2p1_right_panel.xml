@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/guidedactions_root"
+    android:paddingTop="94dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="0dp"
+    android:paddingEnd="112dp"
+    android:transitionName="guidedactions_root"
+    android:transitionGroup="false">
+    <ImageView
+        android:id="@+id/guidance_header"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:src="@drawable/logo_lockup_assistant_icon_horizontal_color_light"
+        android:scaleType="centerCrop"
+        android:contentDescription="@null"
+        android:importantForAccessibility="no"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="32sp"
+        android:gravity="center"
+        android:id="@+id/guidance_subtitle"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/assistant_entry_actions_subtitle"
+        android:maxLines="3"
+        android:importantForAccessibility="yes"
+        app:autoSizeMaxTextSize="32sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guidance_header"/>
+    <androidx.leanback.widget.VerticalGridView
+        android:id="@+id/guidedactions_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:transitionGroup="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guidance_subtitle"
+        style="?attr/guidedActionsListStyle"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

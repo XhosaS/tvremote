@@ -1,0 +1,11 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes2.dex */
+public final class aarf {
+    public final aare a;
+
+    public aarf(aare aareVar) {
+        this.a = aareVar;
+    }
+}
