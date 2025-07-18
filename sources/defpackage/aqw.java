@@ -1,0 +1,59 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes.dex */
+public final class aqw extends clt implements cna {
+    public static final aqw a;
+    private static volatile cng f;
+    public int b;
+    public cnv d;
+    public int e;
+    private byte g = 2;
+    public cme c = cnj.a;
+
+    static {
+        aqw aqwVar = new aqw();
+        a = aqwVar;
+        clt.y(aqw.class, aqwVar);
+    }
+
+    private aqw() {
+    }
+
+    @Override // defpackage.clt
+    public final Object a(int i, Object obj) {
+        cng clpVar;
+        int i2 = i - 1;
+        if (i2 == 0) {
+            return Byte.valueOf(this.g);
+        }
+        if (i2 == 2) {
+            return new cnk(a, "\u0004\u0003\u0000\u0001\u0001\u0003\u0003\u0000\u0001\u0001\u0001Л\u0002ဉ\u0000\u0003᠌\u0001", new Object[]{"b", "c", cyq.class, "d", "e", awv.b});
+        }
+        if (i2 == 3) {
+            return new aqw();
+        }
+        if (i2 == 4) {
+            return new clo(a);
+        }
+        if (i2 == 5) {
+            return a;
+        }
+        if (i2 != 6) {
+            this.g = obj == null ? (byte) 0 : (byte) 1;
+            return null;
+        }
+        cng cngVar = f;
+        if (cngVar != null) {
+            return cngVar;
+        }
+        synchronized (aqw.class) {
+            clpVar = f;
+            if (clpVar == null) {
+                clpVar = new clp(a);
+                f = clpVar;
+            }
+        }
+        return clpVar;
+    }
+}

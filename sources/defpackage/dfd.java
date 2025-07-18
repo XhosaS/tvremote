@@ -1,0 +1,93 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes.dex */
+public interface dfd {
+    public static final czv a;
+    public static final czv b;
+    public static final czv c;
+    public static final czv d;
+    public static final czv e;
+    public static final czv f;
+    public static final czv g;
+    public static final czv h;
+    public static final czv i;
+    public static final czv j;
+    public static final czv k;
+    public static final czv l;
+    public static final czv m;
+    public static final czv n;
+
+    static {
+        czv czvVar = new czv("2.16.840.1.113730.1");
+        a = czvVar;
+        b = czvVar.f("1");
+        czvVar.f("2");
+        c = czvVar.f("3");
+        czvVar.f("4");
+        czvVar.f("7");
+        czvVar.f("8");
+        czvVar.f("12");
+        czvVar.f("13");
+        czv czvVar2 = new czv("2.16.840.1.113733.1");
+        d = czvVar2;
+        e = czvVar2.f("6.3");
+        czvVar2.f("6.9");
+        czvVar2.f("6.11");
+        czvVar2.f("6.13");
+        czvVar2.f("6.15");
+        czvVar2.f("8.1");
+        czv czvVar3 = new czv("2.16.840.1.113719");
+        f = czvVar3;
+        czvVar3.f("1.9.4.1");
+        czv czvVar4 = new czv("1.2.840.113533.7");
+        g = czvVar4;
+        czvVar4.f("65.0");
+        czvVar4.f("66.10");
+        new czv("1.3.6.1.5.5.8.1.2");
+        new czv("1.3.6.1.4.1.188.7.1.1.2");
+        czv czvVar5 = new czv("1.3.6.1.4.1.3029");
+        h = czvVar5;
+        czv czvVarF = czvVar5.f("1");
+        i = czvVarF;
+        czvVarF.f("1.1");
+        czvVarF.f("1.2");
+        czvVarF.f("1.3");
+        czvVarF.f("1.4");
+        czv czvVar6 = new czv("1.3.6.1.4.1.1722.12.2");
+        j = czvVar6;
+        czvVar6.f("1.5");
+        czvVar6.f("1.8");
+        czvVar6.f("1.12");
+        czvVar6.f("1.16");
+        czvVar6.f("2.4");
+        czvVar6.f("2.5");
+        czvVar6.f("2.7");
+        czvVar6.f("2.8");
+        czv czvVarF2 = czvVar6.f("3");
+        k = czvVarF2;
+        l = czvVarF2.f("8");
+        new czv("1.3.6.1.4.1.11591.4.11");
+        m = new czv("1.3.6.1.4.1.18227.2.1");
+        new czv("2.16.840.1.114027.80.4.1");
+        new czv("2.16.840.1.113894.746875.1.1");
+        czv czvVar7 = new czv("2.16.840.1.114027.80.8.1");
+        n = czvVar7;
+        czvVar7.f("1");
+        czvVar7.f("2");
+        czvVar7.f("3");
+        czvVar7.f("4");
+        czvVar7.f("5");
+        czvVar7.f("6");
+        czvVar7.f("7");
+        czvVar7.f("8");
+        czvVar7.f("9");
+        czvVar7.f("10");
+        czvVar7.f("11");
+        czvVar7.f("12");
+        czvVar7.f("13");
+        czvVar7.f("14");
+        czvVar7.f("15");
+        czvVar7.f("16");
+    }
+}

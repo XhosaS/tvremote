@@ -1,0 +1,20 @@
+package defpackage;
+
+import android.view.View;
+import android.view.Window;
+
+/* compiled from: PG */
+/* loaded from: classes.dex */
+final class kn extends ii {
+    @Override // defpackage.ii
+    public void q(kx kxVar, kx kxVar2, Window window, View view, boolean z, boolean z2) {
+        kxVar.getClass();
+        kxVar2.getClass();
+        window.getClass();
+        view.getClass();
+        qn.c(window);
+        window.setStatusBarColor(kxVar.a(z));
+        window.setNavigationBarColor(kxVar2.b);
+        new asv(window).N(!z);
+    }
+}

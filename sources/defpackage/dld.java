@@ -1,0 +1,178 @@
+package defpackage;
+
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
+
+/* compiled from: PG */
+/* loaded from: classes.dex */
+public final class dld {
+    private static final Map a;
+
+    static {
+        HashMap map = new HashMap();
+        a = map;
+        map.put(dgr.i, new dku());
+        map.put(dgr.j, new dku());
+        map.put(dgr.d, new dky());
+        map.put(dgr.e, new dkq());
+        map.put(dgr.f, new dlb());
+        map.put(dgr.g, new dlc());
+        map.put(dfb.a, new dlb());
+        map.put(dfb.b, new dlc());
+        map.put(dci.C, new dko());
+        map.put(dgr.c, new dkp());
+        map.put(dcd.n, new dkz());
+        map.put(dcd.o, new dkz());
+        map.put(dcd.p, new dkz());
+        map.put(dcd.q, new dkz());
+        map.put(dcd.r, new dkz());
+        map.put(dcd.s, new dkz());
+        map.put(dcd.t, new dkz());
+        map.put(dcd.u, new dkz());
+        map.put(dcd.v, new dkz());
+        map.put(dcd.w, new dkz());
+        map.put(dcd.x, new dkz());
+        map.put(dcd.y, new dkz());
+        map.put(dcd.z, new dkz());
+        map.put(dcd.A, new dkz());
+        map.put(dcd.B, new dkz());
+        map.put(dcd.C, new dkz());
+        map.put(dcd.D, new dkz());
+        map.put(dcd.E, new dkz());
+        map.put(dcd.F, new dkz());
+        map.put(dcd.G, new dkz());
+        map.put(dcd.H, new dkz());
+        map.put(dcd.I, new dkz());
+        map.put(dcd.J, new dkz());
+        map.put(dcd.K, new dkz());
+        map.put(dcd.L, new dkz());
+        map.put(dcd.M, new dkz());
+        map.put(dcd.N, new dkz());
+        map.put(dcd.O, new dkz());
+        map.put(dcd.P, new dkz());
+        map.put(dcd.Q, new dkz());
+        map.put(dcd.R, new dkz());
+        map.put(dcd.S, new dkz());
+        map.put(dcd.T, new dkz());
+        map.put(dcd.U, new dkz());
+        map.put(dcd.V, new dkz());
+        map.put(dcd.W, new dkz());
+        map.put(dcd.X, new dkz());
+        map.put(dcd.aa, new dkz());
+        map.put(dcd.Z, new dkz());
+        map.put(dcd.ag, new dkz());
+        map.put(dcd.af, new dkz());
+        map.put(dcd.ac, new dkz());
+        map.put(dcd.ab, new dkz());
+        map.put(dcd.ai, new dkz());
+        map.put(dcd.ah, new dkz());
+        map.put(dcd.ae, new dkz());
+        map.put(dcd.ad, new dkz());
+        map.put(dcd.ak, new dkz());
+        map.put(dcd.aj, new dkz());
+        map.put(new czv("1.3.9999.6.4.10"), new dkz());
+        map.put(dcd.aU, new dki());
+        map.put(dcd.aV, new dki());
+        map.put(dcd.aW, new dki());
+        map.put(dcd.aX, new dki());
+        map.put(dcd.aY, new dki());
+        map.put(dcd.aZ, new dki());
+        map.put(dcd.ba, new dki());
+        map.put(dcd.bb, new dki());
+        map.put(dcd.bc, new dki());
+        map.put(dcd.bd, new dki());
+        map.put(dcd.bf, new dkl());
+        map.put(dcd.bg, new dkl());
+        map.put(dcd.bh, new dkl());
+        map.put(dcd.bi, new dkl());
+        map.put(dcd.bj, new dkl());
+        map.put(dcd.bk, new dkl());
+        map.put(dcd.bm, new dkw());
+        map.put(dcd.bn, new dkw());
+        map.put(dcd.bo, new dkw());
+        map.put(dcd.bp, new dkw());
+        map.put(dcd.bq, new dkw());
+        map.put(dcd.br, new dkw());
+        map.put(dcd.bs, new dkw());
+        map.put(dcd.bt, new dkw());
+        map.put(dcd.bu, new dkw());
+        map.put(dcd.bv, new dkw());
+        map.put(dcd.bw, new dkw());
+        map.put(dcd.bx, new dkw());
+        map.put(dcd.by, new dkw());
+        map.put(dcd.bz, new dkw());
+        map.put(dcd.bA, new dkw());
+        map.put(dcd.bB, new dkw());
+        map.put(dcd.bC, new dkw());
+        map.put(dcd.bD, new dkw());
+        map.put(dcd.an, new dkt());
+        map.put(dcd.ao, new dkt());
+        map.put(dcd.ap, new dkt());
+        map.put(dcd.aq, new dkt());
+        map.put(dcd.ar, new dkt());
+        map.put(dcd.as, new dkt());
+        map.put(dcd.at, new dkt());
+        map.put(dcd.au, new dkt());
+        map.put(dcd.av, new dkt());
+        map.put(dcd.aw, new dkt());
+        map.put(dcd.ax, new dkt());
+        map.put(dcd.ay, new dkt());
+        map.put(dcd.bG, new dks());
+        map.put(dcd.bH, new dks());
+        map.put(dcd.bI, new dks());
+        map.put(dcd.bK, new dks());
+        map.put(dcd.bJ, new dks());
+        map.put(dcd.bL, new dks());
+        map.put(dcd.aA, new dkk());
+        map.put(dcd.aB, new dkk());
+        map.put(dcd.bN, new dkn());
+        map.put(dcd.bO, new dkn());
+        map.put(dcd.bP, new dkn());
+        map.put(dcd.bQ, new dkn());
+        map.put(dcd.bR, new dkn());
+        map.put(dcd.bS, new dkn());
+        map.put(dcd.bV, new dkr());
+        map.put(dcd.bW, new dkr());
+        map.put(dcd.bX, new dkr());
+        map.put(dcd.bY, new dkr());
+        map.put(dcd.bZ, new dkr());
+        map.put(dcd.ca, new dkr());
+        map.put(dcd.cc, new dkx());
+        map.put(dcd.cd, new dkx());
+        map.put(dcd.ce, new dkx());
+        map.put(dcd.cf, new dkx());
+        map.put(dcd.cg, new dkx());
+        map.put(dcd.ch, new dkx());
+        map.put(dcd.aC, new dkj());
+        map.put(dcd.aD, new dkj());
+        map.put(dcd.aE, new dkj());
+        map.put(dcd.aF, new dkj());
+        map.put(dcd.aG, new dkj());
+        map.put(dcd.aH, new dkj());
+        map.put(dcd.cj, new dkh());
+        map.put(dcd.ck, new dkh());
+        map.put(dcd.cl, new dkh());
+        map.put(dcd.cn, new dkm());
+        map.put(dcd.co, new dkm());
+        map.put(dcd.cp, new dkm());
+        map.put(dcd.aJ, new dkv());
+        map.put(dcd.aK, new dkv());
+        map.put(dcd.aL, new dkv());
+        map.put(dcd.aM, new dkv());
+        map.put(dcd.aN, new dkv());
+        map.put(dcd.aO, new dkv());
+    }
+
+    public static deu a(ddp ddpVar) throws IOException {
+        if (ddpVar == null) {
+            throw new IllegalArgumentException("keyInfo argument null");
+        }
+        dcw dcwVar = ddpVar.a;
+        dla dlaVar = (dla) a.get(dcwVar.a);
+        if (dlaVar != null) {
+            return dlaVar.a(ddpVar);
+        }
+        throw new IOException("algorithm identifier in public key not recognised: ".concat(String.valueOf(String.valueOf(dcwVar.a))));
+    }
+}
