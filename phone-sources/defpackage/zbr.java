@@ -1,0 +1,160 @@
+package defpackage;
+
+import java.util.Comparator;
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+/* compiled from: PG */
+/* loaded from: classes3.dex */
+public final class zbr {
+    public static final zbr c;
+    public static final zbr d;
+    public static final zbr e;
+    public static final zbr f;
+    public static final zbr g;
+    public static final zbr h;
+    public static final zbr i;
+    public static final zbr j;
+    public static final zbr k;
+    public static final zbr l;
+    public static final zbr m;
+    public static final zbr n;
+    public static final zbr o;
+    public static final zbr p;
+    public static final zbr q;
+    public static final zbr r;
+    public final String s;
+    public static final wbb t = new wbb();
+    public static final Comparator a = new zbq(0);
+    public static final Map b = new LinkedHashMap();
+
+    static {
+        wbb.X("SSL_RSA_WITH_NULL_MD5");
+        wbb.X("SSL_RSA_WITH_NULL_SHA");
+        wbb.X("SSL_RSA_EXPORT_WITH_RC4_40_MD5");
+        wbb.X("SSL_RSA_WITH_RC4_128_MD5");
+        wbb.X("SSL_RSA_WITH_RC4_128_SHA");
+        wbb.X("SSL_RSA_EXPORT_WITH_DES40_CBC_SHA");
+        wbb.X("SSL_RSA_WITH_DES_CBC_SHA");
+        c = wbb.X("SSL_RSA_WITH_3DES_EDE_CBC_SHA");
+        wbb.X("SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA");
+        wbb.X("SSL_DHE_DSS_WITH_DES_CBC_SHA");
+        wbb.X("SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA");
+        wbb.X("SSL_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA");
+        wbb.X("SSL_DHE_RSA_WITH_DES_CBC_SHA");
+        wbb.X("SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA");
+        wbb.X("SSL_DH_anon_EXPORT_WITH_RC4_40_MD5");
+        wbb.X("SSL_DH_anon_WITH_RC4_128_MD5");
+        wbb.X("SSL_DH_anon_EXPORT_WITH_DES40_CBC_SHA");
+        wbb.X("SSL_DH_anon_WITH_DES_CBC_SHA");
+        wbb.X("SSL_DH_anon_WITH_3DES_EDE_CBC_SHA");
+        wbb.X("TLS_KRB5_WITH_DES_CBC_SHA");
+        wbb.X("TLS_KRB5_WITH_3DES_EDE_CBC_SHA");
+        wbb.X("TLS_KRB5_WITH_RC4_128_SHA");
+        wbb.X("TLS_KRB5_WITH_DES_CBC_MD5");
+        wbb.X("TLS_KRB5_WITH_3DES_EDE_CBC_MD5");
+        wbb.X("TLS_KRB5_WITH_RC4_128_MD5");
+        wbb.X("TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA");
+        wbb.X("TLS_KRB5_EXPORT_WITH_RC4_40_SHA");
+        wbb.X("TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5");
+        wbb.X("TLS_KRB5_EXPORT_WITH_RC4_40_MD5");
+        d = wbb.X("TLS_RSA_WITH_AES_128_CBC_SHA");
+        wbb.X("TLS_DHE_DSS_WITH_AES_128_CBC_SHA");
+        wbb.X("TLS_DHE_RSA_WITH_AES_128_CBC_SHA");
+        wbb.X("TLS_DH_anon_WITH_AES_128_CBC_SHA");
+        e = wbb.X("TLS_RSA_WITH_AES_256_CBC_SHA");
+        wbb.X("TLS_DHE_DSS_WITH_AES_256_CBC_SHA");
+        wbb.X("TLS_DHE_RSA_WITH_AES_256_CBC_SHA");
+        wbb.X("TLS_DH_anon_WITH_AES_256_CBC_SHA");
+        wbb.X("TLS_RSA_WITH_NULL_SHA256");
+        wbb.X("TLS_RSA_WITH_AES_128_CBC_SHA256");
+        wbb.X("TLS_RSA_WITH_AES_256_CBC_SHA256");
+        wbb.X("TLS_DHE_DSS_WITH_AES_128_CBC_SHA256");
+        wbb.X("TLS_RSA_WITH_CAMELLIA_128_CBC_SHA");
+        wbb.X("TLS_DHE_DSS_WITH_CAMELLIA_128_CBC_SHA");
+        wbb.X("TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA");
+        wbb.X("TLS_DHE_RSA_WITH_AES_128_CBC_SHA256");
+        wbb.X("TLS_DHE_DSS_WITH_AES_256_CBC_SHA256");
+        wbb.X("TLS_DHE_RSA_WITH_AES_256_CBC_SHA256");
+        wbb.X("TLS_DH_anon_WITH_AES_128_CBC_SHA256");
+        wbb.X("TLS_DH_anon_WITH_AES_256_CBC_SHA256");
+        wbb.X("TLS_RSA_WITH_CAMELLIA_256_CBC_SHA");
+        wbb.X("TLS_DHE_DSS_WITH_CAMELLIA_256_CBC_SHA");
+        wbb.X("TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA");
+        wbb.X("TLS_PSK_WITH_RC4_128_SHA");
+        wbb.X("TLS_PSK_WITH_3DES_EDE_CBC_SHA");
+        wbb.X("TLS_PSK_WITH_AES_128_CBC_SHA");
+        wbb.X("TLS_PSK_WITH_AES_256_CBC_SHA");
+        wbb.X("TLS_RSA_WITH_SEED_CBC_SHA");
+        f = wbb.X("TLS_RSA_WITH_AES_128_GCM_SHA256");
+        g = wbb.X("TLS_RSA_WITH_AES_256_GCM_SHA384");
+        wbb.X("TLS_DHE_RSA_WITH_AES_128_GCM_SHA256");
+        wbb.X("TLS_DHE_RSA_WITH_AES_256_GCM_SHA384");
+        wbb.X("TLS_DHE_DSS_WITH_AES_128_GCM_SHA256");
+        wbb.X("TLS_DHE_DSS_WITH_AES_256_GCM_SHA384");
+        wbb.X("TLS_DH_anon_WITH_AES_128_GCM_SHA256");
+        wbb.X("TLS_DH_anon_WITH_AES_256_GCM_SHA384");
+        wbb.X("TLS_EMPTY_RENEGOTIATION_INFO_SCSV");
+        wbb.X("TLS_FALLBACK_SCSV");
+        wbb.X("TLS_ECDH_ECDSA_WITH_NULL_SHA");
+        wbb.X("TLS_ECDH_ECDSA_WITH_RC4_128_SHA");
+        wbb.X("TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA");
+        wbb.X("TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA");
+        wbb.X("TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA");
+        wbb.X("TLS_ECDHE_ECDSA_WITH_NULL_SHA");
+        wbb.X("TLS_ECDHE_ECDSA_WITH_RC4_128_SHA");
+        wbb.X("TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA");
+        wbb.X("TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA");
+        wbb.X("TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA");
+        wbb.X("TLS_ECDH_RSA_WITH_NULL_SHA");
+        wbb.X("TLS_ECDH_RSA_WITH_RC4_128_SHA");
+        wbb.X("TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA");
+        wbb.X("TLS_ECDH_RSA_WITH_AES_128_CBC_SHA");
+        wbb.X("TLS_ECDH_RSA_WITH_AES_256_CBC_SHA");
+        wbb.X("TLS_ECDHE_RSA_WITH_NULL_SHA");
+        wbb.X("TLS_ECDHE_RSA_WITH_RC4_128_SHA");
+        wbb.X("TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA");
+        h = wbb.X("TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA");
+        i = wbb.X("TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA");
+        wbb.X("TLS_ECDH_anon_WITH_NULL_SHA");
+        wbb.X("TLS_ECDH_anon_WITH_RC4_128_SHA");
+        wbb.X("TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA");
+        wbb.X("TLS_ECDH_anon_WITH_AES_128_CBC_SHA");
+        wbb.X("TLS_ECDH_anon_WITH_AES_256_CBC_SHA");
+        wbb.X("TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256");
+        wbb.X("TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384");
+        wbb.X("TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256");
+        wbb.X("TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384");
+        wbb.X("TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256");
+        wbb.X("TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384");
+        wbb.X("TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256");
+        wbb.X("TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384");
+        j = wbb.X("TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256");
+        k = wbb.X("TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384");
+        wbb.X("TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256");
+        wbb.X("TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384");
+        l = wbb.X("TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256");
+        m = wbb.X("TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384");
+        wbb.X("TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256");
+        wbb.X("TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384");
+        wbb.X("TLS_ECDHE_PSK_WITH_AES_128_CBC_SHA");
+        wbb.X("TLS_ECDHE_PSK_WITH_AES_256_CBC_SHA");
+        n = wbb.X("TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256");
+        o = wbb.X("TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256");
+        wbb.X("TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256");
+        wbb.X("TLS_ECDHE_PSK_WITH_CHACHA20_POLY1305_SHA256");
+        p = wbb.X("TLS_AES_128_GCM_SHA256");
+        q = wbb.X("TLS_AES_256_GCM_SHA384");
+        r = wbb.X("TLS_CHACHA20_POLY1305_SHA256");
+        wbb.X("TLS_AES_128_CCM_SHA256");
+        wbb.X("TLS_AES_128_CCM_8_SHA256");
+    }
+
+    public zbr(String str) {
+        this.s = str;
+    }
+
+    public final String toString() {
+        return this.s;
+    }
+}

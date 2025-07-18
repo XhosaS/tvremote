@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.internal.growth.growthkit.internal.ui.impl.gm.dialogs.MaxDimensionsLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@+id/gm_dialog_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.google.android.libraries.internal.growth.growthkit.internal.ui.impl.gm.dialogs.RoundedCornersImageView
+        android:id="@+id/gm_dialog_image"
+        android:background="@null"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"/>
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/gm_dialog_content"/>
+</com.google.android.libraries.internal.growth.growthkit.internal.ui.impl.gm.dialogs.MaxDimensionsLinearLayout>

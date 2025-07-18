@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="details_watch_on_phone">Смотреть на планшете</string>
+    <string name="media_device_list_footer">Чтобы подключиться по Wi-Fi, убедитесь, что планшет и телевизор используют одну сеть Wi-Fi. Если вы предпочитаете Bluetooth, включите эту функцию на обоих устройствах.</string>
+    <string name="this_phone">Этот планшет</string>
+</resources>

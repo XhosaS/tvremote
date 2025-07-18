@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_dialog_min_width_major">45%</dimen>
+    <dimen name="abc_dialog_min_width_minor">72%</dimen>
+    <dimen name="play_cluster_header_title_size">24sp</dimen>
+    <dimen name="play_cluster_section_header_inner_spacing">16dp</dimen>
+    <dimen name="play_cluster_section_header_margin_bottom">16dp</dimen>
+    <dimen name="play_cluster_section_header_margin_bottom_minus_card_half_spacing">10dp</dimen>
+    <dimen name="play_cluster_section_header_margin_top_minus_card_half_spacing">42dp</dimen>
+    <dimen name="play_collection_card_half_spacing">6dp</dimen>
+    <dimen name="play_collection_edge_padding">24dp</dimen>
+    <dimen name="play_collection_edge_padding_minus_card_half_spacing">18dp</dimen>
+    <dimen name="play_header_list_tab_floating_padding">36dp</dimen>
+    <dimen name="play_header_list_tab_padding_side">24dp</dimen>
+    <dimen name="play_large_size">18sp</dimen>
+    <dimen name="play_large_title_size">22sp</dimen>
+    <dimen name="play_medium_size">14sp</dimen>
+    <dimen name="play_mini_card_content_height">78sp</dimen>
+    <dimen name="play_small_card_content_min_height">96sp</dimen>
+    <dimen name="play_small_card_content_min_height_tall">125sp</dimen>
+    <dimen name="play_small_title_size">16sp</dimen>
+    <dimen name="play_snippet_large_size">18sp</dimen>
+</resources>

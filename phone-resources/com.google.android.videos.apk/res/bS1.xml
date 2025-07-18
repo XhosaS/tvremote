@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_selected="true"
+        android:drawable="@drawable/gs_video_library_fill1_vd_theme_24"/>
+    <item android:drawable="@drawable/gs_video_library_vd_theme_24"/>
+</selector>

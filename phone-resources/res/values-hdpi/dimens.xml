@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fc_card_annotation_top_padding">6dp</dimen>
+    <dimen name="fc_card_blocks_padding">26dp</dimen>
+    <dimen name="fc_card_logo_height_w1">30dp</dimen>
+    <dimen name="fc_card_logo_height_w2">20dp</dimen>
+    <dimen name="fc_card_logo_height_w3">12dp</dimen>
+    <dimen name="fc_card_title_top_padding">12dp</dimen>
+    <dimen name="fc_card_vertical_side_padding">16dp</dimen>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.play.movies.mobileux.screen.details.moreinfo.MoreInfoItemView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/details_item_spacing"
+    android:layout_marginEnd="@dimen/details_section_side_padding">
+    <TextView
+        android:textColor="@color/gray_200"
+        android:id="@+id/details_moreinfo_item_title"
+        android:paddingBottom="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="no"
+        style="@style/TextStyle.Movies.Body.2"/>
+    <TextView
+        android:textColor="@color/gray_500"
+        android:textColorLink="@color/gray_050"
+        android:id="@+id/details_moreinfo_item_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="no"
+        style="@style/TextStyle.Movies.Caption"/>
+</com.google.android.apps.play.movies.mobileux.screen.details.moreinfo.MoreInfoItemView>

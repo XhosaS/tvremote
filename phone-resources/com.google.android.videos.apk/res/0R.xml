@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.play.movies.mobileux.screen.details.header.HeaderView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/header_section"
+    android:background="@null"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.AppCompatButton
+        android:textSize="14sp"
+        android:textColor="@color/gray_200"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/trailer_button"
+        android:background="@drawable/gtv_header_trailer_button_background"
+        android:paddingLeft="20dp"
+        android:paddingRight="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/details_header_trailer_button_height"
+        android:text="@string/trailer"
+        android:drawableLeft="@drawable/ic_play_arrow_18px"
+        android:drawablePadding="10dp"
+        android:contentDescription="@string/content_description_play_trailer"
+        android:textAllCaps="false"
+        android:fontFamily="@font/google_sans_medium"/>
+</com.google.android.apps.play.movies.mobileux.screen.details.header.HeaderView>

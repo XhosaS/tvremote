@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="column_count_app_row">6</integer>
+    <integer name="column_count_people_row">6</integer>
+    <integer name="column_count_tvm">3</integer>
+    <integer name="column_count_tvm_portrait_poster">4</integer>
+    <integer name="highlight_layout_span_count">2</integer>
+    <integer name="vertical_grid_card_count">3</integer>
+</resources>

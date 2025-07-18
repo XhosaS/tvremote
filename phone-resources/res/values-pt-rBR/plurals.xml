@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fmr_playing_sound_message">
+        <item quantity="one">Tocando som por %d segundo</item>
+        <item quantity="other">Tocando som por %d segundos</item>
+    </plurals>
+    <plurals name="media_device_fab_title">
+        <item quantity="one">%d TV por perto</item>
+        <item quantity="other">%d TVs por perto</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nova notificação</item>
+        <item quantity="other">%d novas notificações</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="one">%1$d nova notificação</item>
+        <item quantity="other">%1$d novas notificações</item>
+    </plurals>
+</resources>

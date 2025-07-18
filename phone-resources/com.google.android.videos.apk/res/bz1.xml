@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="?android:attr/colorControlHighlight">
+    <item>
+        <vector
+            android:height="364dp"
+            android:width="364dp"
+            android:viewportWidth="364"
+            android:viewportHeight="364">
+            <group
+                android:rotation="225"
+                android:translateX="182"
+                android:translateY="182">
+                <path
+                    android:fillColor="?android:attr/colorBackground"
+                    android:pathData="M0,-80L0,-182A182,182 0 0,1 182,0L80,0A80,80 0 0,0 0,-80"/>
+            </group>
+            <group
+                android:scaleX="2"
+                android:scaleY="2"
+                android:rotation="270"
+                android:translateX="36"
+                android:translateY="206">
+                <path
+                    android:fillColor="?attr/colorSecondary"
+                    android:pathData="M17.29,15.71L12,10.41l-5.29,5.3 -1.42,-1.42L12,7.59l6.71,6.7z"/>
+            </group>
+        </vector>
+    </item>
+</ripple>

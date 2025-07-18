@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="details_watch_on_phone">Visionner sur une tablette</string>
+    <string name="media_device_list_footer">Pour vous connecter au moyen du Wi-Fi, veillez à ce que votre tablette soit connectée au même réseau Wi-Fi que votre téléviseur. Pour vous connecter au moyen du Bluetooth, veillez à l\'activer sur votre tablette et sur votre téléviseur.</string>
+    <string name="this_phone">Cette tablette</string>
+</resources>

@@ -1,0 +1,98 @@
+package defpackage;
+
+import android.os.SystemClock;
+import j$.util.DesugarCollections;
+import java.io.Closeable;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.concurrent.atomic.AtomicReference;
+
+/* compiled from: PG */
+/* loaded from: classes2.dex */
+public final class rus implements Closeable {
+    static final rus a = new rus("", SystemClock.elapsedRealtime(), -1, Thread.currentThread().getId(), 3);
+    public String b;
+    public final long c;
+    long d;
+    final long e;
+    public volatile List f;
+    final int g;
+    final int h;
+
+    public rus(String str, long j, long j2, long j3, int i) {
+        this.b = str;
+        this.g = 1;
+        this.c = j;
+        this.d = j2;
+        this.e = j3;
+        this.h = i;
+        if (i == 1) {
+            this.f = DesugarCollections.synchronizedList(new ArrayList());
+        } else {
+            this.f = Collections.EMPTY_LIST;
+        }
+    }
+
+    public final long a() {
+        long j = this.d;
+        if (j == -1) {
+            return -1L;
+        }
+        return j - this.c;
+    }
+
+    public final void b(List list) {
+        if (this.f == Collections.EMPTY_LIST) {
+            this.f = new ArrayList();
+        }
+        if (this.f != null) {
+            this.f.addAll(list);
+        }
+    }
+
+    final boolean c() {
+        return this.h == 1;
+    }
+
+    @Override // java.io.Closeable, java.lang.AutoCloseable
+    public final void close() {
+        int i = rvb.a;
+        if (equals(a)) {
+            return;
+        }
+        if (this.d < 0) {
+            this.d = SystemClock.elapsedRealtime();
+        }
+        AtomicReference atomicReference = rvb.c;
+        ruy ruyVar = (ruy) atomicReference.get();
+        if (ruyVar != null) {
+            if (this != ((rus) ruyVar.c().poll())) {
+                ((tug) ((tug) rnb.a.g()).j("com/google/android/libraries/performance/primes/metrics/trace/Tracer", "endSpan", 189, "Tracer.java")).s("Incorrect Span passed. Ignore...");
+                return;
+            }
+            if (a() >= rvb.a) {
+                if (ruyVar.b() >= rvb.b) {
+                    ((tug) ((tug) rnb.a.g()).j("com/google/android/libraries/performance/primes/metrics/trace/Tracer", "endSpan", 198, "Tracer.java")).t("Dropping trace as max buffer size is hit. Size: %d", ruyVar.a());
+                    atomicReference.set(null);
+                    return;
+                }
+                rus rusVar = (rus) ruyVar.c().peek();
+                if (rusVar == null) {
+                    ((tug) ((tug) rnb.a.g()).j("com/google/android/libraries/performance/primes/metrics/trace/TraceData", "linkToParent", 108, "TraceData.java")).v("null Parent for Span: %s", this.b);
+                    return;
+                }
+                if (rusVar.f == Collections.EMPTY_LIST) {
+                    rusVar.f = new ArrayList();
+                }
+                if (rusVar.f != null) {
+                    rusVar.f.add(this);
+                }
+            }
+        }
+    }
+
+    public rus(String str, long j, int i) {
+        this(str, SystemClock.elapsedRealtime(), -1L, j, i);
+    }
+}

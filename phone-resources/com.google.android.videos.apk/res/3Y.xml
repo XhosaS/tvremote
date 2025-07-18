@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phenotype-registrations>
+    <phenotype-registration>
+        <configuration-package>com.google.android.libraries.social.connections
+        </configuration-package>
+        <log-sources>
+            <log-source>ANDROID_CONTACTS
+            </log-source>
+            <log-source>ANDROID_CONTACTS_COUNTERS
+            </log-source>
+            <log-source>ANDROID_CONTACTS_PRIMES
+            </log-source>
+        </log-sources>
+        <auto-subpackage>true
+        </auto-subpackage>
+    </phenotype-registration>
+</phenotype-registrations>

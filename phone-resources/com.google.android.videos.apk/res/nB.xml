@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/_replay__downloadstatus__completed__0_res_0x7f080050">
+    <target
+        android:name="time_group"
+        android:animation="@drawable/_replay__downloadstatus__completed__1_res_0x7f080051"/>
+</animated-vector>

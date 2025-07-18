@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="top|center_horizontal"
+    android:orientation="horizontal"
+    android:id="@+id/selection_item_component"
+    android:focusable="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/selection_item_bottom_margin"
+    android:layout_marginStart="@dimen/selection_item_start_margin">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/selection_text_container"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.8">
+        <TextView
+            android:textAppearance="?attr/textAppearanceTitleMedium"
+            android:id="@+id/selection_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textAppearance="?attr/textAppearanceBodyMedium"
+            android:textColor="?android:attr/textColorSecondary"
+            android:id="@+id/selection_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:layout_gravity="center"
+        android:id="@+id/checkbox"
+        android:focusable="false"
+        android:clickable="false"
+        android:duplicateParentState="true"
+        android:layout_width="@dimen/checkbox_width_height"
+        android:layout_height="@dimen/checkbox_width_height"
+        android:layout_marginLeft="@dimen/checkbox_horizontal_margin"
+        android:layout_marginRight="@dimen/checkbox_horizontal_margin"
+        android:contentDescription="@null"
+        android:layout_marginHorizontal="@dimen/checkbox_horizontal_margin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/selection_text_container"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

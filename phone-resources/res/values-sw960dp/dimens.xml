@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="chooser_dialog_vertical_padding">16dp</dimen>
+    <dimen name="continue_watching_text_section_top_padding_replay_polish">50dp</dimen>
+    <dimen name="movies_cluster_card_side_padding">6dp</dimen>
+    <dimen name="movies_cluster_side_padding">30dp</dimen>
+    <dimen name="movies_general_side_padding">40dp</dimen>
+</resources>

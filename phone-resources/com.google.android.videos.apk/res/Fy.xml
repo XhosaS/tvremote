@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="top"
+    android:id="@+id/appbar_expressive"
+    android:background="@drawable/app_bar_background"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:liftOnScroll="true">
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar_expressive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_scrollFlags="enterAlways|scroll">
+        <ImageButton
+            android:layout_gravity="start"
+            android:id="@+id/expressive_back_button"
+            android:background="@drawable/circle_shape"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gs_arrow_back_vd_theme_24"
+            android:minWidth="40dp"
+            android:minHeight="40dp"
+            android:contentDescription="@string/content_description_back_button"/>
+        <ImageButton
+            android:layout_gravity="end"
+            android:id="@+id/expressive_share_button"
+            android:background="@drawable/circle_shape"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_share_24dp"
+            android:minWidth="40dp"
+            android:minHeight="40dp"
+            android:contentDescription="@string/share"/>
+    </com.google.android.material.appbar.MaterialToolbar>
+</com.google.android.material.appbar.AppBarLayout>

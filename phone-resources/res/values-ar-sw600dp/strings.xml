@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="details_watch_on_phone">المشاهدة على جهاز لوحي</string>
+    <string name="media_device_list_footer">لربط الجهاز اللوحي بالتلفزيون من خلال شبكة Wi-Fi، يجب أن يكونا متصلَين بشبكة Wi-Fi نفسها. أمّا إذا أردت ربط الجهاز اللوحي بالتلفزيون عبر البلوتوث، فاحرص على تفعيل البلوتوث عليهما.</string>
+    <string name="this_phone">هذا الجهاز اللوحي</string>
+</resources>

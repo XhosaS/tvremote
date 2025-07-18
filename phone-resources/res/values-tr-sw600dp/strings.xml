@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="details_watch_on_phone">Tablette izle</string>
+    <string name="media_device_list_footer">Kablosuz ağ üzerinden bağlanmak için tabletinizin ve TV\'nizin aynı kablosuz ağa bağlı olduğundan emin olun. Bluetooth üzerinden bağlanmak için tabletinizde ve TV\'nizde Bluetooth\'un açık olduğundan emin olun.</string>
+    <string name="this_phone">Bu tablet</string>
+</resources>

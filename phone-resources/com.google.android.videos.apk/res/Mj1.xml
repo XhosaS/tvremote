@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="?android:attr/colorControlHighlight">
+    <item>
+        <vector
+            android:height="364dp"
+            android:width="364dp"
+            android:viewportWidth="364"
+            android:viewportHeight="364">
+            <path
+                android:fillColor="?attr/colorPrimaryContainer"
+                android:pathData="M102,182a80,80 0 0,1 160,0a80,80 0 0,1 -160,0"/>
+        </vector>
+    </item>
+</ripple>

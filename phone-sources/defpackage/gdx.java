@@ -1,0 +1,21 @@
+package defpackage;
+
+import android.R;
+
+/* compiled from: PG */
+/* loaded from: classes.dex */
+public final class gdx {
+    public static final int[] a = {R.attr.selectableItemBackground, com.google.android.videos.R.attr.selectableItemBackground};
+    public static final int[] b = {R.attr.summaryOn, R.attr.summaryOff, R.attr.disableDependentsState, com.google.android.videos.R.attr.disableDependentsState, com.google.android.videos.R.attr.summaryOff, com.google.android.videos.R.attr.summaryOn};
+    public static final int[] c = {R.attr.dialogTitle, R.attr.dialogMessage, R.attr.dialogIcon, R.attr.positiveButtonText, R.attr.negativeButtonText, R.attr.dialogLayout, com.google.android.videos.R.attr.dialogIcon, com.google.android.videos.R.attr.dialogLayout, com.google.android.videos.R.attr.dialogMessage, com.google.android.videos.R.attr.dialogTitle, com.google.android.videos.R.attr.negativeButtonText, com.google.android.videos.R.attr.positiveButtonText};
+    public static final int[] d = {com.google.android.videos.R.attr.useSimpleSummaryProvider};
+    public static final int[] e = {R.attr.entries, R.attr.entryValues, com.google.android.videos.R.attr.entries, com.google.android.videos.R.attr.entryValues, com.google.android.videos.R.attr.useSimpleSummaryProvider};
+    public static final int[] f = {R.attr.entries, R.attr.entryValues, com.google.android.videos.R.attr.entries, com.google.android.videos.R.attr.entryValues};
+    public static final int[] g = {R.attr.icon, R.attr.persistent, R.attr.enabled, R.attr.layout, R.attr.title, R.attr.selectable, R.attr.key, R.attr.summary, R.attr.order, R.attr.widgetLayout, R.attr.dependency, R.attr.defaultValue, R.attr.shouldDisableView, R.attr.fragment, R.attr.singleLineTitle, R.attr.iconSpaceReserved, com.google.android.videos.R.attr.allowDividerAbove, com.google.android.videos.R.attr.allowDividerBelow, com.google.android.videos.R.attr.defaultValue, com.google.android.videos.R.attr.dependency, com.google.android.videos.R.attr.enableCopying, com.google.android.videos.R.attr.enabled, com.google.android.videos.R.attr.fragment, com.google.android.videos.R.attr.icon, com.google.android.videos.R.attr.iconSpaceReserved, com.google.android.videos.R.attr.isPreferenceVisible, com.google.android.videos.R.attr.key, com.google.android.videos.R.attr.layout, com.google.android.videos.R.attr.order, com.google.android.videos.R.attr.persistent, com.google.android.videos.R.attr.selectable, com.google.android.videos.R.attr.shouldDisableView, com.google.android.videos.R.attr.singleLineTitle, com.google.android.videos.R.attr.summary, com.google.android.videos.R.attr.title, com.google.android.videos.R.attr.widgetLayout};
+    public static final int[] h = {R.attr.layout, R.attr.divider, R.attr.dividerHeight, com.google.android.videos.R.attr.allowDividerAfterLastItem};
+    public static final int[] i = {R.attr.orderingFromXml, com.google.android.videos.R.attr.initialExpandedChildrenCount, com.google.android.videos.R.attr.orderingFromXml};
+    public static final int[] j = {R.attr.maxWidth, R.attr.maxHeight, com.google.android.videos.R.attr.maxHeight, com.google.android.videos.R.attr.maxWidth};
+    public static final int[] k = {R.attr.layout, R.attr.max, com.google.android.videos.R.attr.adjustable, com.google.android.videos.R.attr.min, com.google.android.videos.R.attr.seekBarIncrement, com.google.android.videos.R.attr.showSeekBarValue, com.google.android.videos.R.attr.updatesContinuously};
+    public static final int[] l = {R.attr.summaryOn, R.attr.summaryOff, R.attr.disableDependentsState, R.attr.switchTextOn, R.attr.switchTextOff, com.google.android.videos.R.attr.disableDependentsState, com.google.android.videos.R.attr.summaryOff, com.google.android.videos.R.attr.summaryOn, com.google.android.videos.R.attr.switchTextOff, com.google.android.videos.R.attr.switchTextOn};
+    public static final int[] m = {R.attr.summaryOn, R.attr.summaryOff, R.attr.disableDependentsState, R.attr.switchTextOn, R.attr.switchTextOff, com.google.android.videos.R.attr.disableDependentsState, com.google.android.videos.R.attr.summaryOff, com.google.android.videos.R.attr.summaryOn, com.google.android.videos.R.attr.switchTextOff, com.google.android.videos.R.attr.switchTextOn};
+}

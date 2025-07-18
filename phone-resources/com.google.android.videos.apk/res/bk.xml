@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:background="?attr/selectableItemBackground"
+    android:paddingLeft="@dimen/replay__replaydialog_horizontal_padding"
+    android:paddingTop="@dimen/replay__replaydialog_option_text_view_vertical_padding"
+    android:paddingRight="@dimen/replay__replaydialog_horizontal_padding"
+    android:paddingBottom="@dimen/replay__replaydialog_option_text_view_vertical_padding"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/replay__replaydialog_option_min_height">
+    <TextView
+        android:ellipsize="end"
+        android:gravity="start"
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textAlignment="viewStart"
+        style="@style/TextStyle.Movies.Subtitle.2"/>
+    <TextView
+        android:ellipsize="end"
+        android:gravity="start"
+        android:id="@+id/subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:textAlignment="viewStart"
+        style="@style/TextStyle.Movies.Headline.6"/>
+</LinearLayout>

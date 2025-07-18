@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.play.movies.mobileux.component.search.MoviesSearchToolbar xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/play_header_search_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/play_search_toolbar_height"
+    android:elevation="0dp"
+    app:contentInsetStart="0dp"
+    app:titleTextAppearance="@style/PlayToolbarTextAppearance">
+    <android.support.v7.widget.AppCompatTextView
+        android:ellipsize="end"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/toolbar_title"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/short_app_name"
+        android:singleLine="true"
+        android:maxLength="15"
+        android:drawablePadding="10dp"
+        app:drawableStartCompat="@drawable/ic_play_movies_icon"
+        style="@style/AppBarTitleStyle"/>
+</com.google.android.apps.play.movies.mobileux.component.search.MoviesSearchToolbar>

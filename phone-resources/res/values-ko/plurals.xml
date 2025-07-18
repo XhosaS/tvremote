@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">%d초 빨리 감기</item>
+        <item quantity="other">%d초 빨리 감기</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">%d초 되감기</item>
+        <item quantity="other">%d초 되감기</item>
+    </plurals>
+    <plurals name="fmr_playing_sound_message">
+        <item quantity="one">%d초 동안 소리 재생</item>
+        <item quantity="other">%d초 동안 소리 재생</item>
+    </plurals>
+    <plurals name="media_device_fab_title">
+        <item quantity="one">주변 TV</item>
+        <item quantity="other">주변 TV %d대</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">새 알림 %d개</item>
+        <item quantity="other">새 알림 %d개</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="one">알림 1개 있음</item>
+        <item quantity="other">새 알림 %1$d개</item>
+    </plurals>
+</resources>

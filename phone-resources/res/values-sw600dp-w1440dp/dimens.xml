@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="menu_item_min_height">64dp</dimen>
+    <dimen name="menu_item_text_view_vertical_padding">20dp</dimen>
+    <dimen name="replay__m_spacing">24dp</dimen>
+    <dimen name="replay__replaydialog_centered_dialog_max_height">550dp</dimen>
+    <dimen name="replay__replaydialog_centered_dialog_width">460dp</dimen>
+    <dimen name="replay__replaydialog_option_min_height">64dp</dimen>
+    <dimen name="replay__replaydialog_option_text_view_vertical_padding">20dp</dimen>
+    <dimen name="replay__s_spacing">20dp</dimen>
+</resources>

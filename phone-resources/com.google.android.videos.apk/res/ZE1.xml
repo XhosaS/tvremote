@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.googletv.app.presentation.views.tagfilter.FireballView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tag_filter_component"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/fireball_top_margin"
+    android:layout_marginBottom="@dimen/fireball_bottom_margin"
+    app:fireballSidePadding="@dimen/content_horizontal_spacing"/>

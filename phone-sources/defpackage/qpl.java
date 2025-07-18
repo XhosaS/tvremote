@@ -1,0 +1,15 @@
+package defpackage;
+
+import android.widget.ImageView;
+
+/* compiled from: PG */
+/* loaded from: classes2.dex */
+public interface qpl {
+    uhp a(String str, String str2, int i, int i2);
+
+    void b(ImageView imageView, String str, int i, int i2);
+
+    uhp c();
+
+    uhp d(String str, int i, int i2);
+}

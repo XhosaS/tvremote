@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="details_watch_on_phone">Tonton di tablet</string>
+    <string name="media_device_list_footer">Untuk menghubungkan melalui Wi-Fi, pastikan tablet dan TV terhubung ke jaringan Wi-Fi yang sama. Untuk menghubungkan melalui Bluetooth, pastikan Bluetooth tablet dan TV Anda sudah aktif.</string>
+    <string name="this_phone">Tablet ini</string>
+</resources>

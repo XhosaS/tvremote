@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="details_movies_bundle_item_poster_height">190sp</dimen>
+    <dimen name="details_movies_bundle_item_poster_width">131sp</dimen>
+    <dimen name="play_cluster_header_title_size">28sp</dimen>
+    <dimen name="play_large_size">20sp</dimen>
+    <dimen name="play_large_title_size">28sp</dimen>
+    <dimen name="play_medium_size">16sp</dimen>
+    <dimen name="play_mini_card_content_height">88sp</dimen>
+    <dimen name="play_small_title_size">18sp</dimen>
+    <dimen name="play_snippet_large_size">21sp</dimen>
+</resources>

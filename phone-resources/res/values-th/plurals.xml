@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">กรอไปข้างหน้า %d วินาที</item>
+        <item quantity="other">กรอไปข้างหน้า %d วินาที</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">กรอกลับ %d วินาที</item>
+        <item quantity="other">กรอกลับ %d วินาที</item>
+    </plurals>
+    <plurals name="fmr_playing_sound_message">
+        <item quantity="one">Playing sound for %d second</item>
+        <item quantity="other">Playing sound for %d seconds</item>
+    </plurals>
+    <plurals name="media_device_fab_title">
+        <item quantity="one">ทีวีที่อยู่ใกล้เคียง</item>
+        <item quantity="other">มีทีวีใกล้ๆ %d เครื่อง</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">การแจ้งเตือนใหม่ %d รายการ</item>
+        <item quantity="other">การแจ้งเตือนใหม่ %d รายการ</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="one">คุณมีการแจ้งเตือน</item>
+        <item quantity="other">การแจ้งเตือนใหม่ %1$d รายการ</item>
+    </plurals>
+</resources>

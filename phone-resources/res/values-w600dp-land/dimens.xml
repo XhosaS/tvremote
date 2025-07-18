@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="browse_card_icon_height">44dp</dimen>
+    <dimen name="browse_card_icon_image">28dp</dimen>
+    <dimen name="browse_card_icon_width">44dp</dimen>
+    <dimen name="cards_per_row_app">8.25</dimen>
+    <dimen name="cards_per_row_browse">4</dimen>
+    <dimen name="cards_per_row_cw">4</dimen>
+    <dimen name="cards_per_row_entry">4</dimen>
+    <dimen name="cards_per_row_fc">2</dimen>
+    <dimen name="cards_per_row_news">4</dimen>
+    <dimen name="cards_per_row_people">8</dimen>
+    <dimen name="cards_per_row_quote_card">3</dimen>
+    <dimen name="cards_per_row_rating">4</dimen>
+    <dimen name="cards_per_row_tvm">4</dimen>
+    <dimen name="cards_per_row_tvm_portrait">6</dimen>
+    <dimen name="fc_card_blocks_padding">26dp</dimen>
+    <dimen name="fc_card_logo_height_w1">30dp</dimen>
+    <dimen name="fc_card_logo_height_w2">20dp</dimen>
+    <dimen name="fc_card_logo_height_w3">12dp</dimen>
+    <dimen name="fc_card_title_top_padding">12dp</dimen>
+</resources>

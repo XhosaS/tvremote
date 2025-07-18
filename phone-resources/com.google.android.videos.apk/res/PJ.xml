@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.play.movies.mobileux.screen.details.moreinfo.MoreInfoView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:importantForAccessibility="no"
+    style="@style/DetailsPageSectionLayout">
+    <TextView
+        android:id="@+id/details_moreinfo_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/details_more_information"
+        style="@style/DetailsPageSectionHeader"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/details_moreinfo_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="no"/>
+</com.google.android.apps.play.movies.mobileux.screen.details.moreinfo.MoreInfoView>

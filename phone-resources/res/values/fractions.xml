@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="row_cards_per_screen">325%</fraction>
+    <fraction name="touchpad_repeat_distance_fast">30%</fraction>
+    <fraction name="touchpad_repeat_distance_normal">19%</fraction>
+    <fraction name="touchpad_repeat_distance_slow">9%</fraction>
+</resources>

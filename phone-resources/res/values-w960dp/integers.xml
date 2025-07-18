@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="details_episodes_column_count">2</integer>
+    <integer name="details_grid_columnCount">4</integer>
+    <integer name="details_grid_column_span_half_screen_on_large_device">2</integer>
+    <integer name="details_grid_column_span_half_screen_on_large_device_with_userfeedback_text">3</integer>
+    <integer name="details_synopsis_compressed_line_count">4</integer>
+    <integer name="details_synopsis_replay_compressed_line_count">@integer/details_synopsis_compressed_line_count</integer>
+    <integer name="details_synopsis_row_span">3</integer>
+    <integer name="details_title_row_span">3</integer>
+    <integer name="details_title_row_span_with_userfeedback_text">4</integer>
+    <integer name="details_user_feedback_row_span">1</integer>
+    <integer name="details_user_feedback_row_span_with_userfeedback_text">2</integer>
+    <integer name="synopsis_compressed_line_count">4</integer>
+</resources>

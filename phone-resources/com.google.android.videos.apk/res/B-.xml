@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.play.movies.mobile.usecase.downloads.DownloadSectionHeadingView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:videos="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:id="@+id/section_heading"
+    android:background="?attr/selectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:transitionGroup="true"
+    videos:layout_flmLineWrap="clear_flows"
+    videos:layout_flmMarginBottom="4dp"
+    videos:layout_flmMarginEnd="@dimen/play_collection_edge_padding"
+    videos:layout_flmMarginStart="@dimen/play_collection_edge_padding"
+    videos:layout_flmMarginTop="@dimen/play_cluster_section_header_margin_top_minus_card_half_spacing"
+    videos:layout_flmMarginTopForFirstLine="@dimen/play_cluster_section_header_margin_bottom">
+    <View
+        android:visibility="invisible"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/section_header_height"/>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/PlayMoviesClusterTitle"/>
+</com.google.android.apps.play.movies.mobile.usecase.downloads.DownloadSectionHeadingView>

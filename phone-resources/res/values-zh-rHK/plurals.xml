@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">快轉 %d 秒</item>
+        <item quantity="other">快轉 %d 秒</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">倒帶 %d 秒</item>
+        <item quantity="other">倒帶 %d 秒</item>
+    </plurals>
+    <plurals name="fmr_playing_sound_message">
+        <item quantity="one">Playing sound for %d second</item>
+        <item quantity="other">Playing sound for %d seconds</item>
+    </plurals>
+    <plurals name="media_device_fab_title">
+        <item quantity="one">附近有電視</item>
+        <item quantity="other">附近有 %d 部電視</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d 個新通知</item>
+        <item quantity="other">%d 個新通知</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="one">您有 1 則通知</item>
+        <item quantity="other">%1$d 則新通知</item>
+    </plurals>
+</resources>

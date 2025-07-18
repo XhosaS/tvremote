@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="@style/Theme.GoogleTv.Light"
+    android:id="@+id/banner_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/content_horizontal_spacing"
+    android:layout_marginTop="24dp"
+    android:layout_marginRight="@dimen/content_horizontal_spacing"
+    android:layout_marginBottom="24dp"
+    android:minHeight="@dimen/poster_banner_card_min_height"
+    android:layout_marginHorizontal="@dimen/content_horizontal_spacing"
+    android:layout_marginVertical="24dp"
+    style="?attr/materialCardViewFilledStyle">
+    <include layout="@layout/poster_banner_internal"/>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gm_tooltip_container"
+    android:rowCount="2"
+    style="@style/TooltipLayout">
+    <TextView
+        android:id="@+id/gm_tooltip_title"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="6dp"
+        style="@style/TooltipTitle"/>
+    <TextView
+        android:id="@+id/gm_tooltip_detail"
+        android:layout_marginBottom="20dp"
+        style="@style/TooltipDetail"/>
+</LinearLayout>

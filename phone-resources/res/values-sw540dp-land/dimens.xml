@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="details_trailer_height">164dp</dimen>
+    <dimen name="details_trailer_width">292dp</dimen>
+    <dimen name="list_view_item_span_size">2</dimen>
+    <dimen name="no_content_text_horizontal_spacing">160dp</dimen>
+    <dimen name="play_collection_edge_padding">60dp</dimen>
+    <dimen name="play_collection_edge_padding_minus_card_half_spacing">54dp</dimen>
+    <dimen name="play_collection_grid_min_cell_size">203dp</dimen>
+    <dimen name="welcomecard_image_width">180dp</dimen>
+</resources>

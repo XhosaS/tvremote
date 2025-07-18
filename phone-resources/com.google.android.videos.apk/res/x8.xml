@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.play.movies.mobileux.component.downloadanimation.DownloadAnimationView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="bottom|center_horizontal"
+    android:orientation="vertical"
+    android:id="@+id/download_animation_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.google.android.libraries.play.widget.downloadstatus.DownloadStatusView
+        android:id="@+id/download_status"
+        android:focusable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:replay__downloadstatus__backgroundArcColor="?attr/colorPrimary"
+        app:replay__downloadstatus__notStartedStateColor="?attr/colorPrimary"
+        app:replay__downloadstatus__size="16dp"
+        style="@style/MoviesTheme.ReplayMoviesDownloadAction"/>
+    <ImageView
+        android:id="@+id/download_failure_status"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_file_download_off"
+        android:contentDescription="@string/alert_download_failed"/>
+</com.google.android.apps.play.movies.mobileux.component.downloadanimation.DownloadAnimationView>

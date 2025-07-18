@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="banner_title_section_padding_start">30dp</dimen>
+    <dimen name="channel_fc_height">400dp</dimen>
+    <dimen name="entity_action_panel_bottom_padding">32dp</dimen>
+    <dimen name="fc_card_annotation_top_padding">6dp</dimen>
+    <dimen name="fc_card_blocks_padding">32dp</dimen>
+    <dimen name="fc_card_logo_height_w1">40dp</dimen>
+    <dimen name="fc_card_logo_height_w2">26dp</dimen>
+    <dimen name="fc_card_logo_height_w3">16dp</dimen>
+    <dimen name="fc_card_title_top_padding">16dp</dimen>
+    <dimen name="fc_card_vertical_side_padding">16dp</dimen>
+    <dimen name="library_horizontal_margin_replay">48dp</dimen>
+    <dimen name="min_card_height">176dp</dimen>
+    <dimen name="poster_image_section_padding_horizontal">12dp</dimen>
+    <dimen name="replay__horizontal_margin">48dp</dimen>
+    <dimen name="title_section_padding_vertical">27dp</dimen>
+</resources>

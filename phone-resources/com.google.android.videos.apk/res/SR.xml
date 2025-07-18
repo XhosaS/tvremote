@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phenotype-registrations>
+    <phenotype-registration>
+        <configuration-package>com.google.android.libraries.social.peoplekit
+        </configuration-package>
+        <log-sources>
+            <log-source>ANDROID_GMAIL
+            </log-source>
+            <log-source>GMAIL_ANDROID
+            </log-source>
+            <log-source>GMAIL_ANDROID_PRIMES
+            </log-source>
+            <log-source>GMM_PRIMES
+            </log-source>
+            <log-source>KEEP_ANDROID_PRIMES
+            </log-source>
+            <log-source>PEOPLE_AUTOCOMPLETE
+            </log-source>
+            <log-source>PEOPLE_INTELLIGENCE
+            </log-source>
+            <log-source>PHOTOS
+            </log-source>
+            <log-source>PHOTOS_ANDROID_PRIMES
+            </log-source>
+            <log-source>SENDKIT
+            </log-source>
+            <log-source>SOCIAL_AFFINITY
+            </log-source>
+            <log-source>SOCIAL_AFFINITY_PHOTOS
+            </log-source>
+        </log-sources>
+        <auto-subpackage>true
+        </auto-subpackage>
+    </phenotype-registration>
+</phenotype-registrations>

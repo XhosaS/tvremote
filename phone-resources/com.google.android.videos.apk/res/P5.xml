@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tvm_entity_provider_selection_component"
+    android:paddingLeft="@dimen/content_horizontal_spacing"
+    android:paddingRight="@dimen/content_horizontal_spacing"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="@dimen/content_horizontal_spacing">
+    <com.google.android.material.button.MaterialButton
+        android:textColor="?attr/colorPrimary"
+        android:id="@+id/provider_selection_component"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:text="@string/providers_text"
+        app:backgroundTint="?attr/colorSurface"
+        app:icon="@drawable/ic_expand_more_24dp"
+        app:iconGravity="textStart"
+        app:iconPadding="8dp"
+        app:iconTint="?attr/colorPrimary"
+        style="@style/Widget.GoogleTv.Button"/>
+</FrameLayout>

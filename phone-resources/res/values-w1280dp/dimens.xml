@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="center_controls_text_margin_forward">40dp</dimen>
+    <dimen name="center_controls_text_margin_rewind">40dp</dimen>
+    <dimen name="details_movie_poster_width">180dp</dimen>
+    <dimen name="header_tab_horizontal_padding">120dp</dimen>
+    <dimen name="info_card_image_size">40dp</dimen>
+    <dimen name="info_card_row_margin_bottom">140dp</dimen>
+    <dimen name="info_card_width">296dp</dimen>
+    <dimen name="library_horizontal_margin_replay">80dp</dimen>
+    <dimen name="movies_cluster_card_side_padding">8dp</dimen>
+    <dimen name="movies_cluster_side_padding">28dp</dimen>
+    <dimen name="play__fireball__divider_height_scaling">20sp</dimen>
+    <dimen name="play__fireball__outline_height_scaling">40sp</dimen>
+    <dimen name="play__fireball__outline_spacing_scaling">12sp</dimen>
+    <dimen name="play__fireball__tag_drawable_height_scaling">28sp</dimen>
+    <dimen name="play__fireball__tag_padding_scaling">20sp</dimen>
+    <dimen name="player_margin_bottom">36dp</dimen>
+    <dimen name="player_margin_progress_left">32dp</dimen>
+    <dimen name="player_margin_right">20dp</dimen>
+    <dimen name="player_seek_controls_margin">108dp</dimen>
+    <dimen name="player_seek_controls_padding">4dp</dimen>
+    <dimen name="replay__carousel__default_item_half_spacing">16dp</dimen>
+    <dimen name="replay_video_thumbnail_bottom_margin">140dp</dimen>
+    <dimen name="replay_video_thumbnail_height">160dp</dimen>
+    <dimen name="seeking_timestamp_width">80dp</dimen>
+</resources>

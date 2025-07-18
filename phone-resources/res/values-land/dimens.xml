@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_default_height_material">48dp</dimen>
+    <dimen name="button_horizontal_margin">48dp</dimen>
+    <dimen name="details_movie_poster_width">96dp</dimen>
+    <dimen name="download_empty_state_margin_bottom">0dp</dimen>
+    <dimen name="empty_state_margin_bottom">0dp</dimen>
+    <dimen name="google_toolbar_text_size_subtitle">12dp</dimen>
+    <dimen name="google_toolbar_text_size_title">14dp</dimen>
+    <dimen name="grid_view_item_span_size">1</dimen>
+    <dimen name="mr_controller_volume_group_list_item_height">61dp</dimen>
+    <dimen name="mr_controller_volume_group_list_item_icon_size">18dp</dimen>
+    <dimen name="mr_controller_volume_group_list_max_height">132dp</dimen>
+    <dimen name="mtrl_calendar_header_height_fullscreen">96dp</dimen>
+    <dimen name="og_material3_container_external_horizontal_spacing">32dp</dimen>
+    <dimen name="play_header_list_tab_floating_padding">48dp</dimen>
+    <dimen name="play_header_list_tab_padding_side">12dp</dimen>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="max_movie_poster_width">270dp</dimen>
+    <dimen name="max_show_poster_width">400dp</dimen>
+    <dimen name="mr_dialog_fixed_width_major">50%</dimen>
+    <dimen name="mr_dialog_fixed_width_minor">70%</dimen>
+    <dimen name="play_collection_edge_padding">24dp</dimen>
+    <dimen name="play_collection_edge_padding_minus_card_half_spacing">18dp</dimen>
+    <dimen name="section_header_height">67dp</dimen>
+    <dimen name="welcomecard_image_width">180dp</dimen>
+</resources>

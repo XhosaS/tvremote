@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menu_item"
+    android:background="?attr/selectableItemBackground"
+    android:paddingLeft="@dimen/menu_item_horizontal_padding"
+    android:paddingRight="@dimen/menu_item_horizontal_padding"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/menu_item_min_height"
+    android:paddingHorizontal="@dimen/menu_item_horizontal_padding">
+    <TextView
+        android:ellipsize="end"
+        android:gravity="start|center_vertical"
+        android:id="@+id/display_text"
+        android:paddingTop="@dimen/menu_item_text_view_vertical_padding"
+        android:paddingBottom="@dimen/menu_item_text_view_vertical_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:includeFontPadding="false"
+        android:drawablePadding="@dimen/menu_item_text_view_drawable_padding"
+        android:textAlignment="viewStart"
+        android:paddingVertical="@dimen/menu_item_text_view_vertical_padding"
+        style="?attr/textAppearanceLabelLarge"/>
+</FrameLayout>

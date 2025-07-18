@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="top"
+    android:id="@+id/appBar_immersive"
+    android:background="@drawable/app_bar_background"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:liftOnScroll="true">
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/material_toolbar_immersive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="24dp"
+        app:layout_scrollFlags="enterAlways|scroll">
+        <com.google.android.libraries.material.productlockup.ProductLockupView
+            android:layout_gravity="start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gtv_application_name"/>
+        <ImageButton
+            android:layout_gravity="end"
+            android:id="@+id/search_button"
+            android:background="@android:color/transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_search_24dp"
+            android:minWidth="@dimen/accessibility_required_min_width"
+            android:minHeight="@dimen/accessibility_required_min_height"
+            android:contentDescription="@string/abc_searchview_description_search"/>
+    </com.google.android.material.appbar.MaterialToolbar>
+</com.google.android.material.appbar.AppBarLayout>

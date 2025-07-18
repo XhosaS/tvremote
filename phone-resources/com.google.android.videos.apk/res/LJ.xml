@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/gm_dialog_content"
+    android:paddingTop="24dp"
+    android:paddingBottom="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/growthkit_dialog_content_side_padding"
+    android:paddingEnd="@dimen/growthkit_dialog_content_side_padding">
+    <TextView
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/gm_dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Style.GrowthKit.Headline6"/>
+    <TextView
+        android:id="@+id/gm_dialog_body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:lineSpacingExtra="3dp"
+        style="@style/Style.GrowthKit.Body2"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/gm_dialog_button_pane"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/growthkit_dialog_button_pane_top_margin"
+        android:layout_marginBottom="8dp"/>
+</LinearLayout>

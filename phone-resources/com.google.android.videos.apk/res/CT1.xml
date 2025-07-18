@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:gravity="center"
+        android:height="@dimen/details_header_trailer_button_background_height">
+        <shape>
+            <solid android:color="#87202124"/>
+            <corners android:radius="25dp"/>
+        </shape>
+        <shape>
+            <solid android:color="#08e8eaed"/>
+            <corners android:radius="25dp"/>
+        </shape>
+    </item>
+</layer-list>

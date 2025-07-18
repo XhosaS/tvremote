@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="details_watch_on_phone">Xem trên máy tính bảng</string>
+    <string name="media_device_list_footer">Để kết nối qua Wi-Fi, hãy đảm bảo máy tính bảng và TV đều kết nối với cùng một mạng Wi-Fi. Để kết nối qua Bluetooth, hãy đảm bảo cả máy tính bảng và TV đều đã bật Bluetooth.</string>
+    <string name="this_phone">Máy tính bảng này</string>
+</resources>

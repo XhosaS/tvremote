@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fmr_playing_sound_message">
+        <item quantity="zero">‏‮Playing‬‏ ‏‮sound‬‏ ‏‮for‬‏ %d ‏‮seconds‬‏</item>
+        <item quantity="one">‏‮Playing‬‏ ‏‮sound‬‏ ‏‮for‬‏ %d ‏‮second‬‏</item>
+        <item quantity="two">‏‮Playing‬‏ ‏‮sound‬‏ ‏‮for‬‏ %d ‏‮seconds‬‏</item>
+        <item quantity="few">‏‮Playing‬‏ ‏‮sound‬‏ ‏‮for‬‏ %d ‏‮seconds‬‏</item>
+        <item quantity="many">‏‮Playing‬‏ ‏‮sound‬‏ ‏‮for‬‏ %d ‏‮seconds‬‏</item>
+        <item quantity="other">‏‮Playing‬‏ ‏‮sound‬‏ ‏‮for‬‏ %d ‏‮seconds‬‏</item>
+    </plurals>
+    <plurals name="media_device_fab_title">
+        <item quantity="zero">%d ‏‮TVs‬‏ ‏‮nearby‬‏</item>
+        <item quantity="one">‏‮TV‬‏ ‏‮nearby‬‏</item>
+        <item quantity="two">%d ‏‮TVs‬‏ ‏‮nearby‬‏</item>
+        <item quantity="few">%d ‏‮TVs‬‏ ‏‮nearby‬‏</item>
+        <item quantity="many">%d ‏‮TVs‬‏ ‏‮nearby‬‏</item>
+        <item quantity="other">%d ‏‮TVs‬‏ ‏‮nearby‬‏</item>
+    </plurals>
+</resources>

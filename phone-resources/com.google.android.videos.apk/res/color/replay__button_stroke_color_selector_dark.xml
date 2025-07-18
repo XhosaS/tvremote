@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_enabled="true"
+        android:state_pressed="true"
+        android:color="?attr/replay__palette_700"/>
+    <item
+        android:state_enabled="true"
+        android:color="@color/replay__pal_gray_600"/>
+    <item android:color="@color/replay__pal_gray_700"/>
+</selector>

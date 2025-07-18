@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="browse_card_icon_height">44dp</dimen>
+    <dimen name="browse_card_icon_image">28dp</dimen>
+    <dimen name="browse_card_icon_width">44dp</dimen>
+    <dimen name="cards_per_row_app">6.25</dimen>
+    <dimen name="cards_per_row_banner">2</dimen>
+    <dimen name="cards_per_row_browse">3</dimen>
+    <dimen name="cards_per_row_cw">3</dimen>
+    <dimen name="cards_per_row_entry">3</dimen>
+    <dimen name="cards_per_row_news">3</dimen>
+    <dimen name="cards_per_row_people">6</dimen>
+    <dimen name="cards_per_row_quote_card">2.25</dimen>
+    <dimen name="cards_per_row_rating">3</dimen>
+    <dimen name="cards_per_row_tvm">3</dimen>
+    <dimen name="cards_per_row_tvm_portrait">4</dimen>
+</resources>

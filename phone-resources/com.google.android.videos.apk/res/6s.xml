@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/info_message_component"
+    android:paddingLeft="@dimen/content_horizontal_spacing"
+    android:paddingRight="@dimen/content_horizontal_spacing"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="@dimen/content_horizontal_spacing">
+    <TextView
+        android:textColor="?android:attr/textColorSecondary"
+        android:id="@+id/info_message_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:includeFontPadding="false"
+        android:drawablePadding="4dp"
+        android:drawableEnd="@drawable/ic_info_message"
+        android:drawableTint="?android:attr/textColorSecondary"
+        android:layout_marginVertical="8dp"/>
+</LinearLayout>

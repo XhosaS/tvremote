@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/stream_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ViewStub
+            android:id="@+id/loading_indicator"
+            android:inflatedId="@+id/loading_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:enabled="false"
+            android:id="@+id/swipe_refresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <com.google.android.apps.googletv.app.presentation.views.verticalgridrecyclerview.VerticalGridRecyclerView
+                    android:id="@+id/recycler_view"
+                    android:paddingLeft="@dimen/vertical_grid_horizontal_padding"
+                    android:paddingTop="@dimen/vertical_rv_top_padding"
+                    android:paddingRight="@dimen/vertical_grid_horizontal_padding"
+                    android:visibility="gone"
+                    android:clipToPadding="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingHorizontal="@dimen/vertical_grid_horizontal_padding"
+                    app:spanCount="@integer/vertical_grid_card_count"/>
+            </FrameLayout>
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+        <ViewStub
+            android:id="@+id/error_overlay"
+            android:inflatedId="@+id/error_overlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </FrameLayout>
+</FrameLayout>

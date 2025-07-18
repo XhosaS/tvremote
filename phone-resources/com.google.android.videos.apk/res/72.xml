@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:videos="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:id="@+id/rental_expiry_component"
+    android:paddingLeft="@dimen/content_horizontal_spacing"
+    android:paddingTop="@dimen/rental_expiry_vertical_padding"
+    android:paddingRight="@dimen/content_horizontal_spacing"
+    android:paddingBottom="@dimen/rental_expiry_vertical_padding"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="@dimen/content_horizontal_spacing"
+    android:paddingVertical="@dimen/rental_expiry_vertical_padding">
+    <TextView
+        android:textAppearance="?attr/textAppearanceLabelLarge"
+        android:id="@+id/rental_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="@dimen/rental_expiry_drawable_padding"
+        android:drawableTint="?android:attr/textColorSecondary"/>
+</LinearLayout>

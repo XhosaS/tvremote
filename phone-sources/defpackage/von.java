@@ -1,0 +1,35 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes2.dex */
+public enum von implements vug {
+    TARGETING_FAILED_REASON_UNKNOWN(0),
+    TARGETING_FAILED_REASON_NULL_INPUT_TERM_OR_CONTEXT(1),
+    TARGETING_FAILED_REASON_UNKNOWN_TARGETING_CLAUSE_TYPE(12),
+    TARGETING_FAILED_REASON_EVENT_COUNT_NOT_IN_RANGE(2),
+    TARGETING_FAILED_REASON_MISSING_APP_STATE(3),
+    TARGETING_FAILED_REASON_MISSING_APP_STATE_SATISFIED_RANGE(4),
+    TARGETING_FAILED_REASON_MISSING_APP_STATE_ELEMENTS_CONTAINED(5),
+    TARGETING_FAILED_REASON_APP_STATE_COUNT_NOT_IN_RANGE(6),
+    TARGETING_FAILED_REASON_APP_STATE_NOT_MATCHING(7),
+    TARGETING_FAILED_REASON_UNKNOWN_APP_STATE_KIND(8),
+    TARGETING_FAILED_REASON_INCOMPATIBLE_ANDROID_OR_APP_SDK(9),
+    TARGETING_FAILED_REASON_PERMISSION_ALREADY_GRANTED(10),
+    TARGETING_FAILED_REASON_REQUEST_COUNT_BOUND_NOT_MET(11);
+
+    private final int o;
+
+    von(int i) {
+        this.o = i;
+    }
+
+    @Override // defpackage.vug
+    public final int a() {
+        return this.o;
+    }
+
+    @Override // java.lang.Enum
+    public final String toString() {
+        return Integer.toString(this.o);
+    }
+}

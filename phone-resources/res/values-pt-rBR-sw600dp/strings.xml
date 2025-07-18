@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="details_watch_on_phone">Assistir no tablet</string>
+    <string name="media_device_list_footer">Para se conectar por Wi-Fi, confira se o tablet e a TV estão conectados à mesma rede Wi-Fi. Para se conectar por Bluetooth, confira se o tablet e a TV estão com o Bluetooth ativado.</string>
+    <string name="this_phone">Este tablet</string>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/page_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_navigation"
+        android:layout_alignParentTop="true">
+        <FrameLayout
+            android:layout_gravity="top"
+            android:id="@+id/status_bar_background"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+        <include layout="@layout/appbar"/>
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/destination_view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+        <com.google.android.apps.googletv.app.device.presentation.fab.MediaDeviceFloatingActionButton
+            android:layout_gravity="bottom|right"
+            android:id="@+id/media_device_fab"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <ProgressBar
+        android:id="@+id/loading_progress_bar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:indeterminateTint="@color/google_grey100"
+        style="?android:attr/progressBarStyle"/>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:textSize="@dimen/bottom_tabs_text_size_max"
+        android:layout_gravity="bottom"
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:backgroundTint="?android:attr/navigationBarColor"
+        app:itemHorizontalTranslationEnabled="false"
+        app:labelVisibilityMode="labeled"/>
+    <fragment
+        android:id="@+id/companion_bar_fragment"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_navigation"
+        android:layout_alignWithParentIfMissing="true"
+        class="com.google.android.apps.googletv.app.device.presentation.companionbar.CompanionBarFragment"/>
+</RelativeLayout>

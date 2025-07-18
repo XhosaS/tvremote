@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Avanti di %d secondo</item>
+        <item quantity="other">Avanti di %d secondi</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Indietro di %d secondo</item>
+        <item quantity="other">Indietro di %d secondi</item>
+    </plurals>
+    <plurals name="fmr_playing_sound_message">
+        <item quantity="one">Playing sound for %d second</item>
+        <item quantity="other">Playing sound for %d seconds</item>
+    </plurals>
+    <plurals name="media_device_fab_title">
+        <item quantity="one">TV nelle vicinanze</item>
+        <item quantity="other">%d TV nelle vicinanze</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nuova notifica</item>
+        <item quantity="other">%d nuove notifiche</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="one">Hai una notifica</item>
+        <item quantity="other">%1$d nuove notifiche</item>
+    </plurals>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="ic_gtv_play_btn_episode">@drawable/ic_gtv_play_button_40dp</drawable>
+    <drawable name="ic_play_btn_continuewatching">@drawable/ic_play_button_56dp</drawable>
+    <drawable name="ic_play_btn_episode">@drawable/ic_play_button_40dp</drawable>
+</resources>

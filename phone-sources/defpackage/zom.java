@@ -1,0 +1,93 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes3.dex */
+public interface zom {
+    public static final zjb a;
+    public static final zjb b;
+    public static final zjb c;
+    public static final zjb d;
+    public static final zjb e;
+    public static final zjb f;
+    public static final zjb g;
+    public static final zjb h;
+    public static final zjb i;
+    public static final zjb j;
+    public static final zjb k;
+    public static final zjb l;
+    public static final zjb m;
+    public static final zjb n;
+
+    static {
+        zjb zjbVar = new zjb("2.16.840.1.113730.1");
+        a = zjbVar;
+        b = zjbVar.f("1");
+        zjbVar.f("2");
+        c = zjbVar.f("3");
+        zjbVar.f("4");
+        zjbVar.f("7");
+        zjbVar.f("8");
+        zjbVar.f("12");
+        zjbVar.f("13");
+        zjb zjbVar2 = new zjb("2.16.840.1.113733.1");
+        d = zjbVar2;
+        e = zjbVar2.f("6.3");
+        zjbVar2.f("6.9");
+        zjbVar2.f("6.11");
+        zjbVar2.f("6.13");
+        zjbVar2.f("6.15");
+        zjbVar2.f("8.1");
+        zjb zjbVar3 = new zjb("2.16.840.1.113719");
+        f = zjbVar3;
+        zjbVar3.f("1.9.4.1");
+        zjb zjbVar4 = new zjb("1.2.840.113533.7");
+        g = zjbVar4;
+        zjbVar4.f("65.0");
+        zjbVar4.f("66.10");
+        new zjb("1.3.6.1.5.5.8.1.2");
+        new zjb("1.3.6.1.4.1.188.7.1.1.2");
+        zjb zjbVar5 = new zjb("1.3.6.1.4.1.3029");
+        h = zjbVar5;
+        zjb zjbVarF = zjbVar5.f("1");
+        i = zjbVarF;
+        zjbVarF.f("1.1");
+        zjbVarF.f("1.2");
+        zjbVarF.f("1.3");
+        zjbVarF.f("1.4");
+        zjb zjbVar6 = new zjb("1.3.6.1.4.1.1722.12.2");
+        j = zjbVar6;
+        zjbVar6.f("1.5");
+        zjbVar6.f("1.8");
+        zjbVar6.f("1.12");
+        zjbVar6.f("1.16");
+        zjbVar6.f("2.4");
+        zjbVar6.f("2.5");
+        zjbVar6.f("2.7");
+        zjbVar6.f("2.8");
+        zjb zjbVarF2 = zjbVar6.f("3");
+        k = zjbVarF2;
+        l = zjbVarF2.f("8");
+        new zjb("1.3.6.1.4.1.11591.4.11");
+        m = new zjb("1.3.6.1.4.1.18227.2.1");
+        new zjb("2.16.840.1.114027.80.4.1");
+        new zjb("2.16.840.1.113894.746875.1.1");
+        zjb zjbVar7 = new zjb("2.16.840.1.114027.80.8.1");
+        n = zjbVar7;
+        zjbVar7.f("1");
+        zjbVar7.f("2");
+        zjbVar7.f("3");
+        zjbVar7.f("4");
+        zjbVar7.f("5");
+        zjbVar7.f("6");
+        zjbVar7.f("7");
+        zjbVar7.f("8");
+        zjbVar7.f("9");
+        zjbVar7.f("10");
+        zjbVar7.f("11");
+        zjbVar7.f("12");
+        zjbVar7.f("13");
+        zjbVar7.f("14");
+        zjbVar7.f("15");
+        zjbVar7.f("16");
+    }
+}

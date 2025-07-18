@@ -1,0 +1,32 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes2.dex */
+public final class qka {
+    public final int a;
+    public final String b;
+
+    public qka(int i, String str) {
+        this.a = i;
+        this.b = str;
+    }
+
+    public final boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (!(obj instanceof qka)) {
+            return false;
+        }
+        qka qkaVar = (qka) obj;
+        return this.a == qkaVar.a && yks.e(this.b, qkaVar.b);
+    }
+
+    public final int hashCode() {
+        return (this.a * 31) + this.b.hashCode();
+    }
+
+    public final String toString() {
+        return "RegistrationState(registrationStatus=" + this.a + ", environment=" + this.b + ")";
+    }
+}

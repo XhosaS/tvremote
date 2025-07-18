@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/watchlist_icon_circle_bg_color"/>
+        </shape>
+    </item>
+    <item
+        android:height="@dimen/watchlist_action_icon_size"
+        android:width="@dimen/watchlist_action_icon_size"
+        android:drawable="@drawable/ic_bookmark_border_white_24dp"
+        android:left="@dimen/watchlist_circle_inner_padding"
+        android:top="@dimen/watchlist_circle_inner_padding"
+        android:right="@dimen/watchlist_circle_inner_padding"
+        android:bottom="@dimen/watchlist_circle_inner_padding"/>
+</layer-list>

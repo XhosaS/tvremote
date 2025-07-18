@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="details_synopsis_show_header">true</bool>
+</resources>

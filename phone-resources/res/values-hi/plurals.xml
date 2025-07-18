@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">वीडियो को %d सेकंड आगे बढ़ाएं</item>
+        <item quantity="other">वीडियो को %d सेकंड आगे बढ़ाएं</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">वीडियो को %d सेकंड पीछे ले जाएं</item>
+        <item quantity="other">वीडियो को %d सेकंड पीछे ले जाएं</item>
+    </plurals>
+    <plurals name="fmr_playing_sound_message">
+        <item quantity="one">Playing sound for %d second</item>
+        <item quantity="other">Playing sound for %d seconds</item>
+    </plurals>
+    <plurals name="media_device_fab_title">
+        <item quantity="one">आस-पास %d टीवी मौजूद है</item>
+        <item quantity="other">आस-पास %d टीवी मौजूद हैं</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d नई सूचनाएं</item>
+        <item quantity="other">%d नई सूचनाएं</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="one">%1$d नई सूचनाएं</item>
+        <item quantity="other">%1$d नई सूचनाएं</item>
+    </plurals>
+</resources>

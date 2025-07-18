@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/trailer_view_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.media3.ui.PlayerView
+        android:id="@+id/trailer_player_view"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/fold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <include
+        android:id="@+id/player_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/watch_activity_actionbar_height"
+        android:layout_marginTop="@dimen/toolbar_margin_top"
+        app:layout_constraintTop_toTopOf="parent"
+        layout="@layout/player_toolbar_layout"/>
+    <View
+        android:id="@+id/fold"
+        android:visibility="invisible"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+    <androidx.media3.ui.PlayerControlView
+        android:id="@+id/tabletop_control_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fold"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

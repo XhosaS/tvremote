@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="one">Fast-forward %d second</item>
+        <item quantity="other">Fast-forward %d seconds</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="one">Rewind %d second</item>
+        <item quantity="other">Rewind %d seconds</item>
+    </plurals>
+    <plurals name="fmr_playing_sound_message">
+        <item quantity="one">Playing sound for %d second</item>
+        <item quantity="other">Playing sound for %d seconds</item>
+    </plurals>
+    <plurals name="media_device_fab_title">
+        <item quantity="one">TV nearby</item>
+        <item quantity="other">%d TVs nearby</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="one">You have a notification</item>
+        <item quantity="other">%1$d new notifications</item>
+    </plurals>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="film_item_height">80dp</dimen>
+    <dimen name="film_poster_image_width">56dp</dimen>
+    <dimen name="gradientScale">0.5</dimen>
+    <dimen name="movie_poster_image_height">80dp</dimen>
+    <dimen name="no_content_text_horizontal_spacing">48dp</dimen>
+    <dimen name="play_collection_max_grid_width_plus_card_spacing">764dp</dimen>
+    <dimen name="second_screen_entities_view_padding_bottom">0dp</dimen>
+    <dimen name="second_screen_entities_view_padding_horizontal">24dp</dimen>
+    <dimen name="show_poster_image_height">56dp</dimen>
+</resources>

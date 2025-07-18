@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.google.android.apps.play.movies.common.view.tagging.TagsView
+            android:id="@+id/tags_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </FrameLayout>
+    <android.support.v7.widget.RecyclerView
+        android:layout_gravity="bottom"
+        android:id="@+id/info_cards_view"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/info_card_row_margin_bottom"/>
+</merge>

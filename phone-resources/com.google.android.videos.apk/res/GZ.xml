@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:ordering="together">
+    <objectAnimator
+        android:interpolator="@drawable/__replay__downloadstatus__not_started_to_downloading__4__0_res_0x7f080011"
+        android:duration="558"
+        android:startOffset="0"
+        android:propertyName="translateXY"
+        android:pathData="M 268.707,320.766C 268.707,316.266 268.707,298.266 268.707,293.766"
+        android:propertyXName="translateX"
+        android:propertyYName="translateY"/>
+    <objectAnimator
+        android:duration="62"
+        android:startOffset="558"
+        android:propertyName="translateXY"
+        android:pathData="M 268.707,293.766C 268.707,293.766 268.707,293.766 268.707,293.766"
+        android:propertyXName="translateX"
+        android:propertyYName="translateY"/>
+    <objectAnimator
+        android:interpolator="@drawable/__replay__downloadstatus__not_started_to_downloading__4__1_res_0x7f080012"
+        android:duration="447"
+        android:startOffset="620"
+        android:propertyName="translateXY"
+        android:pathData="M 268.707,293.766C 268.707,308.0993330154419 268.707,365.4326669845581 268.707,379.766"
+        android:propertyXName="translateX"
+        android:propertyYName="translateY"/>
+</set>

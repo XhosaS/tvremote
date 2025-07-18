@@ -1,0 +1,10 @@
+package defpackage;
+
+import android.R;
+
+/* compiled from: PG */
+/* loaded from: classes2.dex */
+public final class swk {
+    public static final int[] a = {R.attr.height, R.attr.width, R.attr.color, com.google.android.videos.R.attr.expandedActiveIndicatorPaddingBottom, com.google.android.videos.R.attr.expandedActiveIndicatorPaddingEnd, com.google.android.videos.R.attr.expandedActiveIndicatorPaddingStart, com.google.android.videos.R.attr.expandedActiveIndicatorPaddingTop, com.google.android.videos.R.attr.expandedHeight, com.google.android.videos.R.attr.expandedMarginHorizontal, com.google.android.videos.R.attr.expandedWidth, com.google.android.videos.R.attr.marginHorizontal, com.google.android.videos.R.attr.shapeAppearance};
+    public static final int[] b = {com.google.android.videos.R.attr.activeIndicatorLabelPadding, com.google.android.videos.R.attr.backgroundTint, com.google.android.videos.R.attr.elevation, com.google.android.videos.R.attr.horizontalItemTextAppearanceActive, com.google.android.videos.R.attr.horizontalItemTextAppearanceInactive, com.google.android.videos.R.attr.iconLabelHorizontalSpacing, com.google.android.videos.R.attr.itemActiveIndicatorStyle, com.google.android.videos.R.attr.itemBackground, com.google.android.videos.R.attr.itemGravity, com.google.android.videos.R.attr.itemIconGravity, com.google.android.videos.R.attr.itemIconSize, com.google.android.videos.R.attr.itemIconTint, com.google.android.videos.R.attr.itemPaddingBottom, com.google.android.videos.R.attr.itemPaddingTop, com.google.android.videos.R.attr.itemRippleColor, com.google.android.videos.R.attr.itemTextAppearanceActive, com.google.android.videos.R.attr.itemTextAppearanceActiveBoldEnabled, com.google.android.videos.R.attr.itemTextAppearanceInactive, com.google.android.videos.R.attr.itemTextColor, com.google.android.videos.R.attr.labelFontScalingEnabled, com.google.android.videos.R.attr.labelMaxLines, com.google.android.videos.R.attr.labelVisibilityMode, com.google.android.videos.R.attr.measureBottomPaddingFromLabelBaseline, com.google.android.videos.R.attr.menu};
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:id="@+id/tv_season_list_component"
+    android:paddingLeft="@dimen/content_horizontal_spacing"
+    android:paddingRight="@dimen/content_horizontal_spacing"
+    android:paddingBottom="@dimen/details_section_vertical_padding"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1"
+    android:paddingHorizontal="@dimen/content_horizontal_spacing">
+    <FrameLayout
+        android:gravity="center"
+        android:id="@+id/selected_season"
+        android:paddingTop="@dimen/season_selector_top_bottom_padding"
+        android:paddingBottom="@dimen/season_selector_top_bottom_padding"
+        android:addStatesFromChildren="true"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8">
+        <com.google.android.material.button.MaterialButton
+            android:ellipsize="end"
+            android:gravity="center"
+            android:id="@+id/selected_season_text"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:paddingStart="@dimen/season_selector_side_padding"
+            android:paddingEnd="@dimen/season_selector_side_padding"
+            app:icon="@drawable/ic_arrow_drop_down_filled_24dp"
+            app:iconGravity="end"
+            app:iconPadding="4dp"
+            style="@style/Widget.GoogleTv.Button.ElevatedButton.Icon"/>
+    </FrameLayout>
+    <TextView
+        android:textAppearance="?attr/textAppearanceLabelMedium"
+        android:gravity="end"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/season_stats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:letterSpacing="0.03"/>
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.play.movies.mobileux.screen.details.similarassets.AssetCardRowView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:importantForAccessibility="no">
+    <com.google.android.apps.play.movies.mobileux.component.assetcollectionheader.AssetCollectionHeaderView
+        android:id="@+id/similar_asset_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="0"/>
+    <com.google.android.apps.play.movies.mobileux.view.widget.LeadingEdgeSnapRecyclerView
+        android:id="@+id/similar_asset_list"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-4dp"
+        android:alpha="0"
+        android:paddingStart="@dimen/movies_cluster_side_padding"
+        style="@style/DetailsPageSectionLayout"/>
+</com.google.android.apps.play.movies.mobileux.screen.details.similarassets.AssetCardRowView>

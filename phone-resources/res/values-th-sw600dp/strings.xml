@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="details_watch_on_phone">ดูบนแท็บเล็ต</string>
+    <string name="media_device_list_footer">หากต้องการเชื่อมต่อผ่าน Wi-Fi ให้ตรวจสอบว่าแท็บเล็ตและทีวีเชื่อมต่ออยู่กับเครือข่าย Wi-Fi เดียวกัน หากต้องการเชื่อมต่อผ่านบลูทูธ ให้ตรวจสอบว่าทั้งแท็บเล็ตและทีวีเปิดบลูทูธอยู่</string>
+    <string name="this_phone">แท็บเล็ตเครื่องนี้</string>
+</resources>

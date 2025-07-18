@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="500dp"
+    android:width="500dp"
+    android:viewportWidth="500"
+    android:viewportHeight="500">
+    <group android:name="_R_G">
+        <group
+            android:name="_R_G_L_3_G"
+            android:pivotX="400"
+            android:pivotY="400"
+            android:scaleX="30.81"
+            android:scaleY="30.81"
+            android:translateX="-152.5"
+            android:translateY="-155.5">
+            <clip-path
+                android:name="_R_G_L_3_C_0"
+                android:pathData=" M397.38 399.98 C397.38,399.98 397.38,399.97 397.38,399.97 C397.38,399.97 397.39,399.97 397.39,399.97 C397.39,399.97 397.38,399.98 397.38,399.98 C397.38,399.98 397.38,399.98 397.38,399.98 C397.38,399.98 397.38,399.98 397.38,399.98 C397.38,399.98 397.38,399.98 397.38,399.98 C397.38,399.98 397.38,399.98 397.38,399.98c ">
+                <path
+                    android:name="_R_G_L_3_G_G_0_S"
+                    android:fillColor="#000000"
+                    android:pathData="M0,0 L800,0 L800,800 L0,800z"/>
+            </clip-path>
+        </group>
+        <group
+            android:name="_R_G_L_2_G"
+            android:pivotX="400"
+            android:pivotY="400"
+            android:scaleX="30.81"
+            android:scaleY="30.81"
+            android:translateX="-152.5"
+            android:translateY="-155.5">
+            <clip-path
+                android:name="_R_G_L_2_C_0"
+                android:pathData=" M402.62 399.98 C402.62,399.98 402.62,399.98 402.62,399.98 C402.62,399.98 402.62,399.99 402.62,399.99 C402.62,399.99 402.62,399.98 402.62,399.98 C402.62,399.98 402.61,399.98 402.61,399.98 C402.61,399.98 402.62,399.99 402.62,399.99 C402.62,399.99 402.62,399.98 402.62,399.98 C402.62,399.98 402.62,399.98 402.62,399.98c ">
+                <path
+                    android:name="_R_G_L_2_G_G_0_S"
+                    android:fillColor="#000000"
+                    android:pathData="M0,0 L800,0 L800,800 L0,800z"/>
+            </clip-path>
+        </group>
+        <group
+            android:name="_R_G_L_1_G"
+            android:pivotX="400"
+            android:pivotY="400"
+            android:scaleX="30.81"
+            android:scaleY="30.81"
+            android:translateX="-152.5"
+            android:translateY="-155.5">
+            <clip-path
+                android:name="_R_G_L_1_C_0"
+                android:pathData=" M401.02 395.07 C401.02,395.07 401.01,395.08 401.01,395.08 C401.01,395.08 401,395.09 401,395.09 C401,395.09 401.02,395.07 401.02,395.07 C401.02,395.07 399.08,395.07 399.08,395.07 C399.08,395.07 399.08,395.08 399.08,395.08 C399.08,395.08 399.09,395.08 399.09,395.08 C399.09,395.08 399.09,395.08 399.09,395.08 C399.09,395.08 399.08,395.07 399.08,395.07 C399.08,395.07 400.17,395.07 400.17,395.07 C400.17,395.07 401.02,395.07 401.02,395.07 C401.02,395.07 401.01,395.08 401.01,395.08 C401.01,395.08 401.02,395.07 401.02,395.07c ">
+                <path
+                    android:name="_R_G_L_1_G_G_0_S"
+                    android:fillColor="#000000"
+                    android:pathData="M0,0 L800,0 L800,800 L0,800z"/>
+            </clip-path>
+        </group>
+        <group
+            android:name="_R_G_L_0_G"
+            android:pivotX="400"
+            android:pivotY="400"
+            android:scaleX="30.81"
+            android:scaleY="30.81"
+            android:translateX="-152.5"
+            android:translateY="-155.5">
+            <clip-path
+                android:name="_R_G_L_0_C_0"
+                android:pathData=" M402.61 400.01 C402.61,400.01 402,400.61 402,400.61 C402,400.61 401,401.58 401,401.58 C401,401.58 401.01,396.51 401.01,396.51 C401.01,396.51 399.08,396.51 399.08,396.51 C399.08,396.51 399.08,401.7 399.08,401.7 C399.08,401.7 398.11,400.73 398.11,400.73 C398.11,400.73 397.37,399.99 397.37,399.99 C397.37,399.99 396.09,401.25 396.09,401.25 C396.09,401.25 399.08,404.25 399.08,404.25 C399.08,404.25 400.85,404.28 400.85,404.28 C400.85,404.28 403.87,401.26 403.87,401.26 C403.87,401.26 402.61,400.01 402.61,400.01c ">
+                <path
+                    android:name="_R_G_L_0_G_G_0_S"
+                    android:fillColor="#000000"
+                    android:pathData="M0,0 L800,0 L800,800 L0,800z"/>
+            </clip-path>
+        </group>
+    </group>
+    <group android:name="time_group"/>
+</vector>

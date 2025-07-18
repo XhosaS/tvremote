@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/_replay__downloadstatus__not_started_to_downloading__0_res_0x7f080063">
+    <target
+        android:name="_R_G_L_3_C_0"
+        android:animation="@drawable/_replay__downloadstatus__not_started_to_downloading__1_res_0x7f080064"/>
+    <target
+        android:name="_R_G_L_3_G_T_1"
+        android:animation="@drawable/_replay__downloadstatus__not_started_to_downloading__2_res_0x7f080065"/>
+    <target
+        android:name="_R_G_L_2_G_T_1"
+        android:animation="@drawable/_replay__downloadstatus__not_started_to_downloading__3_res_0x7f080066"/>
+    <target
+        android:name="_R_G_L_1_G_T_1"
+        android:animation="@drawable/_replay__downloadstatus__not_started_to_downloading__4_res_0x7f080067"/>
+    <target
+        android:name="_R_G_L_0_G_T_1"
+        android:animation="@drawable/_replay__downloadstatus__not_started_to_downloading__5_res_0x7f080068"/>
+    <target
+        android:name="time_group"
+        android:animation="@drawable/_replay__downloadstatus__not_started_to_downloading__6_res_0x7f080069"/>
+</animated-vector>

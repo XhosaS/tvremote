@@ -1,0 +1,178 @@
+package defpackage;
+
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
+
+/* compiled from: PG */
+/* loaded from: classes3.dex */
+public final class zum {
+    private static final Map a;
+
+    static {
+        HashMap map = new HashMap();
+        a = map;
+        map.put(zqa.i, new zud());
+        map.put(zqa.j, new zud());
+        map.put(zqa.d, new zuh());
+        map.put(zqa.e, new ztz());
+        map.put(zqa.f, new zuk());
+        map.put(zqa.g, new zul());
+        map.put(zok.a, new zuk());
+        map.put(zok.b, new zul());
+        map.put(zlp.C, new ztx());
+        map.put(zqa.c, new zty());
+        map.put(zlk.n, new zui());
+        map.put(zlk.o, new zui());
+        map.put(zlk.p, new zui());
+        map.put(zlk.q, new zui());
+        map.put(zlk.r, new zui());
+        map.put(zlk.s, new zui());
+        map.put(zlk.t, new zui());
+        map.put(zlk.u, new zui());
+        map.put(zlk.v, new zui());
+        map.put(zlk.w, new zui());
+        map.put(zlk.x, new zui());
+        map.put(zlk.y, new zui());
+        map.put(zlk.z, new zui());
+        map.put(zlk.A, new zui());
+        map.put(zlk.B, new zui());
+        map.put(zlk.C, new zui());
+        map.put(zlk.D, new zui());
+        map.put(zlk.E, new zui());
+        map.put(zlk.F, new zui());
+        map.put(zlk.G, new zui());
+        map.put(zlk.H, new zui());
+        map.put(zlk.I, new zui());
+        map.put(zlk.J, new zui());
+        map.put(zlk.K, new zui());
+        map.put(zlk.L, new zui());
+        map.put(zlk.M, new zui());
+        map.put(zlk.N, new zui());
+        map.put(zlk.O, new zui());
+        map.put(zlk.P, new zui());
+        map.put(zlk.Q, new zui());
+        map.put(zlk.R, new zui());
+        map.put(zlk.S, new zui());
+        map.put(zlk.T, new zui());
+        map.put(zlk.U, new zui());
+        map.put(zlk.V, new zui());
+        map.put(zlk.W, new zui());
+        map.put(zlk.X, new zui());
+        map.put(zlk.aa, new zui());
+        map.put(zlk.Z, new zui());
+        map.put(zlk.ag, new zui());
+        map.put(zlk.af, new zui());
+        map.put(zlk.ac, new zui());
+        map.put(zlk.ab, new zui());
+        map.put(zlk.ai, new zui());
+        map.put(zlk.ah, new zui());
+        map.put(zlk.ae, new zui());
+        map.put(zlk.ad, new zui());
+        map.put(zlk.ak, new zui());
+        map.put(zlk.aj, new zui());
+        map.put(new zjb("1.3.9999.6.4.10"), new zui());
+        map.put(zlk.aU, new ztr());
+        map.put(zlk.aV, new ztr());
+        map.put(zlk.aW, new ztr());
+        map.put(zlk.aX, new ztr());
+        map.put(zlk.aY, new ztr());
+        map.put(zlk.aZ, new ztr());
+        map.put(zlk.ba, new ztr());
+        map.put(zlk.bb, new ztr());
+        map.put(zlk.bc, new ztr());
+        map.put(zlk.bd, new ztr());
+        map.put(zlk.bf, new ztu());
+        map.put(zlk.bg, new ztu());
+        map.put(zlk.bh, new ztu());
+        map.put(zlk.bi, new ztu());
+        map.put(zlk.bj, new ztu());
+        map.put(zlk.bk, new ztu());
+        map.put(zlk.bm, new zuf());
+        map.put(zlk.bn, new zuf());
+        map.put(zlk.bo, new zuf());
+        map.put(zlk.bp, new zuf());
+        map.put(zlk.bq, new zuf());
+        map.put(zlk.br, new zuf());
+        map.put(zlk.bs, new zuf());
+        map.put(zlk.bt, new zuf());
+        map.put(zlk.bu, new zuf());
+        map.put(zlk.bv, new zuf());
+        map.put(zlk.bw, new zuf());
+        map.put(zlk.bx, new zuf());
+        map.put(zlk.by, new zuf());
+        map.put(zlk.bz, new zuf());
+        map.put(zlk.bA, new zuf());
+        map.put(zlk.bB, new zuf());
+        map.put(zlk.bC, new zuf());
+        map.put(zlk.bD, new zuf());
+        map.put(zlk.an, new zuc());
+        map.put(zlk.ao, new zuc());
+        map.put(zlk.ap, new zuc());
+        map.put(zlk.aq, new zuc());
+        map.put(zlk.ar, new zuc());
+        map.put(zlk.as, new zuc());
+        map.put(zlk.at, new zuc());
+        map.put(zlk.au, new zuc());
+        map.put(zlk.av, new zuc());
+        map.put(zlk.aw, new zuc());
+        map.put(zlk.ax, new zuc());
+        map.put(zlk.ay, new zuc());
+        map.put(zlk.bG, new zub());
+        map.put(zlk.bH, new zub());
+        map.put(zlk.bI, new zub());
+        map.put(zlk.bK, new zub());
+        map.put(zlk.bJ, new zub());
+        map.put(zlk.bL, new zub());
+        map.put(zlk.aA, new ztt());
+        map.put(zlk.aB, new ztt());
+        map.put(zlk.bN, new ztw());
+        map.put(zlk.bO, new ztw());
+        map.put(zlk.bP, new ztw());
+        map.put(zlk.bQ, new ztw());
+        map.put(zlk.bR, new ztw());
+        map.put(zlk.bS, new ztw());
+        map.put(zlk.bV, new zua());
+        map.put(zlk.bW, new zua());
+        map.put(zlk.bX, new zua());
+        map.put(zlk.bY, new zua());
+        map.put(zlk.bZ, new zua());
+        map.put(zlk.ca, new zua());
+        map.put(zlk.cc, new zug());
+        map.put(zlk.cd, new zug());
+        map.put(zlk.ce, new zug());
+        map.put(zlk.cf, new zug());
+        map.put(zlk.cg, new zug());
+        map.put(zlk.ch, new zug());
+        map.put(zlk.aC, new zts());
+        map.put(zlk.aD, new zts());
+        map.put(zlk.aE, new zts());
+        map.put(zlk.aF, new zts());
+        map.put(zlk.aG, new zts());
+        map.put(zlk.aH, new zts());
+        map.put(zlk.cj, new ztq());
+        map.put(zlk.ck, new ztq());
+        map.put(zlk.cl, new ztq());
+        map.put(zlk.cn, new ztv());
+        map.put(zlk.co, new ztv());
+        map.put(zlk.cp, new ztv());
+        map.put(zlk.aJ, new zue());
+        map.put(zlk.aK, new zue());
+        map.put(zlk.aL, new zue());
+        map.put(zlk.aM, new zue());
+        map.put(zlk.aN, new zue());
+        map.put(zlk.aO, new zue());
+    }
+
+    public static zod a(zmw zmwVar) throws IOException {
+        if (zmwVar == null) {
+            throw new IllegalArgumentException("keyInfo argument null");
+        }
+        zmd zmdVar = zmwVar.a;
+        zuj zujVar = (zuj) a.get(zmdVar.a);
+        if (zujVar != null) {
+            return zujVar.a(zmwVar);
+        }
+        throw new IOException("algorithm identifier in public key not recognised: ".concat(String.valueOf(String.valueOf(zmdVar.a))));
+    }
+}

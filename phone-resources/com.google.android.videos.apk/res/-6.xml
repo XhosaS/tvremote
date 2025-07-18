@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingTop="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true">
+    <TextView
+        android:textColor="?attr/colorPrimary"
+        android:id="@+id/bottomsheet_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:text="@string/bottom_sheet_title_select_device"
+        android:fontFamily="@font/google_sans_text"
+        android:layout_marginHorizontal="24dp"
+        style="@style/TextAppearance.GoogleMaterial3.TitleLarge"/>
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:indeterminate="true"
+        app:indicatorColor="?attr/colorOnPrimaryContainer"
+        app:trackColor="?attr/colorPrimaryContainer"
+        app:trackThickness="2dp"/>
+    <ListView
+        android:id="@+id/device_list"
+        android:fadingEdgeLength="120dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:dividerHeight="0dp"
+        android:layout_weight="1"
+        android:requiresFadingEdge="vertical"
+        android:nestedScrollingEnabled="true"
+        android:layout_marginHorizontal="24dp"/>
+</LinearLayout>

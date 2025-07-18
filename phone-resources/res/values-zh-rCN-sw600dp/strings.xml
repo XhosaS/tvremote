@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="details_watch_on_phone">在平板电脑上观看</string>
+    <string name="media_device_list_footer">若要通过 Wi-Fi 连接，请确保您的平板电脑和电视已连接到同一个 Wi-Fi 网络。若要通过蓝牙连接，请确保您的平板电脑和电视均已开启蓝牙。</string>
+    <string name="this_phone">这台平板电脑</string>
+</resources>

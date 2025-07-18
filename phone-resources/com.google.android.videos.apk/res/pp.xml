@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:tint="?attr/colorControlNormal"
+    android:height="@dimen/destination_icon_width"
+    android:width="@dimen/destination_icon_height"
+    android:viewportWidth="@dimen/destination_icon_viewport_width"
+    android:viewportHeight="@dimen/destination_icon_viewport_height">
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M4,6H2V20C2,21.1 2.9,22 4,22H18V20H4V6Z"/>
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M20,2H8C6.9,2 6,2.9 6,4V16C6,17.1 6.9,18 8,18H20C21.1,18 22,17.1 22,16V4C22,2.9 21.1,2 20,2ZM18,11L15.5,9.5L13,11V4H18V11Z"/>
+</vector>

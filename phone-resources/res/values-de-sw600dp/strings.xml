@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="details_watch_on_phone">Auf dem Tablet ansehen</string>
+    <string name="media_device_list_footer">Wenn du eine WLAN-Verbindung herstellen möchtest, achte darauf, dass dein Tablet und dein Fernseher mit demselben WLAN verbunden sind. Wenn du die Geräte per Bluetooth verbinden möchtest, muss auf deinem Tablet und deinem Fernseher Bluetooth aktiviert sein.</string>
+    <string name="this_phone">Dieses Tablet</string>
+</resources>

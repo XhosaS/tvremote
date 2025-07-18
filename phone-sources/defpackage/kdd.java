@@ -1,0 +1,7 @@
+package defpackage;
+
+/* compiled from: PG */
+/* loaded from: classes2.dex */
+public final class kdd {
+    public static final jsp a = new jsp(19);
+}

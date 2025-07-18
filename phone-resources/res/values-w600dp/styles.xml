@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BannerTitle" parent="">
+        <item name="android:textAppearance">?attr/textAppearanceTitleLarge</item>
+    </style>
+    <style name="CompactArticle.Title" parent="@style/CompactArticle">
+        <item name="android:textAppearance">?attr/textAppearanceTitleLarge</item>
+    </style>
+    <style name="NewsArticle.Subtitle" parent="@style/NewsArticle">
+        <item name="android:textAppearance">?attr/textAppearanceLabelMedium</item>
+    </style>
+    <style name="NewsArticle.Title" parent="@style/NewsArticle">
+        <item name="android:textAppearance">?attr/textAppearanceBodyLarge</item>
+    </style>
+    <style name="PosterBanner.DescriptionText" parent="@style/PosterBanner">
+        <item name="android:textAppearance">?attr/textAppearanceLabelLarge</item>
+    </style>
+    <style name="PosterBanner.ImageTag" parent="@style/PosterBanner">
+        <item name="android:textAppearance">?attr/textAppearanceLabelMedium</item>
+    </style>
+    <style name="Widget.GoogleTv.Button.SecondaryButton" parent="@style/Widget.GoogleTv.Button.ElevatedButton">
+        <item name="android:layout_width">-2</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="details_watch_on_phone">タブレットで視聴</string>
+    <string name="media_device_list_footer">Wi-Fi で接続するには、タブレットとテレビが同じ Wi-Fi ネットワークに接続されていることを確認してください。Bluetooth で接続する場合は、タブレットとテレビの両方の Bluetooth がオンになっていることを確認します。</string>
+    <string name="this_phone">このタブレット</string>
+</resources>

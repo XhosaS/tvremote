@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.play.movies.mobileux.component.assetcard.AssetCardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:videos="http://schemas.android.com/apk/res-auto"
+    android:gravity="bottom|center_horizontal"
+    android:orientation="vertical"
+    android:id="@+id/card"
+    android:focusable="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="4dp">
+    <com.google.android.libraries.play.widget.cardimageview.CardImageView
+        android:id="@+id/thumbnail_frame"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        videos:inset="@dimen/asset_card_inset"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp">
+        <TextView
+            android:textColor="@color/gray_200"
+            android:ellipsize="end"
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:maxLines="1"
+            android:textDirection="locale"
+            style="@style/TextStyle.Movies.Body.2"/>
+        <TextView
+            android:textColor="@color/gray_500"
+            android:id="@+id/subtitle_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextStyle.Movies.Caption"/>
+    </LinearLayout>
+</com.google.android.apps.play.movies.mobileux.component.assetcard.AssetCardView>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/stream_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ViewStub
+            android:id="@+id/loading_indicator"
+            android:inflatedId="@+id/loading_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            android:enabled="false"
+            android:id="@+id/swipe_refresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <com.google.android.libraries.play.movies.symbian.recyclerview.ModelAwareRecyclerView
+                    android:orientation="vertical"
+                    android:id="@+id/recycler_view"
+                    android:paddingTop="@dimen/vertical_rv_top_padding"
+                    android:visibility="gone"
+                    android:clipToPadding="false"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+                    app:spanCount="@integer/vertical_grid_card_count"/>
+            </FrameLayout>
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+        <ViewStub
+            android:id="@+id/error_overlay"
+            android:inflatedId="@+id/error_overlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </FrameLayout>
+</FrameLayout>

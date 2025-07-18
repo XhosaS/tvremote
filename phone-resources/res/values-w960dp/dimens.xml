@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="details_familylibrary_icon_padding_end">24dp</dimen>
+    <dimen name="details_familylibrary_welcomecard_side_padding">180dp</dimen>
+    <dimen name="details_movie_poster_width">128dp</dimen>
+    <dimen name="details_section_vertical_padding">16dp</dimen>
+    <dimen name="details_titlesection_padding_top">140dp</dimen>
+    <dimen name="details_userfeedback_left_right_margin">24dp</dimen>
+    <dimen name="dialog_padding_left">26dp</dimen>
+    <dimen name="dialog_padding_right">32dp</dimen>
+    <dimen name="dialog_padding_top">12dp</dimen>
+    <dimen name="grid_item_poster_round_corner_radius_replay">6dp</dimen>
+    <dimen name="library_empty_state_image_to_title_padding">24dp</dimen>
+    <dimen name="list_item_view_dot_margin_replay">6dp</dimen>
+    <dimen name="list_item_view_info_text_margin_replay">4dp</dimen>
+    <dimen name="radio_button_text_left_padding">20dp</dimen>
+    <dimen name="replay__carousel__default_item_half_spacing">14dp</dimen>
+    <dimen name="replay__imagewidth__medium">52dp</dimen>
+    <dimen name="replay__imagewidth__small">44dp</dimen>
+    <dimen name="replay__replaydialog_thumbnailheader_title_subtitle_margin">4dp</dimen>
+    <dimen name="replay__replaydialog_thumbnailheader_vertical_padding">24dp</dimen>
+    <dimen name="replay__replaydialog_title_height">66dp</dimen>
+    <dimen name="title_section_vertical_padding">16dp</dimen>
+</resources>

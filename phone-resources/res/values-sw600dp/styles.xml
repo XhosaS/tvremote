@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DetailsEpisodeDownloadView" parent="@style/DownloadViewLarge">
+    </style>
+    <style name="EntitySubtitle" parent="">
+        <item name="android:textAppearance">?attr/textAppearanceBodyLarge</item>
+    </style>
+    <style name="PlayMoviesControlFineGrainedScrubbingIndicator" parent="@style/PlayMoviesControlFineGrainedScrubbingIndicatorTablet">
+    </style>
+    <style name="PlayMoviesControlFineGrainedScrubbingTime" parent="@style/PlayMoviesControlFineGrainedScrubbingTimeTablet">
+    </style>
+    <style name="TextStyle.Replay.Body.1.Scaling" parent="@style/TextStyle.Replay.Body.1">
+        <item name="android:textSize">18sp</item>
+        <item name="android:lineSpacingExtra">5sp</item>
+    </style>
+    <style name="TextStyle.Replay.Body.2.Scaling" parent="@style/TextStyle.Replay.Body.2">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">5sp</item>
+    </style>
+    <style name="TextStyle.Replay.Caption.Scaling" parent="@style/TextStyle.Replay.Caption">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+    </style>
+    <style name="TextStyle.Replay.Display.1.Scaling" parent="@style/TextStyle.Replay.Display.1">
+        <item name="android:textSize">66sp</item>
+        <item name="android:lineSpacingExtra">-8sp</item>
+    </style>
+    <style name="TextStyle.Replay.Display.2.Scaling" parent="@style/TextStyle.Replay.Display.2">
+        <item name="android:textSize">58sp</item>
+        <item name="android:lineSpacingExtra">-10sp</item>
+    </style>
+    <style name="TextStyle.Replay.Display.3.Scaling" parent="@style/TextStyle.Replay.Display.3">
+        <item name="android:textSize">46sp</item>
+        <item name="android:lineSpacingExtra">-4sp</item>
+    </style>
+    <style name="TextStyle.Replay.Headline.1.Scaling" parent="@style/TextStyle.Replay.Headline.1">
+        <item name="android:textSize">38sp</item>
+        <item name="android:lineSpacingExtra">-3sp</item>
+    </style>
+    <style name="TextStyle.Replay.Headline.2.Scaling" parent="@style/TextStyle.Replay.Headline.2">
+        <item name="android:textSize">34sp</item>
+        <item name="android:lineSpacingExtra">-1sp</item>
+    </style>
+    <style name="TextStyle.Replay.Headline.3.Scaling" parent="@style/TextStyle.Replay.Headline.3">
+        <item name="android:textSize">30sp</item>
+        <item name="android:lineSpacingExtra">0sp</item>
+    </style>
+    <style name="TextStyle.Replay.Headline.4.Scaling" parent="@style/TextStyle.Replay.Headline.4">
+        <item name="android:textSize">26sp</item>
+        <item name="android:lineSpacingExtra">2sp</item>
+    </style>
+    <style name="TextStyle.Replay.Headline.5.Scaling" parent="@style/TextStyle.Replay.Headline.5">
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">0sp</item>
+    </style>
+    <style name="TextStyle.Replay.Headline.6.Scaling" parent="@style/TextStyle.Replay.Headline.6">
+        <item name="android:textSize">20sp</item>
+        <item name="android:lineSpacingExtra">1sp</item>
+    </style>
+    <style name="TextStyle.Replay.Overline.Scaling" parent="@style/TextStyle.Replay.Overline">
+        <item name="android:textSize">13sp</item>
+        <item name="android:lineSpacingExtra">3sp</item>
+    </style>
+    <style name="TextStyle.Replay.Subhead.1.Scaling" parent="@style/TextStyle.Replay.Subhead.1">
+        <item name="android:textSize">18sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+    </style>
+    <style name="TextStyle.Replay.Subhead.2.Scaling" parent="@style/TextStyle.Replay.Subhead.2">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">2sp</item>
+    </style>
+    <style name="TextStyle.Replay.Subtitle.1.Scaling" parent="@style/TextStyle.Replay.Subtitle.1">
+        <item name="android:textSize">18sp</item>
+        <item name="android:lineSpacingExtra">5sp</item>
+    </style>
+    <style name="TextStyle.Replay.Subtitle.2.Scaling" parent="@style/TextStyle.Replay.Subtitle.2">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">3sp</item>
+    </style>
+    <style name="Widget.Design.TabLayout" parent="@style/Base.Widget.Design.TabLayout">
+        <item name="tabGravity">center</item>
+        <item name="tabMode">fixed</item>
+    </style>
+</resources>

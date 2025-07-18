@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/tvm_entity_more_info_component"
+    android:paddingLeft="@dimen/content_horizontal_spacing"
+    android:paddingTop="8dp"
+    android:paddingRight="@dimen/content_horizontal_spacing"
+    android:paddingBottom="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:importantForAccessibility="no"
+    android:paddingHorizontal="@dimen/content_horizontal_spacing"
+    android:paddingVertical="8dp">
+    <TextView
+        android:id="@+id/moreinfo_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/details_more_information"
+        style="?attr/textAppearanceTitleMedium"/>
+    <com.google.android.libraries.play.movies.symbian.recyclerview.ModelAwareRecyclerView
+        android:orientation="vertical"
+        android:id="@+id/moreinfo_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"
+        android:importantForAccessibility="no"
+        android:nestedScrollingEnabled="false"
+        app:layoutManager="android.support.v7.widget.StaggeredGridLayoutManager"
+        app:spanCount="@integer/moreinfo_column_count"/>
+</LinearLayout>

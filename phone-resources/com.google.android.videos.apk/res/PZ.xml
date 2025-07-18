@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/quote_card_component"
+    android:paddingTop="@dimen/quote_card_padding_vertical"
+    android:paddingBottom="@dimen/quote_card_padding_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="@dimen/channel_card_start_padding"
+    android:paddingEnd="@dimen/channel_card_end_padding"
+    android:paddingVertical="@dimen/quote_card_padding_vertical">
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        app:cardBackgroundColor="@color/google_transparent"
+        style="style/Widget.GoogleTv.CardView.Outlined.Transparent">
+        <TextView
+            android:gravity="center"
+            android:id="@+id/description_text"
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constrainedWidth="true"
+            style="?attr/textAppearanceBodyMediumAutoSize"/>
+    </com.google.android.material.card.MaterialCardView>
+</FrameLayout>

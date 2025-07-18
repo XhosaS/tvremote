@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="500dp"
+    android:width="500dp"
+    android:viewportWidth="500"
+    android:viewportHeight="500">
+    <group android:name="_R_G">
+        <group
+            android:name="_R_G_L_0_G"
+            android:pivotX="400"
+            android:pivotY="400"
+            android:scaleX="30.81"
+            android:scaleY="30.81"
+            android:translateX="-152.5"
+            android:translateY="-155.5">
+            <clip-path
+                android:name="_R_G_L_0_C_0"
+                android:pathData=" M402.61 400.01 C402.61,400.01 402,400.61 402,400.61 C402,400.61 401,401.58 401,401.58 C401,401.58 401.02,395 401.02,395 C401.02,395 399.08,395 399.08,395 C399.08,395 399.08,401.7 399.08,401.7 C399.08,401.7 398.11,400.73 398.11,400.73 C398.11,400.73 397.37,399.99 397.37,399.99 C397.37,399.99 396.09,401.25 396.09,401.25 C396.09,401.25 399.08,404.25 399.08,404.25 C399.08,404.25 399.98,405.16 399.98,405.16 C399.98,405.16 403.87,401.26 403.87,401.26 C403.87,401.26 402.61,400.01 402.61,400.01c ">
+                <path
+                    android:name="_R_G_L_0_G_G_0_S"
+                    android:fillColor="#000000"
+                    android:pathData="M0,0 L800,0 L800,800 L0,800z"/>
+            </clip-path>
+        </group>
+    </group>
+    <group android:name="time_group"/>
+</vector>

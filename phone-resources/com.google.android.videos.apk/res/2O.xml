@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/ic_add_24dp"
+        android:id="@+id/item1"
+        android:title="Favorites"/>
+    <item
+        android:icon="@drawable/ic_existence_is_pain_24dp"
+        android:id="@+id/item2"
+        android:title="Music"/>
+    <item
+        android:icon="@drawable/ic_location_on_24dp"
+        android:id="@+id/item3"
+        android:title="Places"/>
+</menu>

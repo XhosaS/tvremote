@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingTop="@dimen/asset_embedded_collection_header_vertical_padding"
+        android:paddingBottom="@dimen/asset_embedded_collection_header_vertical_padding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingStart="@dimen/movies_general_side_padding"
+        android:paddingEnd="@dimen/movies_general_side_padding">
+        <TextView
+            android:ellipsize="end"
+            android:gravity="start"
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textAlignment="viewStart"
+            style="@style/TextStyle.Movies.Subhead.2"/>
+    </LinearLayout>
+</merge>

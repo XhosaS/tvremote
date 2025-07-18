@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fmr_playing_sound_message">
+        <item quantity="one">[Þļåýîñĝ šöûñð ƒöŕ ᐅ%dᐊ šéçöñð one two three four five six]</item>
+        <item quantity="other">[Þļåýîñĝ šöûñð ƒöŕ ᐅ%dᐊ šéçöñðš one two three four five six seven]</item>
+    </plurals>
+    <plurals name="media_device_fab_title">
+        <item quantity="one">[ŢV ñéåŕбý one two]</item>
+        <item quantity="other">[ᐅ%dᐊ ŢVš ñéåŕбý one two three]</item>
+    </plurals>
+</resources>
